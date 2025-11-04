@@ -29,6 +29,7 @@ const puntajeEl = document.getElementById("puntaje");
 const resumenDiv = document.getElementById("resumen");
 const tiempoFinalEl = document.getElementById("tiempoFinal");
 const reintentarBtn = document.getElementById("reintentar");
+const configDiv = document.querySelector(".config");
 
 let preguntas = [];
 let respuestasUsuario = [];
@@ -49,6 +50,8 @@ modoSelect.addEventListener("change", () => {
 
 // --- INICIAR CUESTIONARIO ---
 iniciarBtn.addEventListener("click", async () => {
+  configDiv.style.display = "none";
+
   cuestionarioDiv.style.display = "none";
   resultadoDiv.style.display = "none";
   respuestasUsuario = [];

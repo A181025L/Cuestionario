@@ -1,170 +1,152 @@
-{
-  "titulo": "PRÉSTAMO DE DOCUMENTOS",
-  "preguntas": [
-    {
-      "numero": 1,
-      "pregunta": "El préstamo de documentos se autoriza únicamente cuando:",
-      "opciones": {
-        "A": "Cualquier funcionario lo solicite verbalmente.",
-        "B": "Sea aprobado por el responsable del archivo o de la gestión documental.",
-        "C": "Exista disponibilidad del documento en formato físico.",
-        "D": "No exista registro previo de préstamo."
-      },
-      "respuesta_correcta": "B"
-    },
-    {
-      "numero": 2,
-      "pregunta": "¿Qué documento debe diligenciarse para registrar el préstamo de un expediente o documento?",
-      "opciones": {
-        "A": "Hoja de control de préstamo.",
-        "B": "Formato de radicación.",
-        "C": "Acta de entrega.",
-        "D": "Tarjeta de control interno."
-      },
-      "respuesta_correcta": "A"
-    },
-    {
-      "numero": 3,
-      "pregunta": "El tiempo máximo de préstamo de un documento se determina de acuerdo con:",
-      "opciones": {
-        "A": "La solicitud del usuario.",
-        "B": "El tipo de documento y las políticas internas de la organización.",
-        "C": "La disponibilidad del archivo.",
-        "D": "La cantidad de copias existentes."
-      },
-      "respuesta_correcta": "B"
-    },
-    {
-      "numero": 4,
-      "pregunta": "¿Qué se debe registrar en el control de préstamo de documentos?",
-      "opciones": {
-        "A": "Solo el nombre del solicitante.",
-        "B": "El código del documento, fecha de préstamo, nombre del solicitante y fecha de devolución.",
-        "C": "El número de folios del archivo.",
-        "D": "Solo la dependencia receptora."
-      },
-      "respuesta_correcta": "B"
-    },
-    {
-      "numero": 5,
-      "pregunta": "En caso de pérdida o deterioro de un documento prestado, el responsable deberá:",
-      "opciones": {
-        "A": "Solicitar una copia digital.",
-        "B": "Esperar el cierre del préstamo.",
-        "C": "Informar inmediatamente al jefe de archivo y registrar el incidente conforme al procedimiento interno.",
-        "D": "Sustituir el documento por otro similar."
-      },
-      "respuesta_correcta": "C"
-    },
-    {
-      "numero": 6,
-      "pregunta": "El préstamo de documentos clasificados como “confidenciales” o “reservados” requiere:",
-      "opciones": {
-        "A": "Aprobación del responsable de archivo y autorización del titular o autoridad competente.",
-        "B": "Ninguna autorización.",
-        "C": "Solicitud verbal del funcionario interesado.",
-        "D": "Envío electrónico del documento."
-      },
-      "respuesta_correcta": "A"
-    },
-    {
-      "numero": 7,
-      "pregunta": "Según la normativa del AGN, el préstamo de documentos debe garantizar:",
-      "opciones": {
-        "A": "El almacenamiento temporal sin registro.",
-        "B": "La reproducción libre del documento.",
-        "C": "La manipulación sin control.",
-        "D": "La conservación, seguridad y trazabilidad del documento."
-      },
-      "respuesta_correcta": "D"
-    },
-    {
-      "numero": 8,
-      "pregunta": "El formato de préstamo de documentos debe incluir, entre otros datos:",
-      "opciones": {
-        "A": "La firma del responsable de archivo y la fecha de devolución pactada.",
-        "B": "Solo la fecha de salida.",
-        "C": "El número de páginas del documento.",
-        "D": "El tipo de papel del documento."
-      },
-      "respuesta_correcta": "A"
-    },
-    {
-      "numero": 9,
-      "pregunta": "¿Qué tipo de préstamo se realiza cuando el documento no sale físicamente del archivo?",
-      "opciones": {
-        "A": "Préstamo externo.",
-        "B": "Préstamo interno o consulta en sala.",
-        "C": "Préstamo provisional.",
-        "D": "Copia de referencia."
-      },
-      "respuesta_correcta": "B"
-    },
-    {
-      "numero": 10,
-      "pregunta": "¿Qué principio archivístico se vulnera si un documento prestado no se devuelve al archivo en el tiempo estipulado?",
-      "opciones": {
-        "A": "Principio de disponibilidad.",
-        "B": "Principio de procedencia.",
-        "C": "Principio de conservación.",
-        "D": "Principio de confidencialidad."
-      },
-      "respuesta_correcta": "C"
-    },
-    {
-      "numero": 11,
-      "pregunta": "Cuando un documento se presta entre dependencias, el archivo debe:",
-      "opciones": {
-        "A": "Registrar el traslado y conservar evidencia del préstamo.",
-        "B": "Entregar sin registro.",
-        "C": "Dejar copia informal.",
-        "D": "No intervenir en el proceso."
-      },
-      "respuesta_correcta": "A"
-    },
-    {
-      "numero": 12,
-      "pregunta": "En el préstamo de documentos, la responsabilidad sobre su integridad durante el uso recae en:",
-      "opciones": {
-        "A": "El responsable de archivo.",
-        "B": "El funcionario que lo solicitó y lo tiene en su poder.",
-        "C": "El mensajero institucional.",
-        "D": "El área jurídica."
-      },
-      "respuesta_correcta": "B"
-    },
-    {
-      "numero": 13,
-      "pregunta": "La devolución de documentos debe hacerse:",
-      "opciones": {
-        "A": "Con registro formal de entrega y verificación del estado del documento.",
-        "B": "Solo cuando se requiera.",
-        "C": "Por correo electrónico.",
-        "D": "Sin revisión del archivo."
-      },
-      "respuesta_correcta": "A"
-    },
-    {
-      "numero": 14,
-      "pregunta": "El control de préstamos de documentos permite:",
-      "opciones": {
-        "A": "Sustituir originales por copias.",
-        "B": "Evitar la digitalización de documentos.",
-        "C": "Eliminar documentos innecesarios.",
-        "D": "Garantizar la trazabilidad y disponibilidad del acervo documental."
-      },
-      "respuesta_correcta": "D"
-    },
-    {
-      "numero": 15,
-      "pregunta": "¿Qué acción NO está permitida durante el préstamo de documentos?",
-      "opciones": {
-        "A": "Consultar el documento en sala.",
-        "B": "Reproducir documentos confidenciales sin autorización.",
-        "C": "Registrar el préstamo en el formato autorizado.",
-        "D": "Solicitar ampliación de tiempo de préstamo."
-      },
-      "respuesta_correcta": "B"
-    }
-  ]
-}
+[
+  {
+    "pregunta": "El préstamo de documentos se autoriza únicamente cuando:",
+    "opciones": [
+      "Cualquier funcionario lo solicite verbalmente.",
+      "Sea aprobado por el responsable del archivo o de la gestión documental.",
+      "Exista disponibilidad del documento en formato físico.",
+      "No exista registro previo de préstamo."
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué documento debe diligenciarse para registrar el préstamo de un expediente o documento?",
+    "opciones": [
+      "Hoja de control de préstamo.",
+      "Formato de radicación.",
+      "Acta de entrega.",
+      "Tarjeta de control interno."
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "El tiempo máximo de préstamo de un documento se determina de acuerdo con:",
+    "opciones": [
+      "La solicitud del usuario.",
+      "El tipo de documento y las políticas internas de la organización.",
+      "La disponibilidad del archivo.",
+      "La cantidad de copias existentes."
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué se debe registrar en el control de préstamo de documentos?",
+    "opciones": [
+      "Solo el nombre del solicitante.",
+      "El código del documento, fecha de préstamo, nombre del solicitante y fecha de devolución.",
+      "El número de folios del archivo.",
+      "Solo la dependencia receptora."
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "En caso de pérdida o deterioro de un documento prestado, el responsable deberá:",
+    "opciones": [
+      "Solicitar una copia digital.",
+      "Esperar el cierre del préstamo.",
+      "Informar inmediatamente al jefe de archivo y registrar el incidente conforme al procedimiento interno.",
+      "Sustituir el documento por otro similar."
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "El préstamo de documentos clasificados como “confidenciales” o “reservados” requiere:",
+    "opciones": [
+      "Aprobación del responsable de archivo y autorización del titular o autoridad competente.",
+      "Ninguna autorización.",
+      "Solicitud verbal del funcionario interesado.",
+      "Envío electrónico del documento."
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Según la normativa del AGN, el préstamo de documentos debe garantizar:",
+    "opciones": [
+      "El almacenamiento temporal sin registro.",
+      "La reproducción libre del documento.",
+      "La manipulación sin control.",
+      "La conservación, seguridad y trazabilidad del documento."
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "El formato de préstamo de documentos debe incluir, entre otros datos:",
+    "opciones": [
+      "La firma del responsable de archivo y la fecha de devolución pactada.",
+      "Solo la fecha de salida.",
+      "El número de páginas del documento.",
+      "El tipo de papel del documento."
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de préstamo se realiza cuando el documento no sale físicamente del archivo?",
+    "opciones": [
+      "Préstamo externo.",
+      "Préstamo interno o consulta en sala.",
+      "Préstamo provisional.",
+      "Copia de referencia."
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué principio archivístico se vulnera si un documento prestado no se devuelve al archivo en el tiempo estipulado?",
+    "opciones": [
+      "Principio de disponibilidad.",
+      "Principio de procedencia.",
+      "Principio de conservación.",
+      "Principio de confidencialidad."
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "Cuando un documento se presta entre dependencias, el archivo debe:",
+    "opciones": [
+      "Registrar el traslado y conservar evidencia del préstamo.",
+      "Entregar sin registro.",
+      "Dejar copia informal.",
+      "No intervenir en el proceso."
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "En el préstamo de documentos, la responsabilidad sobre su integridad durante el uso recae en:",
+    "opciones": [
+      "El responsable de archivo.",
+      "El funcionario que lo solicitó y lo tiene en su poder.",
+      "El mensajero institucional.",
+      "El área jurídica."
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "La devolución de documentos debe hacerse:",
+    "opciones": [
+      "Con registro formal de entrega y verificación del estado del documento.",
+      "Solo cuando se requiera.",
+      "Por correo electrónico.",
+      "Sin revisión del archivo."
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "El control de préstamos de documentos permite:",
+    "opciones": [
+      "Sustituir originales por copias.",
+      "Evitar la digitalización de documentos.",
+      "Eliminar documentos innecesarios.",
+      "Garantizar la trazabilidad y disponibilidad del acervo documental."
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "¿Qué acción NO está permitida durante el préstamo de documentos?",
+    "opciones": [
+      "Consultar el documento en sala.",
+      "Reproducir documentos confidenciales sin autorización.",
+      "Registrar el préstamo en el formato autorizado.",
+      "Solicitar ampliación de tiempo de préstamo."
+    ],
+    "respuesta": 1
+  }
+]
