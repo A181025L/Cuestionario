@@ -99,7 +99,7 @@ function mostrarPregunta() {
   preguntaEl.textContent = `(${indiceActual + 1}/${preguntas.length}) ${q.pregunta}`;
   opcionesEl.innerHTML = "";
   siguienteBtn.disabled = true;
-  temporizadorEl.textContent = "";
+  if (!modoExamen) temporizadorEl.textContent = ""; //
   barraProgreso.style.transition = "width 0.3s ease-in-out";
   barraProgreso.style.width = `${(indiceActual / preguntas.length) * 100}%`;
 
