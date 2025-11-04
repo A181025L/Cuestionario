@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "El Acuerdo 001 establece que la Ventanilla Única debe garantizar:",
+    "opciones": [
+      "Acceso irrestricto a todos los usuarios",
+      "Registro, trazabilidad y conservación de la información documental",
+      "Eliminación de copias",
+      "Digitalización inmediata sin control"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "En la radicación de salida, ¿qué elemento es obligatorio?",
+    "opciones": [
+      "Solo fecha",
+      "Número consecutivo y firma del responsable",
+      "Número aleatorio",
+      "Nombre del remitente únicamente"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "En la recepción de documentos electrónicos, ¿qué se debe garantizar?",
+    "opciones": [
+      "Registro de metadatos, fecha y hora de ingreso",
+      "Solo envío de acuse de recibo",
+      "Impresión automática",
+      "Almacenamiento temporal"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Los tiempos de respuesta establecidos en la gestión documental deben:",
+    "opciones": [
+      "Ser definidos por cada dependencia sin control",
+      "Estar alineados con la política organizacional y normativa vigente",
+      "No aplicarse",
+      "Ser iguales para todos los trámites"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Cuando una entidad recibe documentos de manera duplicada, debe:",
+    "opciones": [
+      "Radicar ambos",
+      "Registrar uno y reportar duplicidad",
+      "Eliminar sin registro",
+      "Archivar sin radicar"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "En el despacho de documentos, ¿qué protocolo se debe seguir?",
+    "opciones": [
+      "Entregar sin registro",
+      "Usar correo personal",
+      "Enviar sin destinatario",
+      "Aplicar control de salida con consecutivo y acuse de entrega"
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "¿Qué función tiene el registro de salida en la Ventanilla Única?",
+    "opciones": [
+      "Controlar los documentos emitidos oficialmente",
+      "Guardar documentos internos",
+      "Sustituir la radicación",
+      "Enviar documentos sin firma"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "La trazabilidad documental permite:",
+    "opciones": [
+      "Conocer el estado, ubicación y responsable del documento en todo su ciclo",
+      "Acelerar procesos sin control",
+      "Reducir el número de registros",
+      "Evitar auditorías"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Según el Acuerdo 001 de 2024, los servidores públicos deben:",
+    "opciones": [
+      "Modificarlos si lo creen conveniente",
+      "Guardarlos en sus correos personales",
+      "Custodiar los documentos bajo su responsabilidad",
+      "Destruirlos cuando finalice su cargo"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "El incumplimiento de los procedimientos de ventanilla única puede generar:",
+    "opciones": [
+      "Recomendación interna",
+      "Sanciones disciplinarias o fiscales",
+      "Solo observación verbal",
+      "Ninguna consecuencia"
+    ],
+    "respuesta": 1
+  }
+]

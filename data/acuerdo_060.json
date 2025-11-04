@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Según el Acuerdo 060 de 2001, 'firmas responsables' se refiere a que:",
+    "opciones": [
+      "Cualquier funcionario puede firmar, sin importar su cargo",
+      "Sólo los cargos autorizados para firmar documentos internos o externos deben estar establecidos en el manual de procedimientos",
+      "Las firmas digitales no pueden usarse",
+      "No es necesario registrar qué funcionario firmó"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "De acuerdo con el Acuerdo 060 de 2001, en la unidad de correspondencia la numeración de radicación de comunicaciones debe cumplir que:",
+    "opciones": [
+      "Pueda iniciarse en cualquier número cada año",
+      "Pueda existir enmendaduras o tachaduras en el número de radicado",
+      "Sea consecutiva, sin números reservados, enmendados o repetidos",
+      "Se puede asignar el número por dependencias sin control"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "En el Acuerdo 060 de 2001, la norma sobre 'imagen corporativa' de las comunicaciones exige que, en el pie de página de los oficios, memorandos u otros esté incluida la siguiente información:",
+    "opciones": [
+      "Sólo el número de fax institucional",
+      "Dirección, número de conmutador, número de fax, dirección web y correo electrónico institucional",
+      "Sólo la página web",
+      "Ninguna información de contacto"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Según el Acuerdo 060 de 2001, la verificación de la información de una comunicación oficial recibida debe incluir:",
+    "opciones": [
+      "Sólo la fecha de recepción",
+      "No es necesario verificar nada; se radica inmediatamente",
+      "Sólo verificar firma del remitente",
+      "Verificar competencia, anexos, remitente, destino y asunto antes de radicar"
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "Con respecto al horario de atención al público de la unidad de correspondencia o ventanilla única, el Acuerdo 060 de 2001 implica que la entidad debe:",
+    "opciones": [
+      "Establecer un horario visible para atención, de modo que la recepción y radicación se realice de forma organizada",
+      "No fijar un horario específico para que las personas lleguen cuando quieran ellos",
+      "Atender sólo cuando el jefe lo disponga o lo diga la empresa",
+      "Atender solo en fines de semana ya que las personas tienen tiempo"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "En una entidad que recibe comunicaciones vía fax o correo electrónico, el Acuerdo 060 de 2001 indica que:",
+    "opciones": [
+      "No deben radicarse las comunicaciones electrónicas",
+      "Debe tramitar esas comunicaciones, asegurando que formen parte de las series documentales establecidas en la tabla de retención documental",
+      "Se archivan sin radicación",
+      "Pueden enviarse sin registro alguno"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué debe hacer la entidad cuando en la numeración de radicación se detecta un error según el Acuerdo 060 de 2001?",
+    "opciones": [
+      "Ignorar el error",
+      "Anular el número sin justificación",
+      "Dejar constancia por escrito con la firma del jefe de la unidad de correspondencia",
+      "Cambiar el número contra una tasa"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "Sobre la firma responsable de los actos administrativos, el Acuerdo 060 de 2001 señala que:",
+    "opciones": [
+      "Pueden numerarse actos administrativos sin estar firmados",
+      "No se debe numerar ningún acto administrativo que no esté debidamente firmado",
+      "Solo es necesario que lo firme un asistente",
+      "Las firmas no están reguladas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Según el Acuerdo 060 de 2001, una comunicación recibida que carece de firma, nombre del remitente o dependencia, pone en riesgo que sea:",
+    "opciones": [
+      "Archivada inmediatamente",
+      "Radicada sin revisión",
+      "Considerada anónima y posiblemente no tramitada de forma adecuada",
+      "Enviada como correo electrónico"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "En cuanto al formato y presentación de las comunicaciones oficiales, el Acuerdo 060 de 2001 exige que las entidades:",
+    "opciones": [
+      "No consideren normas de presentación",
+      "Apliquen las normas ICONTEC para oficios, memorandos u otros, y definan pie de página conforme a la norma institucional",
+      "Usen únicamente formato libre",
+      "No especifiquen pie de página"
+    ],
+    "respuesta": 1
+  }
+]

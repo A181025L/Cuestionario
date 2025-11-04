@@ -1,0 +1,170 @@
+{
+  "titulo": "IMPORTANCIA DEL MANUAL DE CORRESPONDENCIA",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál es el objetivo principal del Manual de Correspondencia en una entidad pública o privada?",
+      "opciones": {
+        "A": "Establecer los procedimientos para la recepción, radicación, distribución, trámite y envío de comunicaciones.",
+        "B": "Archivar documentos sin control.",
+        "C": "Sustituir la tabla de retención documental.",
+        "D": "Determinar los salarios del personal de archivo."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Según la Ley 594 de 2000, el Manual de Correspondencia forma parte de:",
+      "opciones": {
+        "A": "Los manuales de convivencia.",
+        "B": "El Programa de Gestión Documental (PGD).",
+        "C": "Los estatutos administrativos.",
+        "D": "Los reglamentos de talento humano."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El Manual de Correspondencia permite garantizar que:",
+      "opciones": {
+        "A": "Se evite la radicación de comunicaciones.",
+        "B": "Los documentos sean eliminados más rápido.",
+        "C": "Las dependencias actúen sin coordinación.",
+        "D": "Todas las comunicaciones institucionales se tramiten de forma uniforme, segura y trazable."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El Acuerdo 060 de 2001 del AGN establece que el Manual de Correspondencia debe:",
+      "opciones": {
+        "A": "Regular las operaciones de la unidad de correspondencia o ventanilla única.",
+        "B": "Ser un documento opcional.",
+        "C": "Ser elaborado únicamente por el área jurídica.",
+        "D": "No incluir formatos."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué elemento debe contener obligatoriamente el Manual de Correspondencia?",
+      "opciones": {
+        "A": "Plan de capacitación de archivo.",
+        "B": "Descripción detallada de los procedimientos de recibo, radicación, trámite y despacho.",
+        "C": "Políticas de bienestar laboral.",
+        "D": "Manual de funciones."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Quién es responsable de aplicar los procedimientos definidos en el Manual de Correspondencia?",
+      "opciones": {
+        "A": "Solo el jefe de archivo.",
+        "B": "Todos los funcionarios que gestionen comunicaciones institucionales.",
+        "C": "El área financiera.",
+        "D": "La oficina jurídica exclusivamente."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cuál de los siguientes beneficios se deriva de contar con un Manual de Correspondencia actualizado?",
+      "opciones": {
+        "A": "Elimina la necesidad de radicación.",
+        "B": "Disminuye la transparencia institucional.",
+        "C": "Mejora la eficiencia y control en la gestión documental.",
+        "D": "Sustituye el archivo central."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En caso de no contar con un Manual de Correspondencia, la entidad podría:",
+      "opciones": {
+        "A": "Incurrir en pérdida de información, duplicidad de trámites o incumplimiento normativo.",
+        "B": "Fortalecer la gestión documental.",
+        "C": "Acelerar la respuesta a usuarios.",
+        "D": "Mejorar la seguridad de los datos."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Según el Acuerdo 001 de 2024 del AGN, el Manual de Correspondencia debe estar articulado con:",
+      "opciones": {
+        "A": "El sistema contable.",
+        "B": "El Sistema Integrado de Conservación y el Programa de Gestión Documental (PGD).",
+        "C": "El manual de convivencia institucional.",
+        "D": "Los reglamentos disciplinarios."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Por qué es importante estandarizar el proceso de radicación en el Manual de Correspondencia?",
+      "opciones": {
+        "A": "Para evitar la digitalización.",
+        "B": "Para reducir la cantidad de registros.",
+        "C": "Para facilitar la destrucción documental.",
+        "D": "Para garantizar la trazabilidad y autenticidad de las comunicaciones."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "numero": 11,
+      "pregunta": "La actualización del Manual de Correspondencia debe realizarse:",
+      "opciones": {
+        "A": "Cada cinco años obligatoriamente.",
+        "B": "Cuando cambian los procesos, estructura o normatividad archivística aplicable.",
+        "C": "Solo si el jefe lo solicita.",
+        "D": "Una vez y nunca más."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 12,
+      "pregunta": "El Manual de Correspondencia también contribuye al cumplimiento de:",
+      "opciones": {
+        "A": "Los principios de transparencia, eficacia y rendición de cuentas.",
+        "B": "La reserva absoluta de toda la información.",
+        "C": "La eliminación de comunicaciones.",
+        "D": "La descentralización del archivo."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "numero": 13,
+      "pregunta": "¿Qué unidad es responsable de elaborar y mantener actualizado el Manual de Correspondencia?",
+      "opciones": {
+        "A": "El área de tecnología.",
+        "B": "El área jurídica.",
+        "C": "El área de Gestión Documental o Archivo Central.",
+        "D": "La gerencia financiera."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "numero": 14,
+      "pregunta": "El Manual de Correspondencia debe incluir las pautas para:",
+      "opciones": {
+        "A": "Los procesos contables de la entidad.",
+        "B": "Los manuales de imagen institucional.",
+        "C": "El archivo histórico exclusivamente.",
+        "D": "El manejo de las firmas responsables, horarios de atención y canales de recepción y envío."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "numero": 15,
+      "pregunta": "¿Cuál es la consecuencia de no aplicar correctamente el Manual de Correspondencia según la Ley 594 de 2000?",
+      "opciones": {
+        "A": "Posibles sanciones disciplinarias por incumplimiento de la normativa archivística.",
+        "B": "Mejora en la eficiencia administrativa.",
+        "C": "Eliminación automática de documentos.",
+        "D": "Autorización para radicar fuera de término."
+      },
+      "respuesta_correcta": "A"
+    }
+  ]
+}

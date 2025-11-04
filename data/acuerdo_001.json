@@ -1,0 +1,82 @@
+[
+  {
+    "pregunta": "La Ventanilla Única debe habilitar:",
+    "opciones": [
+      "Solo atención presencial",
+      "Canales físicos y electrónicos con constancia de radicado, fecha y hora",
+      "Solo formularios en papel",
+      "Atención telefónica"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "El número de radicado debe ser:",
+    "opciones": [
+      "Repetible",
+      "Único, consecutivo, sin tachaduras, con fecha y hora",
+      "Solo con fecha",
+      "Sin registro digital"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Cambio de soporte documental:",
+    "opciones": [
+      "Archivar original",
+      "Prohibido cambiar",
+      "Cumplir con capítulo de “Reproducción por medios técnicos”",
+      "Destruir el original"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "Ámbito de aplicación del Acuerdo 001 de 2024:",
+    "opciones": [
+      "Solo entidades nacionales",
+      "Todas las entidades públicas y privadas con funciones públicas",
+      "Solo territoriales",
+      "Solo empresas mixtas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Responsabilidad de recepción y entrega de documentos:",
+    "opciones": [
+      "Sin sanción",
+      "No se regula",
+      "Solo aplica electrónicamente",
+      "Su omisión genera responsabilidad disciplinaria o penal"
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "Definición de Ventanilla Única:",
+    "opciones": [
+      "No aplica",
+      "Canal físico y/o electrónico para recepción, radicación y trámite de documentos",
+      "Solo ventanilla presencial",
+      "Área de mensajería"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Obligación principal de la Ventanilla Única:",
+    "opciones": [
+      "Controlar trámite de comunicaciones mediante sistemas y mensajería",
+      "No radicar electrónicamente",
+      "Revisar solo internos",
+      "Eliminar documentos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Entidad que ejerce inspección y control archivístico:",
+    "opciones": [
+      "Ministerio de Hacienda",
+      "Archivo General de la Nación (AGN)",
+      "Presidencia",
+      "Contraloría"
+    ],
+    "respuesta": 1
+  }
+]

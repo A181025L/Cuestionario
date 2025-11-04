@@ -1,0 +1,132 @@
+[
+  {
+    "pregunta": "¿Cuál es el propósito principal de aplicar los protocolos para la recepción de documentos de archivo?",
+    "opciones": [
+      "Reducir el tiempo de respuesta de la organización",
+      "Garantizar el correcto registro, control y conservación de los documentos",
+      "Minimizar los costos de mensajería",
+      "Agilizar los procesos de digitalización"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué documento define los procedimientos y responsabilidades en la gestión documental?",
+    "opciones": [
+      "Manual de convivencia laboral",
+      "Manual de gestión documental",
+      "Manual de funciones y procedimientos",
+      "Código de ética institucional"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Qué se debe verificar al recibir un documento físico?",
+    "opciones": [
+      "Que esté firmado, fechado y con los anexos correspondientes",
+      "Que tenga un número consecutivo interno",
+      "Que haya sido enviado por correo certificado",
+      "Que esté impreso a color"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el paso siguiente después de recibir un documento externo?",
+    "opciones": [
+      "Clasificarlo y archivarlo directamente",
+      "Radicarlo y registrarlo en el sistema",
+      "Enviarlo a la dirección general",
+      "Escanearlo sin registrarlo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "La radicación de documentos consiste en:",
+    "opciones": [
+      "Almacenar documentos",
+      "Asignar un número consecutivo y registrar datos del documento",
+      "Enviar documentos por correo electrónico",
+      "Firmar digitalmente los documentos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Los metadatos sirven para:",
+    "opciones": [
+      "Agregar imágenes",
+      "Facilitar la búsqueda y trazabilidad",
+      "Definir los colores institucionales",
+      "Limitar el acceso"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "El control de gestión documental busca:",
+    "opciones": [
+      "Reducir costos",
+      "Garantizar trazabilidad y cumplimiento normativo",
+      "Aumentar el volumen documental",
+      "Facilitar destrucción"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Norma clave para manipular documentos físicos:",
+    "opciones": [
+      "Normas de seguridad y salud en el trabajo",
+      "Manual de inducción",
+      "Reglamento interno",
+      "Código de bienestar"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Técnica que garantiza una entrega segura:",
+    "opciones": [
+      "Clasificación por colores",
+      "Plegado y embalaje según normas técnicas",
+      "Envío sin registro",
+      "Despacho sin consecutivo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "El consecutivo de correspondencia despachada garantiza:",
+    "opciones": [
+      "Orden cronológico y control de envíos",
+      "Archivo inmediato",
+      "Reducción del tiempo",
+      "Validación de firma"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Luego de radicar un documento entrante, se debe:",
+    "opciones": [
+      "Direccionarlo a la dependencia correspondiente",
+      "Guardarlo en el archivo central",
+      "Escanearlo y eliminar el original",
+      "Enviarlo al archivo histórico"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Si un documento no cumple los requisitos:",
+    "opciones": [
+      "Radicarlo provisionalmente",
+      "Devolverlo con informe justificativo",
+      "Archivar temporalmente",
+      "Corregirlo sin autorización"
+    ],
+    "respuesta": 1
+  },
+  {
+    "pregunta": "Importancia de aplicar normas de seguridad de la información:",
+    "opciones": [
+      "Proteger confidencialidad, integridad y disponibilidad",
+      "Acelerar procesos",
+      "Facilitar acceso público",
+      "Permitir uso libre"
+    ],
+    "respuesta": 0
+  }
+]

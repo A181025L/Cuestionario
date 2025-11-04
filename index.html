@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuestionario de Práctica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Cuestionario de Práctica</h1>
+
+  <div class="config">
+    <label>Modo:</label>
+    <select id="modo">
+      <option value="todos">Todos los temas (práctica)</option>
+      <option value="tema">Tema específico (práctica)</option>
+      <option value="examen">Modo examen</option>
+    </select>
+
+    <div id="seleccionTema" style="display:none;">
+      <label>Tema:</label>
+      <select id="tema">
+        <option value="recibo_despacho">Recibo y despacho de documentos</option>
+        <option value="acuerdo_001">Acuerdo 001 de 2024 – Archivo General de la Nación</option>
+        <option value="radicacion">Radicación, recepción y despacho interno/externo</option>
+        <option value="acuerdo_060">Firmas responsables, horario de atención, normas de presentación (Acuerdo 060)</option>
+        <option value="prestamo">Préstamo de documentos</option>
+        <option value="manual_correspondencia">Importancia del manual de correspondencia</option>
+      </select>
+    </div>
+
+    <label>Cantidad de preguntas:</label>
+    <input type="number" id="cantidad" min="1" placeholder="Dejar vacío = todas" />
+
+    <div id="tiempoConfig">
+      <label>Temporizador por pregunta (segundos):</label>
+      <input type="number" id="tiempoPorPregunta" min="5" placeholder="Ej: 20" />
+    </div>
+
+    <div id="tiempoExamenConfig" style="display:none;">
+      <label>Duración total del examen (minutos):</label>
+      <input type="number" id="tiempoExamen" min="1" placeholder="Ej: 10" />
+    </div>
+
+    <button id="iniciar">Iniciar</button>
+  </div>
+
+  <div id="info" class="info"></div>
+
+  <div id="cuestionario" style="display:none;">
+    <div class="progress">
+      <div id="barraProgreso"></div>
+    </div>
+
+    <h2 id="pregunta"></h2>
+    <div id="opciones"></div>
+    <p id="temporizador"></p>
+    <button id="siguiente" disabled>Siguiente</button>
+  </div>
+
+  <div id="resultado" style="display:none;">
+    <h2>Resultados</h2>
+    <p id="puntaje"></p>
+    <p id="tiempoFinal"></p>
+    <button id="reintentar">Reiniciar</button>
+    <div id="resumen"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
