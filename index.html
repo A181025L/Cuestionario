@@ -7,64 +7,180 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🧠 Cuestionario de Práctica</h1>
 
-  <div class="config">
-    <label>Modo:</label>
-    <select id="modo">
-      <option value="todos">Todos los temas (práctica)</option>
-      <option value="tema">Tema específico (práctica)</option>
-      <option value="examen">Modo examen</option>
-    </select>
+  <div class="app-wrapper">
 
-    <div id="seleccionTema" style="display:none;">
-      <label>Tema:</label>
-      <select id="tema">
-        <option value="recibo_despacho">Recibo y despacho de documentos</option>
-        <option value="acuerdo_001">Acuerdo 001 de 2024 – Archivo General de la Nación</option>
-        <option value="radicacion">Radicación, recepción y despacho interno/externo</option>
-        <option value="acuerdo_060">Firmas responsables, horario de atención, normas de presentación (Acuerdo 060)</option>
-        <option value="prestamo">Préstamo de documentos</option>
-        <option value="manual_correspondencia">Importancia del manual de correspondencia</option>
-      </select>
+    <!-- ═══════════ ENCABEZADO ═══════════ -->
+    <header>
+      <div class="logo-mark">CPv2</div>
+      <h1>Cuestionario de Práctica</h1>
+      <p class="subtitle">Sistema multi-materia · multi-tipo</p>
+    </header>
+
+    <!-- ═══════════ CONFIGURACIÓN ═══════════ -->
+    <div class="config" id="configPanel">
+
+      <!-- PASO 1 – MODO -->
+      <section class="config-section">
+        <div class="section-label">Modo de estudio</div>
+        <div class="modos-grid" id="modosGrid">
+
+          <label class="modo-card" data-modo="todos">
+            <input type="radio" name="modo" value="todos" checked />
+            <span class="mc-icon">🌐</span>
+            <span class="mc-title">Todos los temas</span>
+            <span class="mc-desc">Práctica general</span>
+          </label>
+
+          <label class="modo-card" data-modo="tema">
+            <input type="radio" name="modo" value="tema" />
+            <span class="mc-icon">📚</span>
+            <span class="mc-title">Tema específico</span>
+            <span class="mc-desc">Elige materia y tema</span>
+          </label>
+
+          <label class="modo-card" data-modo="por_materia">
+            <input type="radio" name="modo" value="por_materia" />
+            <span class="mc-icon">🗂️</span>
+            <span class="mc-title">Por materia</span>
+            <span class="mc-desc">Una o varias materias</span>
+          </label>
+
+          <label class="modo-card" data-modo="examen">
+            <input type="radio" name="modo" value="examen" />
+            <span class="mc-icon">🧾</span>
+            <span class="mc-title">Examen</span>
+            <span class="mc-desc">Con tiempo límite total</span>
+          </label>
+
+          <!-- ── NUEVA MODALIDAD (plantilla) ── -->
+          <label class="modo-card modo-nuevo" data-modo="nuevo">
+            <input type="radio" name="modo" value="nuevo" />
+            <span class="mc-icon">✨</span>
+            <span class="mc-title">Nueva modalidad</span>
+            <span class="mc-desc">Próximamente</span>
+            <span class="badge-pronto">PRONTO</span>
+          </label>
+
+        </div>
+      </section>
+
+      <!-- PASO 2 – OPCIONES CONDICIONALES POR MODO -->
+
+      <!-- Tema específico: materia → tema -->
+      <section class="modo-opcion" id="opcionTema" style="display:none">
+        <div class="section-label">Selección de tema</div>
+        <div class="select-row">
+          <div class="select-group">
+            <label>Materia</label>
+            <select id="materiaParaTema"></select>
+          </div>
+          <div class="select-group">
+            <label>Tema</label>
+            <select id="temaSelect"></select>
+          </div>
+        </div>
+      </section>
+
+      <!-- Por materia: checkboxes de materias -->
+      <section class="modo-opcion" id="opcionPorMateria" style="display:none">
+        <div class="section-label">Selecciona las materias</div>
+        <div class="materias-check-grid" id="materiasCheckGrid"></div>
+      </section>
+
+      <!-- PASO 3 – PARÁMETROS -->
+      <section class="config-section params-row">
+
+        <div class="param-group">
+          <label>Cantidad de preguntas</label>
+          <input type="number" id="cantidad" min="1" placeholder="Todas" />
+        </div>
+
+        <div class="param-group" id="tiempoConfig">
+          <label>Segundos por pregunta</label>
+          <input type="number" id="tiempoPorPregunta" min="5" placeholder="Sin límite" />
+        </div>
+
+        <div class="param-group" id="tiempoExamenConfig" style="display:none">
+          <label>Duración total (min)</label>
+          <input type="number" id="tiempoExamen" min="1" placeholder="Ej: 30" />
+        </div>
+
+      </section>
+
+      <button id="iniciar" class="btn-primary">▶ Iniciar cuestionario</button>
     </div>
 
-    <label>Cantidad de preguntas:</label>
-    <input type="number" id="cantidad" min="1" placeholder="Dejar vacío = todas" />
+    <!-- ═══════════ INFO BARRA ═══════════ -->
+    <div id="info" class="info-bar" style="display:none"></div>
 
-    <div id="tiempoConfig">
-      <label>Temporizador por pregunta (segundos):</label>
-      <input type="number" id="tiempoPorPregunta" min="5" placeholder="Ej: 20" />
+    <!-- ═══════════ CUESTIONARIO ═══════════ -->
+    <div id="cuestionario" class="quiz-panel" style="display:none">
+
+      <div class="quiz-header">
+        <div class="quiz-meta-row">
+          <span id="contadorPreguntas" class="q-counter"></span>
+          <span id="tipoBadge" class="tipo-badge"></span>
+          <span id="temporizador" class="temporizador"></span>
+        </div>
+        <div class="progress-bar-track">
+          <div id="barraProgreso" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <div class="pregunta-card">
+        <h2 id="pregunta"></h2>
+
+        <!-- Opción múltiple / V·F -->
+        <div id="opciones" class="opciones-grid"></div>
+
+        <!-- Completar -->
+        <div id="zonaCompletar" class="zona-completar" style="display:none">
+          <input type="text" id="inputCompletar" placeholder="Escribe tu respuesta…" autocomplete="off" />
+          <button id="btnCompletar" class="btn-verificar">Verificar →</button>
+        </div>
+
+        <!-- Arrastrar / Relacionar -->
+        <div id="zonaArrastrar" class="zona-arrastrar" style="display:none">
+          <p class="arrastrar-hint">Toca un término y luego la definición donde pertenece.</p>
+          <div class="arrastrar-layout">
+            <div class="arrastrar-col" id="terminosCol">
+              <div class="col-label">Términos</div>
+              <div id="terminosList"></div>
+            </div>
+            <div class="arrastrar-col" id="definicionesCol">
+              <div class="col-label">Definiciones</div>
+              <div id="definicionesList"></div>
+            </div>
+          </div>
+          <button id="btnVerificarArrastrar" class="btn-verificar" style="margin-top:16px">Verificar relaciones →</button>
+        </div>
+
+        <!-- Feedback -->
+        <div id="feedback" class="feedback" style="display:none"></div>
+      </div>
+
+      <button id="siguiente" class="btn-siguiente" disabled>Siguiente →</button>
     </div>
 
-    <div id="tiempoExamenConfig" style="display:none;">
-      <label>Duración total del examen (minutos):</label>
-      <input type="number" id="tiempoExamen" min="1" placeholder="Ej: 10" />
+    <!-- ═══════════ RESULTADOS ═══════════ -->
+    <div id="resultado" class="resultado-panel" style="display:none">
+
+      <div class="resultado-hero">
+        <div class="resultado-emoji" id="resultadoEmoji"></div>
+        <h2>Resultados</h2>
+        <p class="resultado-puntaje" id="puntaje"></p>
+        <p class="resultado-tiempo" id="tiempoFinal"></p>
+      </div>
+
+      <div class="stats-grid" id="statsGrid"></div>
+
+      <button id="reintentar" class="btn-primary">↩ Reiniciar</button>
+
+      <div id="resumen" class="resumen"></div>
     </div>
 
-    <button id="iniciar">Iniciar</button>
-  </div>
-
-  <div id="info" class="info"></div>
-
-  <div id="cuestionario" style="display:none;">
-    <div class="progress">
-      <div id="barraProgreso"></div>
-    </div>
-
-    <h2 id="pregunta"></h2>
-    <div id="opciones"></div>
-    <p id="temporizador"></p>
-    <button id="siguiente" disabled>Siguiente</button>
-  </div>
-
-  <div id="resultado" style="display:none;">
-    <h2>Resultados</h2>
-    <p id="puntaje"></p>
-    <p id="tiempoFinal"></p>
-    <button id="reintentar">Reiniciar</button>
-    <div id="resumen"></div>
-  </div>
+  </div><!-- .app-wrapper -->
 
   <script src="script.js"></script>
 </body>
