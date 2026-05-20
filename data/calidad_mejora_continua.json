@@ -1,0 +1,76 @@
+[
+  {
+    "pregunta": "¿Qué relación existe entre gestión documental y calidad?",
+    "opciones": [
+      "La documentación sostiene el sistema de gestión y evidencia procesos",
+      "No tienen relación",
+      "La calidad elimina documentos",
+      "La gestión documental reemplaza auditorías"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona las etapas del ciclo PHVA:",
+    "pares": [
+      {
+        "termino": "Planear",
+        "definicion": "Definir reglas y formatos"
+      },
+      {
+        "termino": "Hacer",
+        "definicion": "Aplicar el control documental"
+      },
+      {
+        "termino": "Verificar",
+        "definicion": "Revisar cumplimiento"
+      },
+      {
+        "termino": "Actuar",
+        "definicion": "Corregir y mejorar"
+      }
+    ]
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El tiempo de búsqueda documental puede utilizarse como indicador de eficiencia.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la importancia de las auditorías internas?",
+    "opciones": [
+      "Eliminar archivos",
+      "Detectar fallas y medir cumplimiento",
+      "Reducir personal",
+      "Duplicar documentos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona acciones correctivas:",
+    "pares": [
+      {
+        "termino": "Capacitar al personal",
+        "definicion": "Mejorar conocimientos y prácticas"
+      },
+      {
+        "termino": "Actualizar formatos",
+        "definicion": "Modificar documentos necesarios"
+      },
+      {
+        "termino": "Reorganizar archivos",
+        "definicion": "Ordenar correctamente la documentación"
+      },
+      {
+        "termino": "Seguimiento",
+        "definicion": "Verificar resultados de las mejoras"
+      }
+    ]
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "El control de cambios registra qué se modificó, quién lo aprobó y qué ___ quedó vigente.",
+    "respuesta": "versión"
+  }
+]

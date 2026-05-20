@@ -1,0 +1,117 @@
+[
+  {
+    "tipo": "completar",
+    "pregunta": "El control documental es el conjunto de acciones para crear, revisar, aprobar, distribuir, conservar y recuperar los documentos de una organización de forma ordenada y ___.",
+    "respuesta": "controlada",
+    "alternativas": ["controlado"]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo del control documental?",
+    "opciones": [
+      "Eliminar toda la documentación física",
+      "Asegurar que la información sea correcta, vigente, localizable, protegida y disponible",
+      "Guardar documentos sin clasificación",
+      "Reducir el uso de computadores"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los tipos de documentos:",
+    "pares": [
+      {
+        "termino": "Documento de archivo",
+        "definicion": "Sirve como evidencia de actividades de la entidad"
+      },
+      {
+        "termino": "Documento electrónico",
+        "definicion": "Se crea o maneja por medios electrónicos"
+      },
+      {
+        "termino": "Documento digital",
+        "definicion": "Está representado en lenguaje binario"
+      },
+      {
+        "termino": "Documento de apoyo",
+        "definicion": "Material de consulta que no hace parte de la serie documental principal"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad de implementar procedimientos de control documental?",
+    "opciones": [
+      "Evitar pérdidas, desorden y errores",
+      "Eliminar archivos históricos",
+      "Aumentar documentos duplicados",
+      "Reducir el acceso a la información"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El control documental ayuda a conservar la memoria institucional y cumplir requisitos legales.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Qué riesgos puede generar una mala gestión documental?",
+    "opciones": [
+      "Mayor organización",
+      "Pérdida de información y sanciones",
+      "Reducción de errores",
+      "Mejor acceso a documentos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "El principio de procedencia consiste en conservar juntos los documentos producidos por una misma ___.",
+    "respuesta": "entidad",
+    "alternativas": ["oficina", "dependencia"]
+  },
+  {
+    "pregunta": "¿Qué es la trazabilidad documental?",
+    "opciones": [
+      "Eliminar documentos repetidos",
+      "Seguir un documento desde su creación hasta su archivo final",
+      "Guardar documentos físicos",
+      "Numerar carpetas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los requisitos de la ISO 9001:",
+    "pares": [
+      {
+        "termino": "Identificar",
+        "definicion": "Reconocer correctamente la información documentada"
+      },
+      {
+        "termino": "Proteger",
+        "definicion": "Evitar pérdida o alteración"
+      },
+      {
+        "termino": "Actualizar",
+        "definicion": "Mantener la información vigente"
+      },
+      {
+        "termino": "Conservar",
+        "definicion": "Guardar la información necesaria"
+      }
+    ]
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los conceptos:",
+    "pares": [
+      {
+        "termino": "Documento",
+        "definicion": "Información con su medio de soporte"
+      },
+      {
+        "termino": "Registro",
+        "definicion": "Documento que conserva evidencia de una actividad o resultado"
+      }
+    ]
+  }
+]

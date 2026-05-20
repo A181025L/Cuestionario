@@ -1,0 +1,108 @@
+[
+  {
+    "pregunta": "¿Qué es una Tabla de Retención Documental (TRD)?",
+    "opciones": [
+      "Un sistema contable",
+      "Un instrumento que indica tiempos de conservación documental y disposición final",
+      "Un software de edición",
+      "Un formato de préstamo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los componentes de una TRD:",
+    "pares": [
+      {
+        "termino": "Serie documental",
+        "definicion": "Conjunto de documentos relacionados"
+      },
+      {
+        "termino": "Subserie",
+        "definicion": "División específica de una serie"
+      },
+      {
+        "termino": "Tiempo de retención",
+        "definicion": "Periodo de conservación"
+      },
+      {
+        "termino": "Disposición final",
+        "definicion": "Destino final de los documentos"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre TRD y TVD?",
+    "opciones": [
+      "La TRD aplica a documentos activos y la TVD a fondos acumulados",
+      "La TVD reemplaza todos los archivos",
+      "No existe diferencia",
+      "La TRD solo sirve para documentos digitales"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "El CCD organiza las series y subseries documentales según la estructura y funciones de la ___.",
+    "respuesta": "entidad",
+    "alternativas": ["organización"]
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El Inventario Documental permite saber qué documentos existen y dónde están ubicados.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo del Programa de Gestión Documental (PGD)?",
+    "opciones": [
+      "Eliminar documentos históricos",
+      "Planear, organizar y controlar la gestión documental",
+      "Crear documentos duplicados",
+      "Reducir el uso de archivos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona la información del FUID:",
+    "pares": [
+      {
+        "termino": "Serie",
+        "definicion": "Conjunto documental relacionado"
+      },
+      {
+        "termino": "Fechas extremas",
+        "definicion": "Fecha inicial y final de los documentos"
+      },
+      {
+        "termino": "Ubicación",
+        "definicion": "Lugar donde se encuentran los documentos"
+      },
+      {
+        "termino": "Observaciones",
+        "definicion": "Información adicional relevante"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un Banco Terminológico?",
+    "opciones": [
+      "Un archivo financiero",
+      "Un instrumento que normaliza nombres de series y documentos",
+      "Una copia de seguridad",
+      "Un sistema de correo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Los metadatos documentales describen información como autor, fecha, asunto y ___.",
+    "respuesta": "versión",
+    "alternativas": ["ubicación", "soporte"]
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Los índices electrónicos facilitan la consulta y control de documentos digitales.",
+    "respuesta": 0
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "pregunta": "¿Qué establece la Ley 1712 de 2014?",
+    "opciones": [
+      "La eliminación de documentos físicos",
+      "El derecho de acceso a la información pública",
+      "La prohibición de archivos digitales",
+      "La creación de auditorías privadas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "La ISO 9001 exige controlar la información documentada para asegurar su disponibilidad y protección.",
+    "respuesta": 0
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona requisitos de la ISO 15489:",
+    "pares": [
+      {
+        "termino": "Metadatos",
+        "definicion": "Datos que describen documentos"
+      },
+      {
+        "termino": "Responsabilidades",
+        "definicion": "Funciones asignadas en la gestión documental"
+      },
+      {
+        "termino": "Capacitación",
+        "definicion": "Preparación del personal"
+      },
+      {
+        "termino": "Seguimiento",
+        "definicion": "Control y verificación de procesos"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué consecuencias legales puede generar la pérdida o alteración de documentos institucionales?",
+    "opciones": [
+      "Mejor organización documental",
+      "Sanciones, pérdida de valor probatorio y responsabilidad administrativa",
+      "Reducción de auditorías",
+      "Mayor acceso público"
+    ],
+    "respuesta": 1
+  }
+]

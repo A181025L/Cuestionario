@@ -1,0 +1,91 @@
+[
+  {
+    "pregunta": "¿Qué debe incluir un formato de préstamo documental?",
+    "opciones": [
+      "Solo el nombre del solicitante",
+      "Solicitante, fecha, documento prestado, responsable y plazo de devolución",
+      "Únicamente la firma",
+      "Solo el número de carpetas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El formato de transferencia documental deja constancia del paso de documentos entre archivos.",
+    "respuesta": 0
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los controles de entrada y salida:",
+    "pares": [
+      {
+        "termino": "Fecha",
+        "definicion": "Día del registro"
+      },
+      {
+        "termino": "Consecutivo",
+        "definicion": "Número secuencial del documento"
+      },
+      {
+        "termino": "Remitente",
+        "definicion": "Persona o entidad que envía"
+      },
+      {
+        "termino": "Asunto",
+        "definicion": "Tema principal del documento"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Qué información mínima debe contener un acta de eliminación documental?",
+    "opciones": [
+      "Fecha, series eliminadas, responsables y firmas",
+      "Solo la fecha",
+      "Solo el número de cajas",
+      "Únicamente observaciones"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Los formatos de control de acceso sirven para proteger información reservada o ___.",
+    "respuesta": "sensible"
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Los consecutivos documentales ayudan a evitar registros duplicados.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Cuál es una diferencia entre registro físico y electrónico?",
+    "opciones": [
+      "El físico usa papel y el electrónico permite trazabilidad automática",
+      "No existe diferencia",
+      "El electrónico no permite búsquedas",
+      "El físico siempre es digital"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona mecanismos de control de versiones:",
+    "pares": [
+      {
+        "termino": "Numeración de versiones",
+        "definicion": "Identifica cambios entre documentos"
+      },
+      {
+        "termino": "Historial de cambios",
+        "definicion": "Registra modificaciones realizadas"
+      },
+      {
+        "termino": "Control de acceso",
+        "definicion": "Limita quién puede modificar"
+      },
+      {
+        "termino": "Aprobación previa",
+        "definicion": "Autoriza cambios antes de aplicarlos"
+      }
+    ]
+  }
+]
