@@ -723,7 +723,7 @@ function renderMultiple(q) {
 }
 
 function seleccionarOpcion(i, q) {
-  clearInterval(timer);
+  if (modoActual !== "examen") clearInterval(timer);
   const correcto = i === q.respuesta;
   registrarRespuesta(q, { tipo: q.tipo || "multiple", seleccion: i, correcto });
 
@@ -757,7 +757,7 @@ function renderCompletar(q) {
   setTimeout(() => inputCompletar.focus(), 50);
 
   const verificar = () => {
-    clearInterval(timer);
+    if (modoActual !== "examen") clearInterval(timer);
     const dada    = inputCompletar.value.trim().toLowerCase();
     const correcta = String(q.respuesta || "").trim().toLowerCase();
     const alts    = (q.alternativas || []).map(a => a.toLowerCase());
@@ -833,7 +833,7 @@ function renderArrastrar(q) {
   });
 
   btnVerificarArr.onclick = () => {
-    clearInterval(timer);
+    if (modoActual !== "examen") clearInterval(timer);
     verificarArrastrar(q, asignaciones, correctos);
   };
 }
@@ -1026,7 +1026,7 @@ function iniciarTemporizadorExamen() {
       clearInterval(timer); 
       
       // 🎵 Reproducir sonido cuando se acaba el examen global
-      const sonido = new Audio("/resources/sound/time-out.mp3");
+      const sonido = new Audio("https://a181025l.github.io/Cuestionario/resources/sound/time-out.mp3");
       sonido.play().catch(err => console.warn("Autoplay bloqueado por el navegador:", err));
       
       mostrarResultado(); 
