@@ -994,7 +994,7 @@ function actualizarTimerUI(restante, total) {
 
 function tiempoAgotado() {
   // 🎵 Reproducir sonido de tiempo agotado
-  const sonido = new Audio("/resources/sound/time-out.mp3");
+  const sonido = new Audio("https://a181025l.github.io/Cuestionario/resources/sound/time-out.mp3");
   sonido.play().catch(err => console.warn("Autoplay bloqueado por el navegador:", err));
 
   const q = preguntas[indiceActual];
