@@ -1,0 +1,160 @@
+[
+  {
+    "pregunta": "La No conformidades corresponden al incumplimiento de un requisito específico. Se documenta cuando existe evidencia clara de que algo falló. Comúnmente se dividen por su gravedad según la ISO mencionarlas.",
+    "opciones": [
+      "Mayor y Menor",
+      "Interna y Externa",
+      "Correctiva y Preventiva",
+      "Simple y Compleja"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Es el resultado de la evaluación de la evidencia recopilada durante la auditoría frente a los criterios establecidos de Conformidad, No Conformidad y Oportunidad de mejora.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Sugerencia para optimizar un proceso que ya cumple y se requiere un cumplimiento completo.",
+    "opciones": [
+      "Plan de mejoramiento",
+      "Acta de cierre",
+      "Lista de asistencia",
+      "Informe financiero"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Como se le denomina aún documento que ya no están vigentes en calidad",
+    "opciones": [
+      "Obsoleto",
+      "Vigente",
+      "Actualizado",
+      "Trámite"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Los documentos deben tener un código único, título y revisión aprobada por personal autorizado antes de su distribución.",
+    "respuesta": 0
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Control de Cambios: cualquier modificación debe pasar por un proceso de revisión y aprobación para asegurar la vigencia y utilidad de la información.",
+    "respuesta": 0
+  },
+  {
+    "pregunta": "El Cumplimiento Legal y Normativo en Colombia para el control de los documentos lo establece:",
+    "opciones": [
+      "Ley 594 de 2000",
+      "Decreto 1080 de 2015",
+      "ISO 9001 y 15489",
+      "Todas las anteriores"
+    ],
+    "respuesta": 3
+  },
+  {
+    "pregunta": "Cómo se le denomina al archivo donde se ubican y controlan los documentos de calidad en una empresa?",
+    "opciones": [
+      "Listado Maestro",
+      "Archivo muerto",
+      "Carpeta central",
+      "Inventario físico"
+    ],
+    "respuesta": 0
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona cada zona del formato con su contenido:",
+    "pares": [
+      {
+        "termino": "Zona 1",
+        "definicion": "Logo de la empresa"
+      },
+      {
+        "termino": "Zona 2",
+        "definicion": "Nombre de la empresa; Documento de apoyo"
+      },
+      {
+        "termino": "Zona 3",
+        "definicion": "Fecha, código, versión, páginas"
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones representa mejor un riesgo en gestión documental?",
+    "opciones": [
+      "Pérdida de información, retrasos y reprocesos",
+      "Mayor control de versiones",
+      "Mejor orden en archivos",
+      "Aumento de la trazabilidad"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "Es importante el control de los documentos en una empresa porque:",
+    "opciones": [
+      "Permite guardar más copias sin control",
+      "Ayuda a reducir el uso de formatos",
+      "Garantiza confiabilidad, integridad y orden en los procesos de mejora",
+      "Evita que existan registros"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "¿Qué sanciones puede tener una persona ante la pérdida de información?",
+    "opciones": [
+      "Ninguna, siempre que la información sea antigua",
+      "Solo un llamado de atención verbal",
+      "Sanciones administrativas, disciplinarias o legales, según el caso",
+      "Únicamente una multa al archivo"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "¿Cuál opción define técnicamente la Gestión Documental?",
+    "opciones": [
+      "Conjunto de actividades para administrar documentos desde su creación hasta su disposición final",
+      "Solo el almacenamiento de carpetas",
+      "La impresión y firma de documentos",
+      "El préstamo informal de archivos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "pregunta": "¿Para qué realizamos un plan de auditoría?",
+    "opciones": [
+      "Para revisar si hay errores de ortografía en los documentos",
+      "Para organizar los nombres de archivo",
+      "Para establecer qué se va a evaluar, cómo se hará y con qué criterios",
+      "Para eliminar documentos duplicados automáticamente"
+    ],
+    "respuesta": 2
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "En un archivo no es necesario establecer medidas para prevención de riesgo.",
+    "respuesta": 1
+  },
+  {
+    "pregunta": "¿Por qué es importante que una empresa controle los documentos?",
+    "opciones": [
+      "Para garantizar la confiabilidad e integridad de los documentos",
+      "Tener mayor control de los formatos que se establecen en calidad",
+      "Establecer un orden adecuado para control de formatos, garantizando confiabilidad, integridad en los procesos de mejora",
+      "Porque así se pueden eliminar todos los registros"
+    ],
+    "respuesta": 2
+  },
+  {
+    "pregunta": "Son métricas cuantificables (datos numéricos o porcentajes) que evalúan la eficiencia y eficacia de procesos y resultados organizacionales frente a metas establecidas y se le denomina:",
+    "opciones": [
+      "Indicador",
+      "Formato",
+      "Auditoría",
+      "Procedimiento"
+    ],
+    "respuesta": 0
+  }
+]

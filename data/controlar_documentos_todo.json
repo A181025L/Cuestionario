@@ -1,0 +1,468 @@
+[
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Qué es el control documental?",
+    "opciones": [
+      "Un sistema para eliminar documentos obsoletos",
+      "El conjunto de acciones para crear, revisar, aprobar, distribuir, conservar y recuperar documentos de forma ordenada y controlada",
+      "Un archivo digital exclusivo para correos electrónicos",
+      "Un método para clasificar únicamente documentos físicos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál es el objetivo del control documental?",
+    "opciones": [
+      "Asegurar que la información sea correcta, vigente, localizable, protegida y disponible cuando se necesite",
+      "Reducir el número de documentos sin importar su utilidad",
+      "Guardar documentos solo en papel",
+      "Evitar el uso de registros en la organización"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál opción describe mejor un documento de archivo?",
+    "opciones": [
+      "Un material de consulta general que no hace parte de la serie documental principal",
+      "Un documento que nace o se recibe en una actividad de la entidad y sirve como evidencia",
+      "Un archivo que solo existe en formato binario",
+      "Un documento que no tiene relación con ninguna actividad institucional"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál opción describe mejor un documento electrónico?",
+    "opciones": [
+      "Un documento creado o manejado por medios electrónicos",
+      "Un documento escrito únicamente a mano",
+      "Un documento que no puede almacenarse en sistemas",
+      "Un documento que solo sirve como apoyo"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál opción describe mejor un documento digital?",
+    "opciones": [
+      "Un documento que se conserva solo en carpetas físicas",
+      "Un documento representado en bits o lenguaje binario",
+      "Un documento que no necesita soporte",
+      "Un documento de consulta general"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál opción describe mejor un documento de apoyo?",
+    "opciones": [
+      "Un documento que forma parte de la serie documental principal",
+      "Un documento que sirve como material general de consulta, pero no hace parte de la serie documental principal",
+      "Un registro obligatorio de auditoría",
+      "Un documento que solo existe en formato físico"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál es la finalidad de implementar procedimientos de control documental?",
+    "opciones": [
+      "Evitar pérdidas, desorden, duplicidad y errores, y asegurar que cada documento siga un flujo claro",
+      "Hacer más lenta la consulta de documentos",
+      "Eliminar la trazabilidad de los procesos",
+      "Conservar solo los documentos más antiguos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuál es una importancia del control documental?",
+    "opciones": [
+      "Permite ordenar la información, conservar la memoria institucional, facilitar consultas y cumplir requisitos legales y de calidad",
+      "Sirve únicamente para imprimir documentos",
+      "Reduce la necesidad de clasificación",
+      "Evita que existan registros"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Qué riesgos puede generar una mala gestión documental?",
+    "opciones": [
+      "Mayor control y trazabilidad",
+      "Pérdida de información, retrasos, reprocesos, problemas para responder auditorías y posibles sanciones",
+      "Más disponibilidad de documentos",
+      "Mejor organización automática"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Qué establece el principio de procedencia?",
+    "opciones": [
+      "Que los documentos de distintas entidades deben mezclarse para facilitar el acceso",
+      "Que los documentos producidos por una misma entidad u oficina deben conservarse juntos sin mezclarse con los de otra",
+      "Que los documentos deben eliminarse después de su uso",
+      "Que toda documentación debe archivarse por fecha de impresión"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Qué es la trazabilidad documental?",
+    "opciones": [
+      "La posibilidad de seguir un documento desde su creación hasta su archivo final",
+      "La eliminación de documentos repetidos",
+      "La impresión de documentos en orden alfabético",
+      "La firma manual de todos los registros"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "¿Cuáles son requisitos clave de la gestión documental según ISO 9001?",
+    "opciones": [
+      "Crear documentos sin control",
+      "Controlar la información documentada, identificarla, aprobarla, actualizarla, protegerla, distribuirla, recuperarla, conservarla y controlar sus cambios",
+      "Guardar únicamente versiones impresas",
+      "Evitar todo tipo de registros"
+    ],
+    "respuesta": 1
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "Según ISO 9001, ¿qué es un documento?",
+    "opciones": [
+      "Información con su medio de soporte",
+      "Solo un archivo físico",
+      "Solo un correo electrónico",
+      "Un registro de asistencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 1. FUNDAMENTOS DE CONTROL DOCUMENTAL",
+    "pregunta": "Según ISO 9001, ¿qué es un registro?",
+    "opciones": [
+      "Un documento que conserva evidencia de una actividad o resultado",
+      "Un borrador sin valor",
+      "Un documento de apoyo sin utilidad",
+      "Un archivo que no debe conservarse"
+    ],
+    "respuesta": 0
+  },
+
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Qué es una Tabla de Retención Documental (TRD)?",
+    "opciones": [
+      "Un instrumento que indica cuánto tiempo debe quedarse cada serie documental en cada archivo y cuál será su destino final",
+      "Un listado de proveedores",
+      "Un formato para prestar carpetas",
+      "Un registro de entrada de visitantes"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Cuáles son componentes básicos de una TRD?",
+    "opciones": [
+      "Serie documental, subserie, tipos documentales, tiempo de retención, disposición final y dependencia responsable",
+      "Nombre del funcionario, salario y horario",
+      "Solo fecha y número de cajas",
+      "Correo electrónico y teléfono"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Cuál es la diferencia entre TRD y TVD?",
+    "opciones": [
+      "La TRD se aplica a documentos activos de la entidad y la TVD se usa para valorar fondos acumulados",
+      "La TVD se usa solo para documentos electrónicos",
+      "La TRD reemplaza al inventario documental",
+      "No existe diferencia entre ambas"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Qué es un Cuadro de Clasificación Documental (CCD)?",
+    "opciones": [
+      "Un esquema que organiza y agrupa las series y subseries documentales según la estructura y funciones de la entidad",
+      "Un formato para eliminar documentos",
+      "Un inventario de computadores",
+      "Un registro de préstamos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Cuál es la función del Inventario Documental?",
+    "opciones": [
+      "Permite saber qué documentos existen, cuántos hay, dónde están y en qué estado se encuentran",
+      "Sirve solo para contar carpetas vacías",
+      "Se usa únicamente para préstamos",
+      "Reemplaza la clasificación documental"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Cuál es el objetivo del Programa de Gestión Documental (PGD)?",
+    "opciones": [
+      "Planear, organizar y controlar toda la gestión documental de la entidad para mejorar procesos y asegurar conservación y acceso",
+      "Eliminar documentos antiguos sin revisión",
+      "Crear formatos de nómina",
+      "Registrar únicamente documentos físicos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Qué información debe contener un Formato Único de Inventario Documental (FUID)?",
+    "opciones": [
+      "Entidad, dependencia, serie, subserie, fechas extremas, número de cajas o carpetas, soportes, ubicación y observaciones",
+      "Solo nombre del archivo y teléfono",
+      "Únicamente la fecha de creación",
+      "Solo el nombre del funcionario responsable"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Qué es un Banco Terminológico?",
+    "opciones": [
+      "Un instrumento que normaliza los nombres de series, subseries y tipos documentales para que toda la entidad use la misma terminología",
+      "Un archivo de cuentas bancarias",
+      "Un sistema de préstamo de documentos",
+      "Un formato para registrar asistencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Qué son los metadatos documentales?",
+    "opciones": [
+      "Los datos que describen un documento, como autor, fecha, asunto, versión, soporte y ubicación",
+      "Los errores encontrados en un archivo",
+      "Las firmas de los usuarios",
+      "Los documentos eliminados"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 2. INSTRUMENTOS DE CONTROL ARCHIVÍSTICO",
+    "pregunta": "¿Cuál es la función de los índices electrónicos?",
+    "opciones": [
+      "Permiten relacionar y ubicar los documentos electrónicos de un expediente, facilitando su control, consulta y cierre",
+      "Sirven para imprimir documentos",
+      "Reemplazan las carpetas físicas",
+      "Eliminan la necesidad de clasificar"
+    ],
+    "respuesta": 0
+  },
+
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Qué características debe cumplir un formato de préstamo documental?",
+    "opciones": [
+      "Debe identificar solicitante, fecha, documento prestado, responsable, firma, plazo de devolución y estado del material entregado",
+      "Debe incluir solo el nombre del documento",
+      "Solo requiere el número de caja",
+      "No necesita firma ni fecha"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Cuál es la finalidad del formato de transferencia documental?",
+    "opciones": [
+      "Dejar constancia de qué documentos pasan de un archivo a otro, en qué fecha, en qué cantidad y bajo qué responsabilidad",
+      "Eliminar documentos de forma automática",
+      "Registrar únicamente préstamos internos",
+      "Controlar la entrada de visitantes"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Qué controles deben aplicarse en el registro de entrada y salida de documentos?",
+    "opciones": [
+      "Fecha, consecutivo, remitente o destinatario, asunto, responsable, medio de envío y verificación de recepción",
+      "Solo nombre del documento",
+      "Únicamente el número de folios",
+      "Solo la firma del jefe"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Qué información mínima debe contener un acta de eliminación documental?",
+    "opciones": [
+      "Fecha, acta o comité que autoriza, series eliminadas, cantidad de documentos, fundamento normativo, responsables y firmas",
+      "Solo el nombre del archivo",
+      "Únicamente la fecha y el lugar",
+      "Solo la firma del secretario"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Cuál es la utilidad de los formatos de control de acceso a archivos?",
+    "opciones": [
+      "Sirven para saber quién puede consultar, modificar o retirar documentos y para proteger la información reservada o sensible",
+      "Sirven únicamente para ordenar carpetas",
+      "Se usan para imprimir documentos",
+      "No tienen utilidad en la gestión documental"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Cuál es la importancia de los consecutivos documentales?",
+    "opciones": [
+      "Permiten ordenar los documentos en secuencia, evitar saltos o duplicados y comprobar si faltan registros",
+      "Solo sirven para decorar formatos",
+      "No tienen relación con el control administrativo",
+      "Se usan únicamente en documentos históricos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Cuál es una diferencia entre un registro físico y un registro electrónico?",
+    "opciones": [
+      "El físico se maneja en papel y firma manual; el electrónico se guarda en sistemas, admite control digital, búsqueda rápida y trazabilidad automática",
+      "El físico siempre es digital",
+      "El electrónico no permite búsquedas",
+      "No hay ninguna diferencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 3. FORMATOS Y REGISTROS DE CONTROL",
+    "pregunta": "¿Qué mecanismos pueden implementarse para controlar versiones documentales?",
+    "opciones": [
+      "Numeración de versiones, historial de cambios, aprobación previa, control de acceso y registro de fecha y responsable",
+      "Solo guardar archivos en una carpeta",
+      "Eliminar versiones anteriores sin control",
+      "Imprimir todos los cambios en papel"
+    ],
+    "respuesta": 0
+  },
+
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Qué relación existe entre la gestión documental y los sistemas de gestión de calidad?",
+    "opciones": [
+      "La documentación sostiene el sistema de gestión, deja evidencia de lo hecho y ayuda a mantener procesos estables y auditables",
+      "No existe ninguna relación",
+      "La gestión documental reemplaza la calidad",
+      "Los sistemas de calidad no requieren documentos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Cómo se aplica el ciclo PHVA en el control documental?",
+    "opciones": [
+      "Planear: definir reglas y formatos; Hacer: aplicar el control; Verificar: revisar cumplimiento; Actuar: corregir y mejorar",
+      "Planear: archivar; Hacer: eliminar; Verificar: imprimir; Actuar: duplicar",
+      "Planear: firmar; Hacer: sellar; Verificar: copiar; Actuar: borrar",
+      "Solo sirve para revisar documentos antiguos"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Cuál de los siguientes puede ser un indicador de eficiencia documental?",
+    "opciones": [
+      "Tiempo de búsqueda documental",
+      "Color de las carpetas",
+      "Número de escritorios",
+      "Cantidad de impresoras"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Cuál es la importancia de las auditorías internas en los procesos archivísticos?",
+    "opciones": [
+      "Permiten detectar fallas, medir cumplimiento y corregir a tiempo los procesos archivísticos",
+      "Sirven solo para archivar facturas",
+      "Reemplazan todas las normas",
+      "No aportan a la mejora continua"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Qué acciones correctivas pueden implementarse frente a hallazgos documentales?",
+    "opciones": [
+      "Corregir la causa, capacitar al personal, actualizar formatos, reorganizar archivos y hacer seguimiento",
+      "Ignorar el hallazgo",
+      "Eliminar el documento hallado",
+      "Cambiar únicamente el nombre del archivo"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 4. CALIDAD Y MEJORA CONTINUA",
+    "pregunta": "¿Qué es el control de cambios en documentos del sistema de calidad?",
+    "opciones": [
+      "Registrar qué se modificó, quién lo aprobó, cuándo cambió y qué versión quedó vigente",
+      "Borrar los cambios anteriores",
+      "Repetir el mismo documento sin control",
+      "Cambiar documentos solo de forma verbal"
+    ],
+    "respuesta": 0
+  },
+
+  {
+    "seccion": "SECCIÓN 5. NORMATIVA APLICABLE",
+    "pregunta": "¿Qué establece la Ley 1712 de 2014 respecto a la información documental?",
+    "opciones": [
+      "Regula el derecho de acceso a la información pública y establece que la información en poder de las entidades es, por regla general, pública",
+      "Prohíbe la consulta de documentos públicos",
+      "Obliga a eliminar todos los documentos",
+      "Solo aplica a archivos privados"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 5. NORMATIVA APLICABLE",
+    "pregunta": "¿Qué exigen los lineamientos de ISO 9001 aplicables al control documental?",
+    "opciones": [
+      "Que la información documentada del sistema de gestión se controle para asegurar su disponibilidad, adecuación y protección frente a cambios o pérdidas",
+      "Que se eliminen todos los registros después de usarlos",
+      "Que la documentación no tenga control",
+      "Que solo existan documentos en papel"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 5. NORMATIVA APLICABLE",
+    "pregunta": "¿Qué requisitos establece la norma ISO 15489 para la administración documental?",
+    "opciones": [
+      "Principios para crear, capturar y gestionar documentos de archivo, incluyendo metadatos, responsabilidades, control, seguimiento, capacitación y análisis del contexto",
+      "Solo indica cómo imprimir documentos",
+      "Se limita a registrar correos electrónicos",
+      "No incluye responsabilidades ni control"
+    ],
+    "respuesta": 0
+  },
+  {
+    "seccion": "SECCIÓN 5. NORMATIVA APLICABLE",
+    "pregunta": "¿Qué consecuencias legales puede generar la pérdida o alteración de documentos institucionales?",
+    "opciones": [
+      "Sanciones, inspección y control, pérdida de valor probatorio, hallazgos de auditoría y responsabilidad administrativa o disciplinaria",
+      "Solo un cambio de archivo",
+      "Ninguna consecuencia",
+      "Únicamente una corrección interna sin efectos"
+    ],
+    "respuesta": 0
+  }
+]

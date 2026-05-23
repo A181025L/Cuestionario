@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   CUESTIONARIO DE PRÁCTICA v2.0
+   CUESTIONARIO DE PRÁCTICA v3.0
    ───────────────────────────────────────────────────────────────────────────
    Para agregar un TEMA:  añade { clave: "ruta.json" } en `temas`
                           y su nombre en la materia correspondiente en `materias`
@@ -27,7 +27,9 @@ const temas = {
   formatos_registros_control: "data/formatos_registros_control.json",
   calidad_mejora_continua: "data/calidad_mejora_continua.json",
   normativa_aplicable: "data/normativa_aplicable.json",
-  fondo_acumulado_todo: "data/fondo_acumulado_todo.json"
+  controlar_documentos_todo: "data/controlar_documentos_todo.json",
+  controlar_conceptos: "data/controlar_conceptos.json",
+  instrumento_evaluacion: "data/instrumento_evaluacion.json"
 };
 
 /**
@@ -49,8 +51,8 @@ const materias = {
       manual_correspondencia: "Manual de correspondencia",
     }
   },
-  fondo_acumulado: {
-      nombre: "Fondo Acumulado",
+  controlar_documentos: {
+      nombre: "Controlar Documentos",
       icono:  "📚",
       color:  "#ffbe00",
       temas: {
@@ -59,7 +61,9 @@ const materias = {
         formatos_registros_control: "Formatos y Registros de Control",
         calidad_mejora_continua: "Calidad y Mejora Continua",
         normativa_aplicable: "Normativa Aplicable",
-        fondo_acumulado_todo: "Fondo Acumulado – Todo el temario"
+        controlar_documentos_todo: "Controlar Documentos – Todo el temario",
+        controlar_conceptos: "Controlar Documentos – Conceptos clave",
+        instrumento_evaluacion: "Instrumento de Evaluación"
       }
   }
   // ── Plantilla para nueva materia ────────────────────────────────────────
@@ -95,8 +99,9 @@ let puntaje           = 0;
 let timer             = null;
 let tiempoRestante    = 0;
 let tiempoInicio      = null;
-let modoActual        = "todos";
-let selectedTerm      = null;   // para el modo arrastrar
+let modoActual           = "todos";
+let examenAlcanceActual  = "todas";   // "todas" | "seleccion"
+let selectedTerm         = null;      // para el modo arrastrar
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3. REFERENCIAS DOM
@@ -107,6 +112,7 @@ const cuestionarioDiv    = document.getElementById("cuestionario");
 const resultadoDiv       = document.getElementById("resultado");
 
 const opcionTemaDiv      = document.getElementById("opcionTema");
+const opcionExamenDiv    = document.getElementById("opcionExamen");
 const opcionPorMatDiv    = document.getElementById("opcionPorMateria");
 const materiaParaTemaEl  = document.getElementById("materiaParaTema");
 const temaSelectEl       = document.getElementById("temaSelect");
@@ -190,6 +196,16 @@ function initUI() {
     card.addEventListener("click", () => {
       const radio = card.querySelector("input[type=radio]");
       radio.checked = true;
+      // Alcance cards (examen sub-mode)
+      if (radio.name === "examenAlcance") {
+        examenAlcanceActual = radio.value;
+        document.querySelectorAll("#examenAlcanceGrid .modo-card").forEach(c =>
+          c.classList.toggle("active", c.dataset.alcance === radio.value)
+        );
+        // Show/hide shared materia grid
+        opcionPorMatDiv.style.display = radio.value === "seleccion" ? "block" : "none";
+        return;
+      }
       sincronizarModoCards(radio.value);
       onModoChange(radio.value);
     });
@@ -226,9 +242,14 @@ function onModoChange(modo) {
   const esNuevo  = modo === "nuevo";
 
   opcionTemaDiv.style.display        = esTema   ? "block" : "none";
-  opcionPorMatDiv.style.display      = esMat    ? "block" : "none";
+  opcionExamenDiv.style.display      = esExamen ? "block" : "none";
   tiempoConfig.style.display         = esExamen ? "none"  : "flex";
   tiempoExamenConfig.style.display   = esExamen ? "flex"  : "none";
+
+  // La cuadrícula de materias es compartida: aparece en "por_materia"
+  // y en "examen" cuando se elige alcance "seleccion"
+  const mostrarGrid = esMat || (esExamen && examenAlcanceActual === "seleccion");
+  opcionPorMatDiv.style.display = mostrarGrid ? "block" : "none";
 
   iniciarBtn.textContent = esNuevo ? "✨ Ver modalidad →" : "▶ Iniciar cuestionario";
   iniciarBtn.classList.toggle("btn-pronto", esNuevo);
@@ -257,7 +278,28 @@ iniciarBtn.addEventListener("click", async () => {
   resultadoDiv.style.display = "none";
 
   try {
-    preguntas = await cargarPreguntas();
+    if (modoActual === "examen") {
+      const matKeys = examenAlcanceActual === "seleccion"
+        ? getMateriasSeleccionadas()
+        : Object.keys(materias);
+
+      const cantidad = parseInt(cantidadInput.value);
+      if (!isNaN(cantidad) && cantidad > 0) {
+        // Selección proporcional por materia y tema
+        preguntas = await cargarMateriasProporcionalmente(matKeys, cantidad);
+      } else {
+        // Sin cantidad: cargar todo y mezclar
+        preguntas = await cargarMaterias(matKeys);
+        preguntas = preguntas.sort(() => Math.random() - 0.5);
+      }
+    } else {
+      preguntas = await cargarPreguntas();
+      preguntas = preguntas.sort(() => Math.random() - 0.5);
+      const cantidad = parseInt(cantidadInput.value);
+      if (!isNaN(cantidad) && cantidad > 0 && cantidad < preguntas.length) {
+        preguntas = preguntas.slice(0, cantidad);
+      }
+    }
   } catch (err) {
     infoBar.textContent = `❌ Error cargando preguntas: ${err.message}`;
     configPanel.style.display = "block";
@@ -270,13 +312,6 @@ iniciarBtn.addEventListener("click", async () => {
     return;
   }
 
-  // Mezclar y limitar
-  preguntas = preguntas.sort(() => Math.random() - 0.5);
-  const cantidad = parseInt(cantidadInput.value);
-  if (!isNaN(cantidad) && cantidad > 0 && cantidad < preguntas.length) {
-    preguntas = preguntas.slice(0, cantidad);
-  }
-
   // Info bar
   const resumenTipos = contarTipos(preguntas);
   infoBar.textContent = modoActual === "examen"
@@ -284,7 +319,15 @@ iniciarBtn.addEventListener("click", async () => {
     : `📋 ${preguntas.length} preguntas · ${resumenTipos}`;
 
   tiempoInicio = Date.now();
-  if (modoActual === "examen") iniciarTemporizadorExamen();
+
+  if (modoActual === "examen") {
+    // Auto-calcular tiempo si no se definió uno
+    const minutos = parseInt(tiempoExamenInput.value);
+    if (isNaN(minutos) || minutos <= 0) {
+      tiempoExamenInput.value = calcularTiempoAutoExamen(preguntas.length);
+    }
+    iniciarTemporizadorExamen();
+  }
 
   cuestionarioDiv.style.display = "block";
   mostrarPregunta();
@@ -304,6 +347,13 @@ function contarTipos(lista) {
 // ─────────────────────────────────────────────────────────────────────────────
 // 6. CARGA DE PREGUNTAS
 // ─────────────────────────────────────────────────────────────────────────────
+
+/** Devuelve las claves de materias actualmente marcadas en el grid compartido */
+function getMateriasSeleccionadas() {
+  return Array.from(materiasCheckGrid.querySelectorAll("input:checked"))
+    .map(cb => cb.value);
+}
+
 async function cargarPreguntas() {
   if (modoActual === "tema") {
     const key = temaSelectEl.value;
@@ -312,12 +362,10 @@ async function cargarPreguntas() {
   }
 
   if (modoActual === "por_materia") {
-    const seleccionadas = Array.from(materiasCheckGrid.querySelectorAll("input:checked"))
-      .map(cb => cb.value);
-    return await cargarMaterias(seleccionadas);
+    return await cargarMaterias(getMateriasSeleccionadas());
   }
 
-  // "todos" y "examen": cargar todas las materias
+  // "todos" — cargar todas las materias
   return await cargarMaterias(Object.keys(materias));
 }
 
@@ -353,6 +401,85 @@ async function cargarJSON(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${url}`);
   return res.json();
+}
+
+/**
+ * Carga preguntas distribuidas de forma proporcional entre materias y sus temas.
+ *
+ * Algoritmo:
+ *  1. Divide `total` entre las M materias lo más uniformemente posible.
+ *  2. Dentro de cada materia, divide su cuota entre sus T temas, también uniforme.
+ *  3. De cada tema toma las preguntas necesarias al azar.
+ *  4. Mezcla el resultado final para que las preguntas NO salgan por materia/tema.
+ *
+ * Si un tema tiene menos preguntas que su cuota se toman todas las disponibles.
+ */
+async function cargarMateriasProporcionalmente(listaMateriaKeys, total) {
+  // ── Cargar agrupado por materia → tema ────────────────────────────────────
+  const grupos = {}; // { matKey: { temaKey: [preguntas] } }
+
+  for (const matKey of listaMateriaKeys) {
+    const mat = materias[matKey];
+    if (!mat) continue;
+    grupos[matKey] = {};
+    for (const temaKey of Object.keys(mat.temas)) {
+      if (!temas[temaKey]) continue;
+      try {
+        const data = await cargarJSON(temas[temaKey]);
+        const preg = normalizarPreguntas(data, temaKey, matKey);
+        if (preg.length > 0) grupos[matKey][temaKey] = preg;
+      } catch (e) {
+        console.warn(`No se pudo cargar "${temaKey}":`, e.message);
+      }
+    }
+    if (Object.keys(grupos[matKey]).length === 0) delete grupos[matKey];
+  }
+
+  const matKeys = Object.keys(grupos);
+  const M = matKeys.length;
+  if (M === 0) return [];
+
+  // ── Distribuir cuota por materia ──────────────────────────────────────────
+  const base   = Math.floor(total / M);
+  const extras = total % M;
+  const result = [];
+
+  // Mezclar orden de materias para que los "extras" se repartan al azar
+  const shuffledMats = [...matKeys].sort(() => Math.random() - 0.5);
+
+  shuffledMats.forEach((matKey, mi) => {
+    const cuotaMat = base + (mi < extras ? 1 : 0);
+    if (cuotaMat === 0) return;
+
+    const temasGrupo = grupos[matKey];
+    const temaKeys   = Object.keys(temasGrupo);
+    const T          = temaKeys.length;
+
+    const baseT   = Math.floor(cuotaMat / T);
+    const extrasT = cuotaMat % T;
+
+    // Mezclar orden de temas para repartir los extras al azar
+    const shuffledTemas = [...temaKeys].sort(() => Math.random() - 0.5);
+
+    shuffledTemas.forEach((temaKey, ti) => {
+      const cuotaTema = baseT + (ti < extrasT ? 1 : 0);
+      if (cuotaTema === 0) return;
+      // Mezclar preguntas del tema y tomar la cuota
+      const mezcladas = [...temasGrupo[temaKey]].sort(() => Math.random() - 0.5);
+      result.push(...mezcladas.slice(0, cuotaTema));
+    });
+  });
+
+  // ── Mezcla final: romper cualquier agrupación por materia/tema ────────────
+  return result.sort(() => Math.random() - 0.5);
+}
+
+/**
+ * Calcula un tiempo de examen razonable cuando el usuario no lo especificó.
+ * Criterio: ~2 min/pregunta, mínimo 5 minutos.
+ */
+function calcularTiempoAutoExamen(numPreguntas) {
+  return Math.max(5, Math.ceil(numPreguntas * 2));
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -688,6 +815,10 @@ function actualizarTimerUI(restante, total) {
 }
 
 function tiempoAgotado() {
+  // 🎵 Reproducir sonido de tiempo agotado
+  const sonido = new Audio("/resources/sound/time-out.mp3");
+  sonido.play().catch(err => console.warn("Autoplay bloqueado por el navegador:", err));
+
   const q = preguntas[indiceActual];
   // Bloquear controles
   Array.from(opcionesEl.children).forEach(btn => btn.disabled = true);
@@ -713,7 +844,15 @@ function iniciarTemporizadorExamen() {
     const m = Math.floor(totalSeg / 60);
     const s = totalSeg % 60;
     temporizadorEl.textContent = `⏳ ${m}:${String(s).padStart(2, "0")}`;
-    if (totalSeg <= 0) { clearInterval(timer); mostrarResultado(); }
+    if (totalSeg <= 0) { 
+      clearInterval(timer); 
+      
+      // 🎵 Reproducir sonido cuando se acaba el examen global
+      const sonido = new Audio("/resources/sound/time-out.mp3");
+      sonido.play().catch(err => console.warn("Autoplay bloqueado por el navegador:", err));
+      
+      mostrarResultado(); 
+    }
   }, 1000);
 }
 
@@ -839,12 +978,14 @@ function mostrarNuevoModo() {
   infoBar.style.display = "block";
   infoBar.innerHTML = `
     <div class="nuevo-modo-screen">
-      <div class="nm-emoji">✨</div>
+      <div class="nm-emoji">
+        <img src="/resources/images/wip-arc.jpeg" alt="icono" style="width:300px;height:autopx;">
+      </div>
       <div class="nm-title">Nueva modalidad</div>
       <div class="nm-desc">
         Esta modalidad está en desarrollo.<br>
         Aquí podrás practicar de una forma completamente distinta.<br>
-        <small style="color:var(--muted2)">Añade su lógica en la función <code>mostrarNuevoModo()</code> de script.js.</small>
+        <!-- <small style="color:var(--muted2)">Añade su lógica en la función <code>mostrarNuevoModo()</code> de script.js.</small> -->
       </div>
       <button onclick="location.reload()" class="btn-primary" style="max-width:200px;margin:0 auto">← Volver</button>
     </div>

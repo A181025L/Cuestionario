@@ -1,187 +1,291 @@
 <!DOCTYPE html>
 <html lang="es">
+<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⢀⡔⣻⠁⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣾⠳⢶⣦⠤⣀⠀⠀⠀⠀⠀⠀⠀⣾⢀⡇⡴⠋⣀⠴⣊⣩⣤⠶⠞⢹⣄⠀⠀⠀
+⠀⠀⠀⠀⢸⠀⠀⢠⠈⠙⠢⣙⠲⢤⠤⠤⠀⠒⠳⡄⣿⢀⠾⠓⢋⠅⠛⠉⠉⠝⠀⠼⠀⠀⠀
+⠀⠀⠀⠀⢸⠀⢰⡀⠁⠀⠀⠈⠑⠦⡀⠀⠀⠀⠀⠈⠺⢿⣂⠀⠉⠐⠲⡤⣄⢉⠝⢸⠀⠀⠀
+⠀⠀⠀⠀⢸⠀⢀⡹⠆⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠀⠀⠀⠉⠙⠲⣄⠀⠀⠙⣷⡄⢸⠀⠀⠀
+⠀⠀⠀⠀⢸⡀⠙⠂⢠⠀⠀⡠⠊⠀⠀⠀⠀⢠⠀⠀⠀⠀⠘⠄⠀⠀⠑⢦⣔⠀⢡⡸⠀⠀⠀
+⠀⠀⠀⠀⢀⣧⠀⢀⡧⣴⠯⡀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⢸⡠⠔⠈⠁⠙⡗⡤⣷⡀⠀⠀
+⠀⠀⠀⠀⡜⠈⠚⠁⣬⠓⠒⢼⠅⠀⠀⠀⣠⡇⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⡀⢹⠀⠸⡄⠀⠀
+⠀⠀⠀⡸⠀⠀⠀⠘⢸⢀⠐⢃⠀⠀⠀⡰⠋⡇⠀⠀⠀⢠⠀⠀⡿⣆⠀⠀⣧⡈⡇⠆⢻⠀⠀
+⠀⠀⢰⠃⠀⠀⢀⡇⠼⠉⠀⢸⡤⠤⣶⡖⠒⠺⢄⡀⢀⠎⡆⣸⣥⠬⠧⢴⣿⠉⠸⡀⣇⠀⠀
+⠀⠀⠇⠀⠀⠀⢸⠀⠀⠀⣰⠋⠀⢸⣿⣿⠀⠀⠀⠙⢧⡴⢹⣿⣿⠀⠀⠀⠈⣆⠀⠀⢧⢹⡄
+⠀⣸⠀⢠⠀⠀⢸⡀⠀⠀⢻⡀⠀⢸⣿⣿⠀⠀⠀⠀⡼⣇⢸⣿⣿⠀⠀⠀⢀⠏⠀⠀⢸⠀⠇
+⠀⠓⠈⢃⠀⠀⠀⡇⠀⠀⠀⣗⠦⣀⣿⡇⠀⣀⠤⠊⠀⠈⠺⢿⣃⣀⠤⠔⢸⠀⠀⠀⣼⠑⢼
+⠀⠀⠀⢸⡀⣀⣾⣷⡀⠀⢸⣯⣦⡀⠀⠀⠀⢇⣀⣀⠐⠦⣀⠘⠀⠀⢀⣰⣿⣄⠀⠀⡟⠀⠀
+⠀⠀⠀⠀⠛⠁⣿⣿⣧⠀⣿⣿⣿⣿⣦⣀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣴⣿⣿⡿⠈⠢⣼⡇⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⠁⠈⠻⠈⢻⡿⠉⣿⠿⠛⡇⠒⠒⢲⠺⢿⣿⣿⠉⠻⡿⠁⠀⠀⠈⠁⠀⠀
+⢀⠤⠒⠦⡀⠀⠀⠀⠀⠀⠀⠀⢀⠞⠉⠆⠀⠀⠉⠉⠉⠀⠀⡝⣍⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⡎⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⡰⠋⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⢡⠈⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⡇⠀⠀⠸⠁⠀⠀⠀⠀⢀⠜⠁⠀⠀⠀⡸⠀⠀⠀⠀⠀⠀⠀⠘⡄⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀
+⡇⠀⠀⢠⠀⠀⠀⠀⠠⣯⣀⠀⠀⠀⡰⡇⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⢀⡦⠤⢄⡀⠀⠀⠀⠀
+⢱⡀⠀⠈⠳⢤⣠⠖⠋⠛⠛⢷⣄⢠⣷⠁⠀⠀⠀⠀⠀⠀⠀⠀⠘⡾⢳⠃⠀⠘⢇⠀⠀⠀⠀
+⠀⠙⢦⡀⠀⢠⠁⠀⠀⠀⠀⠀⠙⣿⣏⣀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣧⡃⠀⠀⠀ ⠀⣸⠀⠀⠀
+⠀⠀⠀⠈⠉⢺⣄⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣗⣤⣀⣠⡾⠃⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠣⢅⡤⣀⣀⣠⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠉⠉⠉⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠁⠀⠉⣿⣿⣿⣿⣿⡿⠻⣿⣿⣿⣿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⠀⠀⠀⠀⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣟⠀⠀⢠⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⠀⠀⢸⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡏⠀⠀⢸⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠀⠀⠀⢺⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠈⠉⠻⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀
+-->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cuestionario de Práctica</title>
+  <meta name="format-detection" content="telephone=no" />
+
+  <title>Neko-Documental | Cuestionarios y Gestión Documental</title>
+  <meta name="description" content="Neko-Documental es una página de cuestionarios de estudio por transversal, con modos de práctica, examen, selección por materia y seguimiento de resultados." />
+  <meta name="keywords" content="Neko-Documental, gestión documental, cuestionarios, estudio, transversal, examen, práctica, materias, aprendizaje" />
+  <meta name="author" content="SENA" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#f5b8ff" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="application-name" content="Neko-Documental" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Datos de la organización -->
+  <meta name="company:name" content="Neko-Documental" />
+  <meta name="company:role" content="Plataforma de cuestionarios y gestión documental" />
+  <meta name="company:version" content="2.1.2" />
+  <meta name="company:country" content="Colombia" />
+  <meta name="company:language" content="es" />
+
+  <!-- Iconos -->
+  <link rel="icon" type="image/jpeg" href="ico.jpeg" />
+  <link rel="apple-touch-icon" href="ico.jpeg" />
+  <link rel="shortcut icon" href="ico.jpeg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://a181025l.github.io/Cuestionario/" />
+
+  <!-- Open Graph: Facebook, WhatsApp y otras redes -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+  <meta property="og:site_name" content="Neko-Documental" />
+  <meta property="og:title" content="Neko-Documental" />
+  <meta property="og:description" content="Cuestionarios de estudio por transversal con modos de práctica, examen y selección por materia." />
+  <meta property="og:url" content="https://a181025l.github.io/Cuestionario/" />
+  <meta property="og:image" content="https://a181025l.github.io/Cuestionario/ico.jpeg" />
+  <meta property="og:image:secure_url" content="https://a181025l.github.io/Cuestionario/ico.jpeg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Logo de Neko-Documental" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Neko-Documental" />
+  <meta name="twitter:description" content="Plataforma de cuestionarios de estudio por transversal." />
+  <meta name="twitter:image" content="https://a181025l.github.io/Cuestionario/ico.jpeg" />
+  <meta name="twitter:image:alt" content="Logo de Neko-Documental" />
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Neko-Documental",
+    "url": "https://a181025l.github.io/Cuestionario/",
+    "description": "Plataforma de cuestionarios de estudio por transversal.",
+    "inLanguage": "es",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Neko-Documental",
+      "url": "https://a181025l.github.io/Cuestionario/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://a181025l.github.io/Cuestionario/ico.jpeg"
+      }
+    }
+  }
+  </script>
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-
-  <div class="app-wrapper">
-
-    <!-- ═══════════ ENCABEZADO ═══════════ -->
-    <header>
-      <div class="logo-mark">CPv2</div>
-      <h1>Cuestionario de Práctica</h1>
-      <p class="subtitle">Sistema multi-materia · multi-tipo</p>
+  <div class="app-wrapper" id="contenido">
+    <header class="site-header" role="banner">
+      <div class="logo-mark">v2.1.2</div>
+      <a href="" style="text-decoration: none; color: inherit;">
+        <h1>NEKO-DOCUMENTAL</h1>
+      </a>
+      <p class="subtitle">Cuestionarios de estudio por transversal</p>
     </header>
 
-    <!-- ═══════════ CONFIGURACIÓN ═══════════ -->
-    <div class="config" id="configPanel">
+    <main>
+      <section class="config" id="configPanel" aria-label="Configuración del cuestionario">
 
-      <!-- PASO 1 – MODO -->
-      <section class="config-section">
-        <div class="section-label">Modo de estudio</div>
-        <div class="modos-grid" id="modosGrid">
+        <section class="config-section">
+          <div class="section-label">Modo de estudio</div>
+          <div class="modos-grid" id="modosGrid">
+            <label class="modo-card" data-modo="todos">
+              <input type="radio" name="modo" value="todos" checked />
+              <span class="mc-icon">🌐</span>
+              <span class="mc-title">Todos los temas</span>
+              <span class="mc-desc">Práctica general</span>
+            </label>
 
-          <label class="modo-card" data-modo="todos">
-            <input type="radio" name="modo" value="todos" checked />
-            <span class="mc-icon">🌐</span>
-            <span class="mc-title">Todos los temas</span>
-            <span class="mc-desc">Práctica general</span>
-          </label>
+            <label class="modo-card" data-modo="tema">
+              <input type="radio" name="modo" value="tema" />
+              <span class="mc-icon">📚</span>
+              <span class="mc-title">Tema específico</span>
+              <span class="mc-desc">Elige materia y tema</span>
+            </label>
 
-          <label class="modo-card" data-modo="tema">
-            <input type="radio" name="modo" value="tema" />
-            <span class="mc-icon">📚</span>
-            <span class="mc-title">Tema específico</span>
-            <span class="mc-desc">Elige materia y tema</span>
-          </label>
+            <label class="modo-card" data-modo="por_materia">
+              <input type="radio" name="modo" value="por_materia" />
+              <span class="mc-icon">🗂️</span>
+              <span class="mc-title">Por materia</span>
+              <span class="mc-desc">Una o varias materias</span>
+            </label>
 
-          <label class="modo-card" data-modo="por_materia">
-            <input type="radio" name="modo" value="por_materia" />
-            <span class="mc-icon">🗂️</span>
-            <span class="mc-title">Por materia</span>
-            <span class="mc-desc">Una o varias materias</span>
-          </label>
+            <label class="modo-card" data-modo="examen">
+              <input type="radio" name="modo" value="examen" />
+              <span class="mc-icon">🧾</span>
+              <span class="mc-title">Examen</span>
+              <span class="mc-desc">Con tiempo límite total</span>
+            </label>
 
-          <label class="modo-card" data-modo="examen">
-            <input type="radio" name="modo" value="examen" />
-            <span class="mc-icon">🧾</span>
-            <span class="mc-title">Examen</span>
-            <span class="mc-desc">Con tiempo límite total</span>
-          </label>
-
-          <!-- ── NUEVA MODALIDAD (plantilla) ── -->
-          <label class="modo-card modo-nuevo" data-modo="nuevo">
-            <input type="radio" name="modo" value="nuevo" />
-            <span class="mc-icon">✨</span>
-            <span class="mc-title">Nueva modalidad</span>
-            <span class="mc-desc">Próximamente</span>
-            <span class="badge-pronto">PRONTO</span>
-          </label>
-
-        </div>
-      </section>
-
-      <!-- PASO 2 – OPCIONES CONDICIONALES POR MODO -->
-
-      <!-- Tema específico: materia → tema -->
-      <section class="modo-opcion" id="opcionTema" style="display:none">
-        <div class="section-label">Selección de tema</div>
-        <div class="select-row">
-          <div class="select-group">
-            <label>Materia</label>
-            <select id="materiaParaTema"></select>
+            <label class="modo-card modo-nuevo" data-modo="nuevo">
+              <input type="radio" name="modo" value="nuevo" />
+              <span class="mc-icon">✨</span>
+              <span class="mc-title">Nueva modalidad</span>
+              <span class="mc-desc">Próximamente</span>
+              <span class="badge-pronto">PRONTO</span>
+            </label>
           </div>
-          <div class="select-group">
-            <label>Tema</label>
-            <select id="temaSelect"></select>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Por materia: checkboxes de materias -->
-      <section class="modo-opcion" id="opcionPorMateria" style="display:none">
-        <div class="section-label">Selecciona las materias</div>
-        <div class="materias-check-grid" id="materiasCheckGrid"></div>
-      </section>
-
-      <!-- PASO 3 – PARÁMETROS -->
-      <section class="config-section params-row">
-
-        <div class="param-group">
-          <label>Cantidad de preguntas</label>
-          <input type="number" id="cantidad" min="1" placeholder="Todas" />
-        </div>
-
-        <div class="param-group" id="tiempoConfig">
-          <label>Segundos por pregunta</label>
-          <input type="number" id="tiempoPorPregunta" min="5" placeholder="Sin límite" />
-        </div>
-
-        <div class="param-group" id="tiempoExamenConfig" style="display:none">
-          <label>Duración total (min)</label>
-          <input type="number" id="tiempoExamen" min="1" placeholder="Ej: 30" />
-        </div>
-
-      </section>
-
-      <button id="iniciar" class="btn-primary">▶ Iniciar cuestionario</button>
-    </div>
-
-    <!-- ═══════════ INFO BARRA ═══════════ -->
-    <div id="info" class="info-bar" style="display:none"></div>
-
-    <!-- ═══════════ CUESTIONARIO ═══════════ -->
-    <div id="cuestionario" class="quiz-panel" style="display:none">
-
-      <div class="quiz-header">
-        <div class="quiz-meta-row">
-          <span id="contadorPreguntas" class="q-counter"></span>
-          <span id="tipoBadge" class="tipo-badge"></span>
-          <span id="temporizador" class="temporizador"></span>
-        </div>
-        <div class="progress-bar-track">
-          <div id="barraProgreso" class="progress-bar-fill"></div>
-        </div>
-      </div>
-
-      <div class="pregunta-card">
-        <h2 id="pregunta"></h2>
-
-        <!-- Opción múltiple / V·F -->
-        <div id="opciones" class="opciones-grid"></div>
-
-        <!-- Completar -->
-        <div id="zonaCompletar" class="zona-completar" style="display:none">
-          <input type="text" id="inputCompletar" placeholder="Escribe tu respuesta…" autocomplete="off" />
-          <button id="btnCompletar" class="btn-verificar">Verificar →</button>
-        </div>
-
-        <!-- Arrastrar / Relacionar -->
-        <div id="zonaArrastrar" class="zona-arrastrar" style="display:none">
-          <p class="arrastrar-hint">Toca un término y luego la definición donde pertenece.</p>
-          <div class="arrastrar-layout">
-            <div class="arrastrar-col" id="terminosCol">
-              <div class="col-label">Términos</div>
-              <div id="terminosList"></div>
+        <section class="modo-opcion" id="opcionTema" style="display:none">
+          <div class="section-label">Selección de tema</div>
+          <div class="select-row">
+            <div class="select-group">
+              <label for="materiaParaTema">Materia</label>
+              <select id="materiaParaTema"></select>
             </div>
-            <div class="arrastrar-col" id="definicionesCol">
-              <div class="col-label">Definiciones</div>
-              <div id="definicionesList"></div>
+            <div class="select-group">
+              <label for="temaSelect">Tema</label>
+              <select id="temaSelect"></select>
             </div>
           </div>
-          <button id="btnVerificarArrastrar" class="btn-verificar" style="margin-top:16px">Verificar relaciones →</button>
+        </section>
+
+        <!-- Sub-opciones del modo Examen -->
+        <section class="modo-opcion" id="opcionExamen" style="display:none">
+          <div class="section-label">Alcance del examen</div>
+          <div class="modos-grid alcance-grid" id="examenAlcanceGrid">
+            <label class="modo-card active" data-alcance="todas">
+              <input type="radio" name="examenAlcance" value="todas" checked />
+              <span class="mc-icon">🌐</span>
+              <span class="mc-title">Todas las materias</span>
+              <span class="mc-desc">Todo el temario</span>
+            </label>
+            <label class="modo-card" data-alcance="seleccion">
+              <input type="radio" name="examenAlcance" value="seleccion" />
+              <span class="mc-icon">🗂️</span>
+              <span class="mc-title">Elegir materias</span>
+              <span class="mc-desc">Una o varias materias</span>
+            </label>
+          </div>
+        </section>
+
+        <!-- Selección de materias compartida (por_materia y examen+seleccion) -->
+        <section class="modo-opcion" id="opcionPorMateria" style="display:none">
+          <div class="section-label">Selecciona las materias</div>
+          <div class="materias-check-grid" id="materiasCheckGrid"></div>
+        </section>
+
+        <section class="config-section params-row">
+          <div class="param-group">
+            <label for="cantidad">Cantidad de preguntas</label>
+            <input type="number" id="cantidad" min="1" placeholder="Todas" />
+          </div>
+
+          <div class="param-group" id="tiempoConfig">
+            <label for="tiempoPorPregunta">Segundos por pregunta</label>
+            <input type="number" id="tiempoPorPregunta" min="5" placeholder="Sin límite" />
+          </div>
+
+          <div class="param-group" id="tiempoExamenConfig" style="display:none">
+            <label for="tiempoExamen">Duración total (min)</label>
+            <input type="number" id="tiempoExamen" min="1" placeholder="Ej: 30" />
+          </div>
+        </section>
+
+        <button id="iniciar" class="btn-primary" type="button">▶ Iniciar cuestionario</button>
+      </section>
+
+      <div id="info" class="info-bar" style="display:none"></div>
+
+      <section id="cuestionario" class="quiz-panel" style="display:none" aria-label="Cuestionario">
+        <div class="quiz-header">
+          <div class="quiz-meta-row">
+            <span id="contadorPreguntas" class="q-counter"></span>
+            <span id="tipoBadge" class="tipo-badge"></span>
+            <span id="temporizador" class="temporizador"></span>
+          </div>
+          <div class="progress-bar-track">
+            <div id="barraProgreso" class="progress-bar-fill"></div>
+          </div>
         </div>
 
-        <!-- Feedback -->
-        <div id="feedback" class="feedback" style="display:none"></div>
-      </div>
+        <div class="pregunta-card">
+          <h2 id="pregunta"></h2>
 
-      <button id="siguiente" class="btn-siguiente" disabled>Siguiente →</button>
-    </div>
+          <div id="opciones" class="opciones-grid"></div>
 
-    <!-- ═══════════ RESULTADOS ═══════════ -->
-    <div id="resultado" class="resultado-panel" style="display:none">
+          <div id="zonaCompletar" class="zona-completar" style="display:none">
+            <input type="text" id="inputCompletar" placeholder="Escribe tu respuesta…" autocomplete="off" />
+            <button id="btnCompletar" class="btn-verificar" type="button">Verificar →</button>
+          </div>
 
-      <div class="resultado-hero">
-        <div class="resultado-emoji" id="resultadoEmoji"></div>
-        <h2>Resultados</h2>
-        <p class="resultado-puntaje" id="puntaje"></p>
-        <p class="resultado-tiempo" id="tiempoFinal"></p>
-      </div>
+          <div id="zonaArrastrar" class="zona-arrastrar" style="display:none">
+            <p class="arrastrar-hint">Toca un término y luego la definición donde pertenece.</p>
+            <div class="arrastrar-layout">
+              <div class="arrastrar-col" id="terminosCol">
+                <div class="col-label">Términos</div>
+                <div id="terminosList"></div>
+              </div>
+              <div class="arrastrar-col" id="definicionesCol">
+                <div class="col-label">Definiciones</div>
+                <div id="definicionesList"></div>
+              </div>
+            </div>
+            <button id="btnVerificarArrastrar" class="btn-verificar" type="button" style="margin-top:16px">Verificar relaciones →</button>
+          </div>
 
-      <div class="stats-grid" id="statsGrid"></div>
+          <div id="feedback" class="feedback" style="display:none"></div>
+        </div>
 
-      <button id="reintentar" class="btn-primary">↩ Reiniciar</button>
+        <button id="siguiente" class="btn-siguiente" type="button" disabled>Siguiente →</button>
+      </section>
 
-      <div id="resumen" class="resumen"></div>
-    </div>
+      <section id="resultado" class="resultado-panel" style="display:none" aria-label="Resultados">
+        <div class="resultado-hero">
+          <div class="resultado-emoji" id="resultadoEmoji"></div>
+          <h2>Resultados</h2>
+          <p class="resultado-puntaje" id="puntaje"></p>
+          <p class="resultado-tiempo" id="tiempoFinal"></p>
+        </div>
 
-  </div><!-- .app-wrapper -->
+        <div class="stats-grid" id="statsGrid"></div>
+
+        <button id="reintentar" class="btn-primary" type="button">↩ Reiniciar</button>
+
+        <div id="resumen" class="resumen"></div>
+      </section>
+    </main>
+  </div>
 
   <script src="script.js"></script>
+  <script src="neko-arc-run.js"></script>
 </body>
 </html>

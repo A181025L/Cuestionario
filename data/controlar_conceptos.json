@@ -1,0 +1,338 @@
+[
+  {
+    "concepto": "Auditoría",
+    "definicion": "Proceso sistemático, independiente y documentado para obtener evidencia y evaluarla con el fin de determinar el grado de cumplimiento de criterios establecidos.",
+    "pregunta": "¿Qué es una auditoría?",
+    "opciones": [
+      "Una reunión informal para opinar sobre un proceso",
+      "Un proceso sistemático, independiente y documentado para obtener evidencia y evaluarla",
+      "Un formato para registrar documentos",
+      "Una técnica para archivar papeles"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Observación",
+    "definicion": "Situación detectada durante una revisión que requiere atención o seguimiento, pero que no necesariamente constituye una no conformidad.",
+    "pregunta": "¿Qué es una observación en una auditoría?",
+    "opciones": [
+      "Un hallazgo que siempre implica sanción",
+      "Una situación detectada que requiere atención o seguimiento",
+      "Un documento de archivo",
+      "Una regla legal obligatoria"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Auditoría de Cumplimiento",
+    "definicion": "Auditoría orientada a verificar si una entidad cumple leyes, normas, procedimientos, políticas o requisitos establecidos.",
+    "pregunta": "¿Qué evalúa una auditoría de cumplimiento?",
+    "opciones": [
+      "Si se cumplen leyes, normas, procedimientos y requisitos establecidos",
+      "Solo la rapidez de los procesos",
+      "Únicamente el número de documentos",
+      "La opinión personal de los funcionarios"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Eficiencia",
+    "definicion": "Capacidad de lograr un resultado usando la menor cantidad posible de recursos, tiempo o esfuerzo.",
+    "pregunta": "¿Qué significa eficiencia?",
+    "opciones": [
+      "Hacer muchas actividades sin importar los recursos",
+      "Lograr un resultado usando la menor cantidad posible de recursos",
+      "Cumplir una norma sin resultados",
+      "Guardar documentos sin orden"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Calidad",
+    "definicion": "Grado en que un conjunto de características cumple con los requisitos establecidos.",
+    "pregunta": "¿Qué es la calidad?",
+    "opciones": [
+      "El tamaño de un archivo",
+      "El grado en que un conjunto de características cumple con los requisitos establecidos",
+      "La cantidad de carpetas existentes",
+      "La velocidad de impresión de documentos"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Norma",
+    "definicion": "Regla, criterio o documento técnico que establece requisitos, lineamientos o características que deben cumplirse.",
+    "pregunta": "¿Qué es una norma?",
+    "opciones": [
+      "Un documento técnico que establece reglas o requisitos",
+      "Un acta de reunión",
+      "Una carpeta física",
+      "Un reporte financiero"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Control de Gestión",
+    "definicion": "Conjunto de acciones para supervisar, medir y verificar el cumplimiento de objetivos, planes e indicadores de una organización.",
+    "pregunta": "¿Qué es el control de gestión?",
+    "opciones": [
+      "Un sistema para decorar documentos",
+      "Un conjunto de acciones para supervisar, medir y verificar el cumplimiento de objetivos y planes",
+      "Una forma de eliminar archivos antiguos",
+      "Un procedimiento solo para pagar facturas"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Gestión",
+    "definicion": "Proceso de planear, organizar, dirigir y controlar recursos y actividades para alcanzar objetivos.",
+    "pregunta": "¿Qué significa gestión?",
+    "opciones": [
+      "Conjunto de acciones para planear, organizar, dirigir y controlar recursos",
+      "Solo guardar documentos en una caja",
+      "Imprimir informes sin revisarlos",
+      "Firmar papeles manualmente"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Objetivo",
+    "definicion": "Resultado que se pretende alcanzar dentro de un proceso, proyecto o actividad.",
+    "pregunta": "¿Qué es un objetivo?",
+    "opciones": [
+      "Una actividad ya terminada",
+      "El resultado que se pretende alcanzar",
+      "Un documento de apoyo",
+      "Un error en el archivo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "ISO 9001",
+    "definicion": "Norma internacional que establece requisitos para un sistema de gestión de la calidad.",
+    "pregunta": "¿Qué es la ISO 9001?",
+    "opciones": [
+      "Una norma internacional que establece requisitos para un sistema de gestión de la calidad",
+      "Una ley sobre archivo histórico",
+      "Un formato de auditoría interna",
+      "Un manual de correspondencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "FURAG",
+    "definicion": "Formulario Único de Reporte de Avances de la Gestión, utilizado en Colombia para reportar y evaluar la gestión institucional.",
+    "pregunta": "¿Qué significa FURAG?",
+    "opciones": [
+      "Formulario Único de Reporte de Avances de la Gestión",
+      "Ficha Única de Registro de Archivos Generales",
+      "Formato Único de Revisión de Actas y Gestión",
+      "Sistema Único de Reporte Administrativo General"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Indicador",
+    "definicion": "Variable o medida cuantificable que permite observar, comparar y evaluar el desempeño o avance de un proceso.",
+    "pregunta": "¿Qué es un indicador?",
+    "opciones": [
+      "Un documento sin valor",
+      "Una variable o medida cuantificable que permite evaluar un proceso",
+      "Una norma obligatoria",
+      "Un formato de préstamo"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Auditoría interna",
+    "definicion": "Auditoría realizada dentro de la misma organización para verificar cumplimiento, detectar fallas y promover mejoras.",
+    "pregunta": "¿Qué es una auditoría interna?",
+    "opciones": [
+      "Una auditoría realizada por la misma organización para verificar cumplimiento y detectar mejoras",
+      "Una auditoría hecha solo por clientes",
+      "Un reporte de caja menor",
+      "Una revisión de inventarios sin evidencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Plan de Mejoramiento",
+    "definicion": "Conjunto de acciones definidas para corregir hallazgos, eliminar causas de problemas y fortalecer procesos.",
+    "pregunta": "¿Qué es un plan de mejoramiento?",
+    "opciones": [
+      "Un conjunto de acciones para corregir hallazgos y fortalecer procesos",
+      "Un formato para registrar firmas",
+      "Una lista de documentos prestados",
+      "Un informe de asistencia"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Control de Resultados",
+    "definicion": "Seguimiento y verificación de los resultados obtenidos frente a lo planeado o esperado.",
+    "pregunta": "¿Qué es el control de resultados?",
+    "opciones": [
+      "La verificación de resultados obtenidos frente a lo planeado o esperado",
+      "La eliminación de resultados negativos",
+      "La impresión de informes finales",
+      "La organización de carpetas por color"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Indicador Primario",
+    "definicion": "Indicador que mide directamente una variable o resultado específico a partir de datos básicos.",
+    "pregunta": "¿Qué caracteriza a un indicador primario?",
+    "opciones": [
+      "Mide directamente una variable o resultado específico",
+      "Solo sirve para archivar documentos",
+      "Se calcula únicamente al final del año",
+      "No usa datos reales"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Evidencia",
+    "definicion": "Información verificable, objetiva y suficiente que respalda un hallazgo o una conclusión.",
+    "pregunta": "¿Qué es la evidencia en una auditoría?",
+    "opciones": [
+      "Una opinión personal",
+      "Información verificable que respalda un hallazgo o conclusión",
+      "Un archivo duplicado",
+      "Un formato en blanco"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "No conformidad",
+    "definicion": "Incumplimiento de un requisito establecido.",
+    "pregunta": "¿Qué es una no conformidad?",
+    "opciones": [
+      "El cumplimiento total de un requisito",
+      "El incumplimiento de un requisito establecido",
+      "Una sugerencia de mejora",
+      "Un documento vigente"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Plan de auditoría",
+    "definicion": "Documento que define objetivos, alcance, criterios, actividades, fechas y responsables de una auditoría.",
+    "pregunta": "¿Qué es un plan de auditoría?",
+    "opciones": [
+      "Un documento que define objetivos, alcance, criterios, actividades, fechas y responsables de una auditoría",
+      "Un reporte de gastos",
+      "Una lista de asistencia",
+      "Un registro de inventario"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Indicador Secundario",
+    "definicion": "Indicador derivado de uno o varios indicadores primarios, que permite un análisis más agregado.",
+    "pregunta": "¿Qué es un indicador secundario?",
+    "opciones": [
+      "Un indicador derivado de uno o varios indicadores primarios",
+      "Un documento físico",
+      "Una norma técnica",
+      "Un hallazgo de auditoría"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Hallazgo",
+    "definicion": "Resultado de comparar la evidencia obtenida con los criterios de auditoría; puede ser conformidad, no conformidad u oportunidad de mejora.",
+    "pregunta": "¿Qué es un hallazgo en auditoría?",
+    "opciones": [
+      "El resultado de comparar la evidencia con los criterios de auditoría",
+      "Solo una sanción",
+      "Un archivo sin firma",
+      "Una carpeta de consulta"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Auditoría de Desempeño",
+    "definicion": "Auditoría que evalúa la eficiencia, eficacia y economía con que una entidad usa sus recursos y logra resultados.",
+    "pregunta": "¿Qué evalúa una auditoría de desempeño?",
+    "opciones": [
+      "La eficiencia, eficacia y economía en el uso de recursos y logro de resultados",
+      "Solo el orden de los archivos",
+      "Únicamente los formatos físicos",
+      "La asistencia del personal"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Eficacia",
+    "definicion": "Grado en que se cumplen los objetivos y se alcanzan los resultados previstos.",
+    "pregunta": "¿Qué significa eficacia?",
+    "opciones": [
+      "Hacer muchas tareas con pocos recursos",
+      "Grado en que se cumplen los objetivos y se alcanzan los resultados previstos",
+      "Guardar documentos en orden alfabético",
+      "Controlar únicamente versiones"
+    ],
+    "respuesta": 1
+  },
+  {
+    "concepto": "Integralidad",
+    "definicion": "Cualidad de un documento o conjunto documental que está completo, sin omisiones y con todos sus elementos necesarios.",
+    "pregunta": "¿Qué significa integralidad?",
+    "opciones": [
+      "Que el documento está completo y sin omisiones",
+      "Que el documento está repetido",
+      "Que el archivo está dañado",
+      "Que el contenido es secreto"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Papeles de Trabajo",
+    "definicion": "Documentos, notas, cálculos y registros elaborados o reunidos por el auditor para soportar su trabajo y conclusiones.",
+    "pregunta": "¿Qué son los papeles de trabajo?",
+    "opciones": [
+      "Documentos y registros que soportan el trabajo y las conclusiones del auditor",
+      "Facturas de compra",
+      "Carpetas vacías",
+      "Reportes de nómina"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Queja / Reclamo",
+    "definicion": "Manifestación de inconformidad o solicitud presentada por un usuario frente a un producto, servicio o atención recibida.",
+    "pregunta": "¿Qué es una queja o reclamo?",
+    "opciones": [
+      "Una manifestación de inconformidad o solicitud frente a un producto, servicio o atención",
+      "Una auditoría interna",
+      "Un indicador de calidad",
+      "Un documento obsoleto"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Registro",
+    "definicion": "Documento que presenta resultados obtenidos o evidencia de una actividad realizada.",
+    "pregunta": "¿Qué es un registro?",
+    "opciones": [
+      "Un documento que presenta resultados obtenidos o evidencia de una actividad",
+      "Una opinión del usuario",
+      "Un borrador sin validez",
+      "Un formato sin firma"
+    ],
+    "respuesta": 0
+  },
+  {
+    "concepto": "Técnicas de Auditoría",
+    "definicion": "Métodos usados para obtener y analizar evidencia, como entrevistas, observación, revisión documental, muestreo y confirmación.",
+    "pregunta": "¿Cuál de las siguientes es una técnica de auditoría?",
+    "opciones": [
+      "Entrevista",
+      "Archivado al azar",
+      "Impresión masiva",
+      "Sellado de carpetas"
+    ],
+    "respuesta": 0
+  }
+]
