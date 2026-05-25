@@ -436,8 +436,8 @@ function onModoChange(modo) {
 
   opcionTemaDiv.style.display        = esTema   ? "block" : "none";
   opcionExamenDiv.style.display      = esExamen ? "block" : "none";
-  tiempoConfig.style.display         = esExamen ? "none"  : "none";
-  tiempoExamenConfig.style.display   = esExamen ? "none"  : "none";
+  tiempoConfig.style.display         = esExamen ? "none"  : "block";
+  tiempoExamenConfig.style.display   = esExamen ? "block"  : "none";
 
   // La cuadrícula de materias es compartida: aparece en "por_materia"
   // y en "examen" cuando se elige alcance "seleccion"
