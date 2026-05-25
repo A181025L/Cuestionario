@@ -189,7 +189,9 @@ function buildConfigURL() {
   return `${location.origin}${location.pathname}?${p.toString()}`;
 }
 
-/** Construye URL con los resultados completos codificados */
+/** Construye URL con los resultados completos codificados.
+ *  Los datos pesados van en el hash (#) para evitar 414 en el servidor.
+ */
 function buildResultURL() {
   const p = new URLSearchParams();
   p.set("m", modoActual);
@@ -211,6 +213,7 @@ function buildResultURL() {
   p.set("r", "1");
   p.set("el", String(Math.floor((Date.now() - tiempoInicio) / 1000)));
   p.set("sc", `${puntaje}/${preguntas.length}`);
+
   const ans = respuestasUsuario.map(a => {
     const obj = { p: a.pregunta, t: a.tipo, c: a.correcto ? 1 : 0,
       s: a.seleccion, rv: a.respuesta, o: a.opciones,
@@ -219,13 +222,25 @@ function buildResultURL() {
     if (a.pares) { obj.pa = a.pares; obj.as = a.asignaciones; obj.ac = a.aciertos; obj.tp = a.totalPares; }
     return obj;
   });
-  p.set("ans", encodeB64(ans));
-  return `${location.origin}${location.pathname}?${p.toString()}`;
+
+  // Guardamos el bloque pesado en el hash para que no viaje al servidor.
+  const h = new URLSearchParams();
+  h.set("ans", encodeB64(ans));
+
+  return `${location.origin}${location.pathname}?${p.toString()}#${h.toString()}`;
+}
+
+/** Combina parámetros de search + hash (el hash no llega al servidor). */
+function getAllURLParams() {
+  const params = new URLSearchParams(location.search);
+  const hash = new URLSearchParams(location.hash.startsWith("#") ? location.hash.slice(1) : location.hash);
+  for (const [k, v] of hash.entries()) params.set(k, v);
+  return params;
 }
 
 /** Lee parámetros de la URL al arrancar y rellena config o muestra resultado */
 function readURLParams() {
-  const params = new URLSearchParams(location.search);
+  const params = getAllURLParams();
   if (!params.has("m") && !params.has("r")) return;
   const modo = params.get("m") || "todos";
 
