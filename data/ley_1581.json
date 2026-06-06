@@ -1,0 +1,662 @@
+[
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál es el objeto principal de la Ley 1581 de 2012?",
+    "opciones": [
+      "Regular la contratación estatal",
+      "Proteger datos personales y desarrollar el derecho de hábeas data",
+      "Regular la transparencia pública",
+      "Crear el archivo general de la Nación"
+    ],
+    "respuesta": 1,
+    "explicacion": "Esta ley dicta las disposiciones generales para la protección de datos personales y el ejercicio del derecho fundamental al hábeas data."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La ley aplica a los datos personales registrados en:",
+    "opciones": [
+      "Cualquier base de datos susceptible de tratamiento",
+      "Solo bases de datos públicas",
+      "Solo archivos físicos",
+      "Solo registros comerciales"
+    ],
+    "respuesta": 0,
+    "explicacion": "Aplica a cualquier base de datos que haga tratamiento de información personal, ya sea en el sector público o privado."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El tratamiento de datos personales se aplica cuando:",
+    "opciones": [
+      "Se realiza solo en redes sociales",
+      "Se efectúa en territorio colombiano o cuando aplica la legislación colombiana por normas o tratados internacionales",
+      "Solo ocurre en entidades públicas",
+      "Solo se hace con autorización verbal"
+    ],
+    "respuesta": 1,
+    "explicacion": "El ámbito de aplicación es territorial (Colombia) y extraterritorial cuando tratados internacionales así lo dispongan."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál de las siguientes bases de datos está excluida del régimen general de protección?",
+    "opciones": [
+      "Una base de datos de una empresa privada",
+      "Una base de datos mantenida en un ámbito exclusivamente personal o doméstico",
+      "Un archivo de clientes de un banco",
+      "Un registro hospitalario"
+    ],
+    "respuesta": 1,
+    "explicacion": "Las bases de datos personales o domésticas están excluidas siempre y cuando no se destinen a ser suministradas a terceros."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Si una base de datos doméstica va a ser suministrada a terceros, se debe:",
+    "opciones": [
+      "Eliminar inmediatamente",
+      "Informar previamente al titular y solicitar autorización",
+      "Publicarla en internet",
+      "Enviarla a la SIC sin autorización"
+    ],
+    "respuesta": 1,
+    "explicacion": "Al compartirla con terceros, pierde su naturaleza exclusivamente doméstica y pasa a estar regulada por la ley."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál de estas bases de datos está exceptuada del régimen general?",
+    "opciones": [
+      "Bases de datos de seguridad y defensa nacional",
+      "Bases de datos de una biblioteca pública",
+      "Bases de datos escolares comunes",
+      "Bases de datos de entretenimiento"
+    ],
+    "respuesta": 0,
+    "explicacion": "Por su naturaleza sensible para el Estado, las bases de datos de inteligencia, seguridad y defensa tienen un régimen especial."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Según la ley, “autorización” es:",
+    "opciones": [
+      "Una orden judicial",
+      "Consentimiento previo, expreso e informado del titular",
+      "Una firma digital obligatoria",
+      "Un permiso verbal del encargado"
+    ],
+    "respuesta": 1,
+    "explicacion": "La autorización debe darse antes del tratamiento, ser clara y el titular debe saber para qué se usarán sus datos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "“Dato personal” significa:",
+    "opciones": [
+      "Información sobre una persona jurídica",
+      "Información vinculada o asociada a una persona natural determinada o determinable",
+      "Solo nombre y apellido",
+      "Solo datos financieros"
+    ],
+    "respuesta": 1,
+    "explicacion": "Cualquier pieza de información que pueda identificar o hacer identificable a una persona natural es un dato personal."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El “responsable del tratamiento” es quien:",
+    "opciones": [
+      "Archiva documentos",
+      "Decide sobre la base de datos y/o el tratamiento de los datos",
+      "Solo guarda copias",
+      "Autoriza transferencias internacionales"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es la persona o entidad (pública o privada) que toma las decisiones sobre la base de datos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El “encargado del tratamiento” es quien:",
+    "opciones": [
+      "Decide la finalidad del tratamiento",
+      "Realiza el tratamiento de datos por cuenta del responsable",
+      "Solo responde peticiones",
+      "Solo vende bases de datos"
+    ],
+    "respuesta": 1,
+    "explicacion": "El encargado opera los datos, pero lo hace bajo las directrices y delegación del responsable."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El titular es:",
+    "opciones": [
+      "La empresa dueña de los datos",
+      "La persona natural cuyos datos personales son objeto de tratamiento",
+      "El funcionario que administra la base",
+      "El proveedor de software"
+    ],
+    "respuesta": 1,
+    "explicacion": "El titular siempre es la persona natural dueña de su propia información personal."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "“Tratamiento” de datos personales incluye:",
+    "opciones": [
+      "Solo recolección",
+      "Recolección, almacenamiento, uso, circulación o supresión",
+      "Solo supresión",
+      "Solo consulta"
+    ],
+    "respuesta": 1,
+    "explicacion": "El tratamiento abarca cualquier operación o conjunto de operaciones sobre los datos personales."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de legalidad en tratamiento de datos significa que:",
+    "opciones": [
+      "El tratamiento es libre para cualquier persona",
+      "El tratamiento es una actividad reglada sujeta a la ley",
+      "Solo se aplica a datos públicos",
+      "No requiere regulación"
+    ],
+    "respuesta": 1,
+    "explicacion": "Nadie puede tratar datos personales por fuera de las disposiciones constitucionales y legales vigentes."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de finalidad exige que el tratamiento:",
+    "opciones": [
+      "Sea anónimo siempre",
+      "Responda a una finalidad legítima informada al titular",
+      "Se use para cualquier propósito interno",
+      "Pueda cambiar sin aviso"
+    ],
+    "respuesta": 1,
+    "explicacion": "No se pueden recolectar datos sin un propósito claro, legal y previamente comunicado al titular."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de libertad indica que el tratamiento solo puede hacerse con:",
+    "opciones": [
+      "Orden de un superior",
+      "Consentimiento previo, expreso e informado del titular",
+      "Autorización verbal de un tercero",
+      "Criterio del encargado"
+    ],
+    "respuesta": 1,
+    "explicacion": "Los datos no pueden ser obtenidos ni divulgados sin la autorización del titular o mandato legal/judicial."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de veracidad o calidad prohíbe tratar datos:",
+    "opciones": [
+      "Públicos",
+      "Parciales, incompletos, fraccionados o que induzcan a error",
+      "Actualizados",
+      "Verificables"
+    ],
+    "respuesta": 1,
+    "explicacion": "La información debe ser cierta, exacta, actualizada y comprensible."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de transparencia garantiza al titular:",
+    "opciones": [
+      "Saber cuánto gana el responsable",
+      "Obtener información sobre la existencia de datos que le conciernan",
+      "Eliminar siempre sus datos",
+      "Publicar sus datos en internet"
+    ],
+    "respuesta": 1,
+    "explicacion": "En cualquier momento y sin restricciones, el titular tiene derecho a saber si sus datos están siendo tratados."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de acceso y circulación restringida señala que los datos personales:",
+    "opciones": [
+      "Deben circular libremente en internet",
+      "Solo podrán ser tratados por personas autorizadas o previstas por la ley",
+      "Deben compartirse con cualquiera",
+      "Siempre son de acceso público"
+    ],
+    "respuesta": 1,
+    "explicacion": "Los datos personales (salvo los públicos) no pueden estar disponibles en internet o medios masivos sin medidas de control."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de seguridad exige:",
+    "opciones": [
+      "Eliminar toda base de datos",
+      "Medidas técnicas, humanas y administrativas para evitar acceso no autorizado o fraudulento",
+      "Compartir los datos con proveedores",
+      "Guardar datos sin control"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se deben brindar todas las garantías para que la información no sea adulterada, perdida o consultada indebidamente."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de confidencialidad obliga a:",
+    "opciones": [
+      "Revelar datos a cualquier persona",
+      "Guardar reserva incluso después de terminada la relación con el tratamiento",
+      "Publicar todos los datos",
+      "Transferir datos sin control"
+    ],
+    "respuesta": 1,
+    "explicacion": "Todas las personas que intervengan en el tratamiento de datos deben garantizar la reserva de la información indefinidamente."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Se consideran datos sensibles, entre otros:",
+    "opciones": [
+      "Dirección de domicilio",
+      "Origen racial, orientación política, convicciones religiosas, salud, vida sexual y datos biométricos",
+      "Número de teléfono",
+      "Estado civil"
+    ],
+    "respuesta": 1,
+    "explicacion": "Son aquellos que afectan la intimidad del titular o cuyo uso indebido puede generar discriminación."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El tratamiento de datos sensibles está:",
+    "opciones": [
+      "Siempre permitido",
+      "Prohibido, salvo excepciones legales",
+      "Permitido solo para publicidad",
+      "Permitido solo para menores"
+    ],
+    "respuesta": 1,
+    "explicacion": "Por regla general, está prohibido tratar datos sensibles para proteger la intimidad y evitar discriminación."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuándo se permite tratar datos sensibles?",
+    "opciones": [
+      "Cuando el titular autoriza explícitamente",
+      "Cuando la empresa lo considera útil",
+      "Cuando se comparten en redes sociales",
+      "Cuando el encargado lo decide"
+    ],
+    "respuesta": 0,
+    "explicacion": "La autorización explícita es una de las excepciones a la prohibición general, al igual que urgencias médicas o mandato legal."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El tratamiento de datos de niños, niñas y adolescentes está:",
+    "opciones": [
+      "Totalmente prohibido siempre",
+      "Permitido sin límites",
+      "Prohibido, salvo datos de naturaleza pública",
+      "Permitido solo con autorización del empleador"
+    ],
+    "respuesta": 2,
+    "explicacion": "Existe una protección especial para menores; solo se pueden tratar sus datos si son de naturaleza pública y garantizando sus derechos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El titular de datos personales tiene derecho a:",
+    "opciones": [
+      "Conocer, actualizar y rectificar sus datos",
+      "Vender la base de datos",
+      "Exigir publicación masiva de sus datos",
+      "Cambiar la ley"
+    ],
+    "respuesta": 0,
+    "explicacion": "Estos son los pilares fundamentales del derecho al hábeas data frente a responsables o encargados."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El titular puede solicitar prueba de la autorización otorgada:",
+    "opciones": [
+      "Nunca",
+      "Sí, salvo excepciones legales",
+      "Solo ante un juez",
+      "Solo si es mayor de edad"
+    ],
+    "respuesta": 1,
+    "explicacion": "El responsable tiene el deber de conservar y entregar la prueba de dicha autorización cuando el titular la solicite."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El titular puede presentar quejas ante:",
+    "opciones": [
+      "La Registraduría",
+      "La Superintendencia de Industria y Comercio",
+      "La Procuraduría",
+      "La Cámara de Comercio"
+    ],
+    "respuesta": 1,
+    "explicacion": "La SIC es la autoridad nacional de protección de datos competente para atender estas quejas."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El titular puede revocar la autorización y/o solicitar la supresión del dato cuando:",
+    "opciones": [
+      "Siempre que quiera, sin condiciones",
+      "No se respeten principios, derechos y garantías constitucionales y legales",
+      "El responsable lo autorice",
+      "El dato tenga más de un año"
+    ],
+    "respuesta": 1,
+    "explicacion": "La revocatoria o supresión procede especialmente si la SIC determina que el responsable incurrió en conductas contrarias a la ley."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La autorización del titular no es necesaria cuando se trata de:",
+    "opciones": [
+      "Datos de naturaleza pública",
+      "Datos privados de terceros",
+      "Fotografías familiares",
+      "Opiniones personales"
+    ],
+    "respuesta": 0,
+    "explicacion": "Los datos públicos (como los contenidos en registros públicos) no requieren autorización para su tratamiento."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Las consultas sobre datos personales deben atenderse en un plazo máximo de:",
+    "opciones": [
+      "3 días hábiles",
+      "5 días hábiles",
+      "10 días hábiles",
+      "15 días hábiles"
+    ],
+    "respuesta": 2,
+    "explicacion": "La ley establece este término general para que el responsable o encargado conteste cualquier consulta del titular."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Si no es posible atender una consulta en el término inicial, el plazo adicional máximo es de:",
+    "opciones": [
+      "2 días hábiles",
+      "5 días hábiles",
+      "8 días hábiles",
+      "15 días hábiles"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se debe informar al interesado antes de vencer los 10 días, señalando los motivos y dando respuesta en un máximo de 5 días hábiles adicionales."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Un reclamo debe presentarse ante:",
+    "opciones": [
+      "Cualquier notaría",
+      "El responsable o encargado del tratamiento",
+      "La alcaldía municipal",
+      "El juez penal"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es el paso de requisito de procedibilidad: acudir primero a quien maneja directamente la información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Si el reclamo está incompleto, el interesado debe subsanarlo dentro de:",
+    "opciones": [
+      "24 horas",
+      "3 días",
+      "5 días",
+      "1 mes"
+    ],
+    "respuesta": 2,
+    "explicacion": "Se requerirá al interesado para que subsane las fallas dentro de los 5 días siguientes a la recepción del reclamo."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El término máximo para atender un reclamo es de:",
+    "opciones": [
+      "10 días hábiles",
+      "15 días hábiles",
+      "20 días hábiles",
+      "30 días hábiles"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se cuenta a partir del día siguiente a la fecha de su recibo completo. (Puede prorrogarse por 8 días hábiles más)."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Antes de acudir a la Superintendencia de Industria y Comercio, el titular debe:",
+    "opciones": [
+      "Publicar el reclamo en internet",
+      "Agotar el trámite de consulta o reclamo ante el responsable o encargado",
+      "Presentar una denuncia penal",
+      "Solicitar un derecho de petición a la alcaldía"
+    ],
+    "respuesta": 1,
+    "explicacion": "La SIC no admitirá quejas si no se demuestra que primero se intentó resolver con la entidad responsable."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Entre los deberes del responsable del tratamiento está:",
+    "opciones": [
+      "Vender los datos a terceros",
+      "Garantizar al titular el ejercicio del derecho de hábeas data",
+      "Ocultar la finalidad del tratamiento",
+      "Negarse a corregir errores"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es el deber primordial asegurar que el titular pueda conocer, actualizar y rectificar su información en todo momento."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El responsable debe conservar copia de:",
+    "opciones": [
+      "La cédula del titular únicamente",
+      "La autorización otorgada por el titular",
+      "Todas las conversaciones telefónicas",
+      "Los mensajes privados del titular"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es vital para demostrar el cumplimiento del principio de libertad legal ante investigaciones de la SIC."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El responsable debe informar al titular sobre:",
+    "opciones": [
+      "La finalidad de la recolección y los derechos que le asisten",
+      "El salario de los empleados",
+      "La política electoral de la empresa",
+      "El precio de mercado de los datos"
+    ],
+    "respuesta": 0,
+    "explicacion": "Se debe cumplir con el principio de transparencia en el momento mismo de la recolección de los datos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El responsable debe adoptar:",
+    "opciones": [
+      "Un manual interno de políticas y procedimientos",
+      "Un código penal interno",
+      "Una ley de archivo",
+      "Un reglamento bancario"
+    ],
+    "respuesta": 0,
+    "explicacion": "El manual garantiza el adecuado cumplimiento de la ley y atención oportuna a consultas y reclamos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El encargado del tratamiento debe:",
+    "opciones": [
+      "Difundir datos sin autorización",
+      "Mantener seguridad, tramitar consultas y reclamos, y actualizar o rectificar datos",
+      "Reemplazar al titular",
+      "Decidir la finalidad del tratamiento"
+    ],
+    "respuesta": 1,
+    "explicacion": "Aunque no toma decisiones de fondo, el encargado asume toda la responsabilidad operativa y de seguridad."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La autoridad de protección de datos es:",
+    "opciones": [
+      "La Contraloría",
+      "La Superintendencia de Industria y Comercio",
+      "El Ministerio de Justicia",
+      "La Defensoría del Pueblo"
+    ],
+    "respuesta": 1,
+    "explicacion": "La SIC vigila, inspecciona y sanciona a los sujetos obligados por la Ley 1581."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La Superintendencia de Industria y Comercio ejerce vigilancia a través de:",
+    "opciones": [
+      "La Policía Nacional",
+      "Una Delegatura para la Protección de Datos Personales",
+      "Un juzgado civil",
+      "El Archivo General"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es una dependencia específica dentro de la SIC dedicada exclusivamente a temas de Hábeas Data."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Una de las funciones de la SIC es:",
+    "opciones": [
+      "Imponer impuestos sobre datos",
+      "Ordenar medidas para hacer efectivo el derecho de hábeas data",
+      "Crear bases de datos privadas",
+      "Suspender la Constitución"
+    ],
+    "respuesta": 1,
+    "explicacion": "La SIC puede impartir órdenes administrativas para corregir vulneraciones a los derechos de los titulares."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La SIC puede disponer el bloqueo temporal de datos cuando:",
+    "opciones": [
+      "El titular lo pida por curiosidad",
+      "Existe un riesgo cierto de vulneración de derechos fundamentales",
+      "El responsable lo solicite sin motivo",
+      "Los datos sean públicos"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es una medida cautelar para evitar un daño inminente mientras se investiga el caso."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Las sanciones por incumplimiento pueden incluir:",
+    "opciones": [
+      "Solo amonestación verbal",
+      "Multas, suspensión, cierre temporal o cierre definitivo",
+      "Solo trabajo comunitario",
+      "Solo publicación de disculpas"
+    ],
+    "respuesta": 1,
+    "explicacion": "Las sanciones van desde carácter económico hasta el cierre definitivo de las operaciones sensibles."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Las multas pueden llegar hasta:",
+    "opciones": [
+      "500 salarios mínimos legales vigentes",
+      "1.000 salarios mínimos legales vigentes",
+      "2.000 salarios mínimos legales vigentes",
+      "5.000 salarios mínimos legales vigentes"
+    ],
+    "respuesta": 2,
+    "explicacion": "El tope de las multas de carácter personal e institucional equivale a 2.000 SMMLV al momento de imponerse."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Las sanciones del artículo 23 aplican solo para:",
+    "opciones": [
+      "Personas naturales",
+      "Personas de naturaleza privada",
+      "Entidades públicas",
+      "Organismos internacionales"
+    ],
+    "respuesta": 1,
+    "explicacion": "Si las infracciones las cometen entidades públicas, la SIC remite el caso a la Procuraduría para el proceso disciplinario."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El Registro Nacional de Bases de Datos es:",
+    "opciones": [
+      "Un archivo secreto",
+      "El directorio público de las bases de datos sujetas a tratamiento que operan en el país",
+      "Un libro interno de la SIC",
+      "Un registro judicial"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es administrado por la SIC y busca dar visibilidad sobre quiénes y qué tipos de bases de datos manejan."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La transferencia de datos personales a países sin protección adecuada está:",
+    "opciones": [
+      "Permitida sin límites",
+      "Prohibida",
+      "Obligatoria",
+      "Regulada solo por contratos privados"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se prohíbe para evitar que la información de los colombianos quede desprotegida al cruzar fronteras."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Una excepción a la prohibición de transferencia internacional es cuando:",
+    "opciones": [
+      "El titular dio autorización expresa e inequívoca",
+      "El encargado lo considera urgente",
+      "El dato es reciente",
+      "El receptor es una red social"
+    ],
+    "respuesta": 0,
+    "explicacion": "Si el titular autoriza expresamente el envío a un tercer país, se exceptúa la prohibición general."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Otra excepción a la transferencia internacional es:",
+    "opciones": [
+      "Publicidad comercial",
+      "Intercambio de datos médicos por razones de salud o higiene pública",
+      "Datos sobre gustos personales",
+      "Datos de entretenimiento"
+    ],
+    "respuesta": 1,
+    "explicacion": "Razones de interés público como la salud global justifican el intercambio seguro de datos entre países."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El régimen de transición para adecuarse a la ley fue de:",
+    "opciones": [
+      "Tres meses",
+      "Seis meses",
+      "Un año",
+      "Dos años"
+    ],
+    "respuesta": 1,
+    "explicacion": "Las empresas y responsables tuvieron seis meses desde la promulgación para implementar políticas y avisos de privacidad."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La ley rige:",
+    "opciones": [
+      "A partir de su promulgación",
+      "A los seis meses de promulgada",
+      "Un año después",
+      "Solo cuando se reglamente totalmente"
+    ],
+    "respuesta": 0,
+    "explicacion": "Salvo artículos específicos que requirieron reglamentación, la ley empezó a regir formalmente con su publicación en 2012."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál de los siguientes no es un derecho del titular según la ley?",
+    "opciones": [
+      "Acceder gratuitamente a sus datos",
+      "Solicitar supresión del dato cuando proceda",
+      "Exigir la publicación masiva de sus datos personales",
+      "Conocer el uso dado a sus datos"
+    ],
+    "respuesta": 2,
+    "explicacion": "La publicación masiva no es un derecho reconocido; el hábeas data protege la intimidad y el control de los datos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Qué entidad debe recibir el traslado cuando el reclamado no es competente para resolver un reclamo?",
+    "opciones": [
+      "El Congreso",
+      "Quien corresponda para resolverlo",
+      "El Archivo General",
+      "La Alcaldía mayor"
+    ],
+    "respuesta": 1,
+    "explicacion": "Quien reciba el reclamo sin tener competencia deberá darle traslado al competente en máximo dos días hábiles."
+  }
+]
