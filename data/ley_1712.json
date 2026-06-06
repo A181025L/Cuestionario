@@ -1,0 +1,602 @@
+[
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál es el objeto principal de la Ley 1712 de 2014?",
+    "opciones": [
+      "Regular la contratación estatal",
+      "Regular el derecho de acceso a la información pública, sus procedimientos y excepciones",
+      "Reglamentar el archivo general de la Nación",
+      "Establecer sanciones penales para todos los funcionarios"
+    ],
+    "respuesta": 1,
+    "explicacion": "La Ley 1712 de 2014 es la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Según la ley, toda información en posesión o custodia de un sujeto obligado se presume:",
+    "opciones": [
+      "Reservada",
+      "Clasificada",
+      "Pública",
+      "Confidencial"
+    ],
+    "respuesta": 2,
+    "explicacion": "Se aplica el principio de máxima publicidad, presumiendo que toda información es pública."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de transparencia establece que la información debe entregarse:",
+    "opciones": [
+      "Solo si existe orden judicial",
+      "En los términos más amplios posibles, salvo excepciones legales o constitucionales",
+      "Únicamente a los funcionarios públicos",
+      "Solo cuando el solicitante explique el motivo"
+    ],
+    "respuesta": 1,
+    "explicacion": "La transparencia garantiza que la información fluya libremente con la menor cantidad de restricciones posibles."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de buena fe implica que el sujeto obligado debe actuar con:",
+    "opciones": [
+      "Reserva absoluta",
+      "Motivación honesta y leal",
+      "Discrecionalidad total",
+      "Lentitud procesal"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se espera que las entidades actúen de forma honesta, leal y desprovista de cualquier intención dolosa."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de facilitación busca que los sujetos obligados:",
+    "opciones": [
+      "Exijan más requisitos para cada solicitud",
+      "Dificulten el acceso para evitar abusos",
+      "Faciliten el ejercicio del derecho de acceso a la información",
+      "Cobren por cada trámite"
+    ],
+    "respuesta": 2,
+    "explicacion": "Se debe promover y facilitar el acceso a la información, eliminando barreras innecesarias."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de no discriminación significa que la información debe entregarse:",
+    "opciones": [
+      "Solo a quienes presenten cédula",
+      "A todas las personas en igualdad de condiciones",
+      "Solo a mayores de edad",
+      "Solo por vía electrónica"
+    ],
+    "respuesta": 1,
+    "explicacion": "Toda persona tiene derecho a la información sin importar su origen, género, raza o condición."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El acceso a la información pública es, por regla general:",
+    "opciones": [
+      "Costoso",
+      "Gratuito",
+      "Exclusivo",
+      "Limitado a entidades estatales"
+    ],
+    "respuesta": 1,
+    "explicacion": "El acceso debe ser gratuito, cobrando únicamente los costos de reproducción si es necesario."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El principio de calidad de la información exige que esta sea:",
+    "opciones": [
+      "Parcial y rápida",
+      "Oportuna, objetiva, veraz, completa y reutilizable",
+      "Secreta y resumida",
+      "Solo interna"
+    ],
+    "respuesta": 1,
+    "explicacion": "La información entregada debe ser de alta calidad para que sea realmente útil a la ciudadanía."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El derecho de acceso a la información permite a toda persona:",
+    "opciones": [
+      "Conocer solo documentos públicos impresos",
+      "Conocer sobre la existencia y acceder a la información pública",
+      "Solicitar únicamente datos estadísticos",
+      "Acceder solo con autorización previa"
+    ],
+    "respuesta": 1,
+    "explicacion": "Abarca no solo el acceso, sino también el derecho a saber qué información posee la entidad."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información solo puede restringirse de manera:",
+    "opciones": [
+      "General y permanente",
+      "Excepcional",
+      "Verbal",
+      "Administrativa sin motivación"
+    ],
+    "respuesta": 1,
+    "explicacion": "Cualquier restricción debe ser la excepción a la regla y estar plenamente justificada por la ley."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Quiénes son sujetos obligados según la ley?",
+    "opciones": [
+      "Solo las alcaldías",
+      "Toda entidad pública y otros sujetos definidos en el artículo 5",
+      "Solo las empresas privadas",
+      "Únicamente los ministerios"
+    ],
+    "respuesta": 1,
+    "explicacion": "Incluye ramas del poder público, órganos autónomos y particulares que cumplan funciones públicas."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Una persona natural o jurídica que preste función pública debe entregar información:",
+    "opciones": [
+      "De toda su vida privada",
+      "Directamente relacionada con el desempeño de su función",
+      "Solo si es requerida por la prensa",
+      "Nunca"
+    ],
+    "respuesta": 1,
+    "explicacion": "Los particulares solo responden por la información generada en el marco de la función pública que ejercen."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Según la ley, 'información' es:",
+    "opciones": [
+      "Cualquier rumor oficial",
+      "Un conjunto organizado de datos contenido en documentos que el sujeto obligado genere, obtenga o controle",
+      "Solo archivos en papel",
+      "Solo datos financieros"
+    ],
+    "respuesta": 1,
+    "explicacion": "Abarca todos los datos estructurados en cualquier formato que estén bajo el control del sujeto obligado."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información pública es toda información que el sujeto obligado:",
+    "opciones": [
+      "Oculte por seguridad",
+      "Genere, obtenga, adquiera o controle en su calidad de tal",
+      "Reciba de particulares únicamente",
+      "Publique en redes sociales"
+    ],
+    "respuesta": 1,
+    "explicacion": "Toda información bajo la órbita de actuación del sujeto en el ejercicio de sus funciones es pública."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información pública clasificada se refiere a información que pertenece al ámbito:",
+    "opciones": [
+      "Público y general",
+      "Propio, particular, privado o semiprivado de una persona",
+      "Político exclusivamente",
+      "Contable únicamente"
+    ],
+    "respuesta": 1,
+    "explicacion": "Protege derechos fundamentales como la intimidad, la vida privada y los datos personales."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información pública reservada es aquella cuyo acceso se exceptúa por daño a:",
+    "opciones": [
+      "Intereses personales del funcionario",
+      "Intereses públicos",
+      "Intereses comerciales solamente",
+      "Intereses académicos"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se restringe para proteger bienes de interés público como la seguridad y defensa nacional."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "'Datos abiertos' son datos:",
+    "opciones": [
+      "Cifrados y de acceso restringido",
+      "Primarios o sin procesar, en formatos estándar e interoperables, libres para reutilización",
+      "Exclusivamente impresos",
+      "Solo para uso interno"
+    ],
+    "respuesta": 1,
+    "explicacion": "Los datos abiertos permiten a los ciudadanos reutilizarlos para crear nuevos servicios y análisis."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Un 'documento en construcción' es:",
+    "opciones": [
+      "Toda información pública definitiva",
+      "La información preliminar y no definitiva del proceso deliberatorio",
+      "Un archivo histórico",
+      "Un dato reservado por 15 años"
+    ],
+    "respuesta": 1,
+    "explicacion": "Son borradores o documentos de trabajo que aún no constituyen una decisión o acto definitivo."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información debe estar disponible al público a través de medios:",
+    "opciones": [
+      "Solo físicos",
+      "Solo electrónicos",
+      "Físicos, remotos o locales de comunicación electrónica",
+      "Únicamente por solicitud verbal"
+    ],
+    "respuesta": 2,
+    "explicacion": "Se debe garantizar la disponibilidad por múltiples canales para facilitar el acceso a todos los ciudadanos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La ley exige un criterio diferencial de accesibilidad para:",
+    "opciones": [
+      "Las empresas multinacionales",
+      "Poblaciones específicas, grupos étnicos, culturales y personas en situación de discapacidad",
+      "Solo servidores públicos",
+      "Solo estudiantes universitarios"
+    ],
+    "respuesta": 1,
+    "explicacion": "Garantiza que el acceso a la información sea inclusivo y adaptado a las necesidades de grupos vulnerables."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Dentro de la información mínima obligatoria sobre estructura del sujeto obligado está:",
+    "opciones": [
+      "La vida familiar de los funcionarios",
+      "La descripción de su estructura orgánica, funciones, sedes y horarios de atención",
+      "Los gustos personales del director",
+      "Los resultados deportivos de la entidad"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es información básica de transparencia activa para que el ciudadano sepa cómo funciona la entidad."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Sobre presupuesto y gasto público, el sujeto obligado debe publicar:",
+    "opciones": [
+      "Solo el presupuesto de este año",
+      "Su presupuesto general, ejecución histórica anual y planes de gasto público",
+      "Solo contratos de publicidad",
+      "Únicamente balances privados"
+    ],
+    "respuesta": 1,
+    "explicacion": "Permite el control social sobre la forma en que las entidades administran y ejecutan los recursos públicos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "En materia de contratación, debe publicarse:",
+    "opciones": [
+      "Solo el nombre del contratista",
+      "El plan de compras anual y las contrataciones adjudicadas",
+      "Únicamente los contratos anulados",
+      "Solo los contratos verbales"
+    ],
+    "respuesta": 1,
+    "explicacion": "Garantiza la transparencia en los procesos de adquisición y contratación del Estado."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información mínima obligatoria sobre servicios y funcionamiento incluye:",
+    "opciones": [
+      "Solo manuales internos secretos",
+      "Detalles sobre servicios, trámites, costos y formatos requeridos",
+      "Únicamente el organigrama",
+      "Solo normas penales"
+    ],
+    "respuesta": 1,
+    "explicacion": "Facilita la interacción del ciudadano con la entidad, informándole exactamente qué debe hacer para cada trámite."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Todo sujeto obligado debe adoptar y difundir su esquema de publicación dentro de:",
+    "opciones": [
+      "Dos meses",
+      "Seis meses",
+      "Un año",
+      "Tres años"
+    ],
+    "respuesta": 1,
+    "explicacion": "La ley establece un plazo de seis meses para definir cómo y dónde se publicará proactivamente la información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El Registro de Activos de Información debe incluir:",
+    "opciones": [
+      "Solo archivos antiguos",
+      "Categorías de información publicada, todo registro publicado y todo registro disponible para ser solicitado",
+      "Solo datos reservados",
+      "Únicamente información financiera"
+    ],
+    "respuesta": 1,
+    "explicacion": "Es un inventario de la información que posee la entidad, útil para que el ciudadano sepa qué puede buscar."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Cuando un sujeto obligado publica una respuesta a una solicitud ya resuelta, debe hacerlo:",
+    "opciones": [
+      "Solo en boletines impresos",
+      "De forma proactiva en su sitio web o en los dispositivos de divulgación existentes",
+      "Solo si el solicitante insiste",
+      "Nunca"
+    ],
+    "respuesta": 1,
+    "explicacion": "Promueve la publicación proactiva de información que es de interés general y ya ha sido solicitada."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El Programa de Gestión Documental debe adoptarse dentro de:",
+    "opciones": [
+      "Tres meses",
+      "Seis meses",
+      "Doce meses",
+      "Veinticuatro meses"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se establece un plazo de seis meses para formalizar los procesos de gestión de documentos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Los archivos institucionales deben contar con procedimientos claros para:",
+    "opciones": [
+      "Ocultar documentos",
+      "Crear, gestionar, organizar y conservar los archivos",
+      "Destruir información obsoleta sin control",
+      "Entregar solo copias verbales"
+    ],
+    "respuesta": 1,
+    "explicacion": "La buena gestión documental es la base fundamental para garantizar el acceso a la información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Los sistemas de información electrónica deben estar alineados con:",
+    "opciones": [
+      "La estrategia comercial privada",
+      "El Programa de Gestión Documental y la estrategia de gobierno en línea",
+      "Solo la publicidad institucional",
+      "El criterio de cada funcionario"
+    ],
+    "respuesta": 1,
+    "explicacion": "Asegura que la tecnología apoye las directrices archivísticas y de gobierno digital."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información exceptuada por daño a derechos de personas naturales o jurídicas puede negarse cuando afecte:",
+    "opciones": [
+      "La vida privada, la vida, la salud, la seguridad o secretos comerciales",
+      "Solo la contabilidad",
+      "Únicamente opiniones políticas",
+      "Solo fotografías"
+    ],
+    "respuesta": 0,
+    "explicacion": "Esta excepción protege derechos fundamentales y el patrimonio económico de particulares (información clasificada)."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La información exceptuada por daño a los intereses públicos incluye, entre otros:",
+    "opciones": [
+      "La defensa y seguridad nacional",
+      "La música institucional",
+      "Los horarios de atención",
+      "Los nombres de los funcionarios"
+    ],
+    "respuesta": 0,
+    "explicacion": "Son causales de información reservada destinadas a proteger la estabilidad y seguridad del Estado."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "También puede ser reservada la información relacionada con:",
+    "opciones": [
+      "Relaciones internacionales y seguridad pública",
+      "Solo recetas médicas",
+      "Solo datos abiertos",
+      "Solo archivos históricos"
+    ],
+    "respuesta": 0,
+    "explicacion": "Estas materias son críticas para el Estado y su divulgación indiscriminada podría causar daño a los intereses públicos."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La ley ordena mantener un índice actualizado de:",
+    "opciones": [
+      "Noticias y comunicados",
+      "Actos, documentos e informaciones clasificados o reservados",
+      "Fotografías institucionales",
+      "Solo contratos vigentes"
+    ],
+    "respuesta": 1,
+    "explicacion": "El Índice de Información Clasificada y Reservada permite saber qué documentos están restringidos y bajo qué justificación."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Cuando un documento solo tenga reservada una parte, debe entregarse:",
+    "opciones": [
+      "Solo el título",
+      "Una versión pública con reserva únicamente de la parte indispensable",
+      "Nada del documento",
+      "Solo una explicación oral"
+    ],
+    "respuesta": 1,
+    "explicacion": "A esto se le conoce como el principio de divisibilidad de la información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Las excepciones de acceso no aplican en casos de:",
+    "opciones": [
+      "Peticiones anónimas",
+      "Violación de derechos humanos o delitos de lesa humanidad",
+      "Consultas estudiantiles",
+      "Solicitudes electrónicas"
+    ],
+    "respuesta": 1,
+    "explicacion": "Frente a graves violaciones a los derechos humanos, no es oponible ninguna reserva."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La reserva de información amparada por el artículo 19 no puede extenderse por más de:",
+    "opciones": [
+      "5 años",
+      "10 años",
+      "15 años",
+      "20 años"
+    ],
+    "respuesta": 2,
+    "explicacion": "El límite máximo de reserva general es de 15 años, vencidos los cuales la información vuelve a ser pública."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Toda persona tiene derecho a solicitar y recibir información de cualquier sujeto obligado en la forma y condiciones que establece:",
+    "opciones": [
+      "Solo la costumbre administrativa",
+      "La ley y la Constitución",
+      "Únicamente el jefe de la entidad",
+      "El reglamento interno"
+    ],
+    "respuesta": 1,
+    "explicacion": "El marco normativo nacional y constitucional regula y garantiza este derecho fundamental."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La solicitud de acceso a la información pública puede hacerse de forma:",
+    "opciones": [
+      "Solo escrita",
+      "Oral, escrita o electrónica",
+      "Solo presencial",
+      "Solo notarial"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se permite la multiplicidad de canales para facilitar que los ciudadanos presenten sus solicitudes."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Una petición de información no puede rechazarse por:",
+    "opciones": [
+      "Falta de dinero",
+      "Fundamentación inadecuada o incompleta",
+      "Ser enviada por correo electrónico",
+      "Ser demasiado extensa"
+    ],
+    "respuesta": 1,
+    "explicacion": "El sujeto obligado no puede exigir al solicitante que motive o justifique exhaustivamente su petición."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La respuesta a una solicitud de acceso debe ser:",
+    "opciones": [
+      "Verbal y opcional",
+      "Oportuna, veraz, completa, motivada y actualizada",
+      "Solo breve",
+      "Secreta"
+    ],
+    "respuesta": 1,
+    "explicacion": "La entidad tiene la obligación de responder con los más altos estándares de calidad y justificación."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Cuando la respuesta invoque reserva por seguridad, defensa nacional o relaciones internacionales, el solicitante puede acudir al:",
+    "opciones": [
+      "Recurso de apelación",
+      "Recurso de reposición",
+      "Recurso de queja",
+      "Recurso extraordinario de revisión"
+    ],
+    "respuesta": 1,
+    "explicacion": "El solicitante puede insistir usando el recurso de reposición frente a la entidad que denegó el acceso."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "En esos casos, si se niega el recurso, decide en única instancia:",
+    "opciones": [
+      "El alcalde",
+      "El juez o tribunal administrativo competente",
+      "La Contraloría",
+      "El archivo general"
+    ],
+    "respuesta": 1,
+    "explicacion": "La jurisdicción contencioso-administrativa interviene para dirimir los conflictos sobre reserva de información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La carga de probar que una información debe mantenerse reservada corresponde a:",
+    "opciones": [
+      "El ciudadano",
+      "El sujeto obligado",
+      "El Ministerio de Educación",
+      "El notario"
+    ],
+    "respuesta": 1,
+    "explicacion": "Quien niega el acceso a la información (el sujeto obligado) debe justificar legalmente por qué lo hace."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El ocultamiento, destrucción o alteración deliberada de información pública, una vez solicitada, tiene sanción:",
+    "opciones": [
+      "Administrativa leve",
+      "Penal, en los términos del Código Penal",
+      "Solo disciplinaria informal",
+      "Ninguna"
+    ],
+    "respuesta": 1,
+    "explicacion": "Estas acciones constituyen delitos graves que van más allá de la simple sanción disciplinaria."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "El Ministerio Público debe encargarse de:",
+    "opciones": [
+      "Vender información pública",
+      "Velar por el adecuado cumplimiento de las obligaciones de la ley",
+      "Elaborar contratos",
+      "Archivar todas las solicitudes"
+    ],
+    "respuesta": 1,
+    "explicacion": "Actúa como garante para asegurar que las entidades cumplan con la ley de transparencia."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Entre las funciones del Ministerio Público está:",
+    "opciones": [
+      "Publicar decisiones de tutela y normatividad sobre acceso a la información pública",
+      "Prohibir solicitudes ciudadanas",
+      "Reservar toda la información estatal",
+      "Sustituir a los jueces administrativos"
+    ],
+    "respuesta": 0,
+    "explicacion": "Debe difundir la jurisprudencia y normas para educar y estandarizar la aplicación de la ley."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La capacitación en la aplicación de la ley debe ser apoyada por:",
+    "opciones": [
+      "Solo empresas privadas",
+      "El Ministerio Público y la sociedad civil interesada",
+      "Únicamente la prensa",
+      "Los contratistas"
+    ],
+    "respuesta": 1,
+    "explicacion": "Involucra a los entes de control y a la sociedad para fomentar una verdadera cultura de transparencia."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "La política pública de acceso a la información está a cargo de:",
+    "opciones": [
+      "La Procuraduría General",
+      "La Secretaría de Transparencia de la Presidencia de la República",
+      "La Rama Judicial",
+      "El Congreso"
+    ],
+    "respuesta": 1,
+    "explicacion": "Desde el ejecutivo nacional, esta dependencia coordina y diseña la política de transparencia."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "Según la ley, para los sujetos obligados del orden nacional, la vigencia comenzó:",
+    "opciones": [
+      "Al día siguiente de la promulgación",
+      "A los seis meses de la promulgación",
+      "A los dos años",
+      "Solo con la reglamentación posterior"
+    ],
+    "respuesta": 1,
+    "explicacion": "Se otorgó un periodo de transición de seis meses para que las entidades nacionales se adaptaran a la ley."
+  }
+]
