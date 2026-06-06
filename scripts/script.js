@@ -29,7 +29,8 @@ const temas = {
   normativa_aplicable: "data/normativa_aplicable.json",
   controlar_documentos_todo: "data/controlar_documentos_todo.json",
   controlar_conceptos: "data/controlar_conceptos.json",
-  instrumento_evaluacion: "data/instrumento_evaluacion.json"
+  instrumento_evaluacion: "data/instrumento_evaluacion.json",
+  base_de_datos: "data/base_de_datos.json"
 };
 
 /**
@@ -64,6 +65,14 @@ const materias = {
         controlar_documentos_todo: "Controlar Documentos – Todo el temario",
         controlar_conceptos: "Controlar Documentos – Conceptos clave",
         instrumento_evaluacion: "Instrumento de Evaluación"
+      }
+  },
+  base_de_datos: {
+      nombre: "Base de Datos",
+      icono:  "💾",
+      color:  "#1e293b",
+      temas: {
+        base_de_datos: "Base de Datos"
       }
   }
   // ── Plantilla para nueva materia ────────────────────────────────────────
