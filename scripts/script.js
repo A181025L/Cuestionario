@@ -30,7 +30,9 @@ const temas = {
   controlar_documentos_todo: "data/controlar_documentos_todo.json",
   controlar_conceptos: "data/controlar_conceptos.json",
   instrumento_evaluacion: "data/instrumento_evaluacion.json",
-  base_de_datos: "data/base_de_datos.json"
+  base_de_datos: "data/base_de_datos.json",
+  ley_1712: "data/ley_1712.json",
+  ley_1581: "data/ley_1581.json"
 };
 
 /**
@@ -72,7 +74,9 @@ const materias = {
       icono:  "💾",
       color:  "#1e293b",
       temas: {
-        base_de_datos: "Base de Datos"
+        base_de_datos: "Base de Datos",
+        ley_1712: "Ley 1712 de 2014",
+        ley_1581: "Ley 1581 de 2012"
       }
   }
   // ── Plantilla para nueva materia ────────────────────────────────────────
