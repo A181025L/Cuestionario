@@ -3,114 +3,169 @@
     "tipo": "multiple",
     "pregunta": "¿Qué es una base de datos?",
     "opciones": [
-      "Un software diseñado exclusivamente para editar textos.",
-      "Un conjunto organizado de datos relacionados para fácil consulta y administración.",
-      "Un espacio físico utilizado para almacenar documentos en papel.",
-      "Una red social para compartir archivos e imágenes."
+      "Un conjunto de equipos informáticos conectados entre sí.",
+      "Un conjunto organizado de datos almacenados para su consulta y gestión.",
+      "Un programa utilizado únicamente para crear documentos.",
+      "Un sistema exclusivo para almacenar imágenes."
     ],
     "respuesta": 1,
-    "explicacion": "Su objetivo principal es mantener la información ordenada y disponible para su uso."
+    "explicacion": "Una base de datos es un conjunto organizado de datos que permite almacenar, consultar y administrar información."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál es el propósito principal de una base de datos?",
+    "opciones": [
+      "Almacenar y organizar información de manera eficiente.",
+      "Eliminar automáticamente la información antigua.",
+      "Reemplazar todos los documentos físicos.",
+      "Crear copias impresas de los archivos."
+    ],
+    "respuesta": 0,
+    "explicacion": "Las bases de datos permiten almacenar, organizar y recuperar información de forma rápida y segura."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuál de las siguientes es una aplicación común de las bases de datos en una organización?",
+    "opciones": [
+      "Control de inventarios y registros de clientes.",
+      "Diseño de logotipos empresariales.",
+      "Edición de fotografías.",
+      "Mantenimiento de equipos eléctricos."
+    ],
+    "respuesta": 0,
+    "explicacion": "Las bases de datos son ampliamente utilizadas para gestionar información operativa y administrativa."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Por qué las bases de datos son fundamentales en los entornos digitales actuales?",
+    "opciones": [
+      "Porque permiten gestionar grandes volúmenes de información de forma eficiente.",
+      "Porque sustituyen completamente a Internet.",
+      "Porque eliminan la necesidad de usuarios.",
+      "Porque impiden compartir información."
+    ],
+    "respuesta": 0,
+    "explicacion": "La gestión eficiente de grandes cantidades de datos es esencial en los entornos digitales modernos."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "La finalidad de un repositorio de información es conservar y facilitar el acceso a los datos almacenados.",
+    "respuesta": 0,
+    "explicacion": "Verdadero. Los repositorios permiten preservar y recuperar información de forma organizada."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Ingresar datos incorrectos o incompletos en una base de datos no afecta el funcionamiento de la organización.",
+    "respuesta": 1,
+    "explicacion": "Falso. Los errores en los datos pueden generar decisiones equivocadas y problemas operativos."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Los sistemas de validación ayudan a reducir errores durante el ingreso de datos.",
+    "respuesta": 0,
+    "explicacion": "Verdadero. Las validaciones permiten verificar que la información cumpla ciertos requisitos."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "La pérdida o inconsistencia de información puede generar problemas administrativos y financieros para una empresa.",
+    "respuesta": 0,
+    "explicacion": "Verdadero. La calidad de la información es fundamental para el funcionamiento organizacional."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Una base de datos es un conjunto organizado de ________.",
+    "respuesta": "datos",
+    "alternativas": [
+      "informacion",
+      "información"
+    ],
+    "explicacion": "Las bases de datos almacenan y organizan datos e información."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Como futuro archivista, una función importante es garantizar el ________ y acceso a la información.",
+    "respuesta": "uso",
+    "alternativas": [
+      "aprovechamiento"
+    ],
+    "explicacion": "El archivista debe promover el uso adecuado y el acceso a la información."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "La información registrada en una base de datos debe ser correcta, completa y ________.",
+    "respuesta": "actualizada",
+    "alternativas": [
+      "vigente"
+    ],
+    "explicacion": "La actualización constante garantiza la confiabilidad de la información."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Uno de los principales riesgos del mal uso de la información es la pérdida de ________.",
+    "respuesta": "privacidad",
+    "alternativas": [
+      "confidencialidad"
+    ],
+    "explicacion": "La privacidad y la confidencialidad son aspectos fundamentales en la gestión de información."
   },
   {
     "tipo": "arrastrar",
-    "pregunta": "Relaciona los siguientes conceptos de bases de datos con sus características.",
+    "pregunta": "Relaciona cada concepto con su definición.",
     "pares": [
       {
-        "termino": "Casos de uso",
-        "definicion": "Registrar clientes, controlar inventarios, gestionar expedientes y evitar duplicidad."
+        "termino": "Base de datos",
+        "definicion": "Conjunto organizado de datos almacenados para su gestión."
       },
       {
-        "termino": "Entornos digitales",
-        "definicion": "Manejo de grandes volúmenes de información en plataformas web y sistemas empresariales."
+        "termino": "Repositorio de información",
+        "definicion": "Espacio destinado a conservar y facilitar el acceso a la información."
       },
       {
-        "termino": "Ventajas frente al papel",
-        "definicion": "Mayor rapidez de consulta, facilidad para compartir y generación eficiente de reportes."
+        "termino": "Validación de datos",
+        "definicion": "Proceso que verifica que la información cumpla requisitos establecidos."
       }
     ],
-    "explicacion": "Cada característica refleja el valor que aportan las bases de datos a la gestión de información."
-  },
-  {
-    "tipo": "verdadero_falso",
-    "pregunta": "La finalidad de los repositorios de información es conservar los datos de forma aislada para que solo una persona pueda verlos.",
-    "respuesta": 1,
-    "explicacion": "Falso. Su finalidad es conservar la información accesible, segura y confiable para apoyar la toma de decisiones y permitir que varias personas accedan de manera segura."
-  },
-  {
-    "tipo": "completar",
-    "pregunta": "Como futuro archivista, puedo garantizar el acceso a la información aplicando criterios de clasificación, descripción y ________.",
-    "respuesta": "conservación",
-    "alternativas": [
-      "conservacion",
-      "conservación de la información"
-    ],
-    "explicacion": "También es vital verificar la calidad de los datos y respetar las normas de acceso."
-  },
-  {
-    "tipo": "multiple",
-    "pregunta": "¿Cuáles son algunos de los riesgos a los que estamos expuestos si no damos un buen uso a la información en los sistemas?",
-    "opciones": [
-      "Pérdida de privacidad, acceso no autorizado y desinformación.",
-      "Aumento en la velocidad de procesamiento de los servidores.",
-      "Mejora en la clasificación automática de los expedientes físicos.",
-      "Reducción del espacio de almacenamiento en los discos duros."
-    ],
-    "respuesta": 0,
-    "explicacion": "El mal uso también puede generar errores en decisiones y deterioro de la confianza institucional."
-  },
-  {
-    "tipo": "completar",
-    "pregunta": "Uno de los retos de los archivistas ante el avance de la tecnología es adaptarse sin perder el control ________.",
-    "respuesta": "documental",
-    "alternativas": [
-      "control documental"
-    ],
-    "explicacion": "Es fundamental no perder el control documental, la autenticidad, la organización y la conservación."
-  },
-  {
-    "tipo": "verdadero_falso",
-    "pregunta": "Una base de datos con información incompleta o incorrecta puede generar errores operativos y decisiones equivocadas.",
-    "respuesta": 0,
-    "explicacion": "Verdadero. De la exactitud y actualización de los datos depende que los resultados de la base sean confiables."
-  },
-  {
-    "tipo": "multiple",
-    "pregunta": "¿Qué problemas podrían presentarse si los datos se ingresan sin tener en cuenta los requerimientos funcionales del sistema?",
-    "opciones": [
-      "El sistema aumentará su seguridad automáticamente.",
-      "Aparecerán errores de compatibilidad, pérdida de datos y duplicidad.",
-      "Los reportes se generarán mucho más rápido y sin errores.",
-      "La base de datos se respaldará en la nube inmediatamente."
-    ],
-    "respuesta": 1,
-    "explicacion": "Omitir los requerimientos funcionales lleva a registros mal almacenados y fallas operativas."
-  },
-  {
-    "tipo": "verdadero_falso",
-    "pregunta": "El tipo de software o formulario utilizado para ingresar datos no afecta la precisión y seguridad de la información.",
-    "respuesta": 1,
-    "explicacion": "Falso. Influye directamente; un buen sistema con validaciones reduce errores, mientras que uno mal diseñado provoca registros incorrectos."
+    "explicacion": "Cada concepto tiene una función específica dentro de la gestión de información."
   },
   {
     "tipo": "arrastrar",
-    "pregunta": "Relaciona las deficiencias en la gestión de información con las consecuencias operativas para una empresa.",
+    "pregunta": "Relaciona cada problema con su consecuencia.",
     "pares": [
       {
         "termino": "Pérdida de información",
-        "definicion": "Genera problemas legales o financieros dependiendo de la sensibilidad de los datos."
+        "definicion": "Dificultad para recuperar datos importantes."
       },
       {
-        "termino": "Duplicidad de registros",
-        "definicion": "Ocasiona confusiones, errores en estadísticas y mayores costos de almacenamiento."
+        "termino": "Duplicidad de datos",
+        "definicion": "Existencia de registros repetidos."
       },
       {
-        "termino": "Inconsistencia de datos",
-        "definicion": "Produce pérdida de confianza, retrasos y dificultad para la correcta toma de decisiones."
+        "termino": "Inconsistencia de información",
+        "definicion": "Datos contradictorios o poco confiables."
       }
     ],
-    "explicacion": "El mal manejo y almacenamiento deficiente traen consecuencias críticas a nivel administrativo y legal."
+    "explicacion": "Estos problemas afectan la calidad y confiabilidad de la información."
   },
-{
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona cada ventaja de las bases de datos con su descripción.",
+    "pares": [
+      {
+        "termino": "Acceso rápido",
+        "definicion": "Permite encontrar información en poco tiempo."
+      },
+      {
+        "termino": "Organización",
+        "definicion": "Facilita la clasificación y control de los datos."
+      },
+      {
+        "termino": "Seguridad",
+        "definicion": "Protege la información contra accesos no autorizados."
+      }
+    ],
+    "explicacion": "Las bases de datos ofrecen múltiples beneficios frente a los archivos tradicionales."
+  },
+  {
     "tipo": "multiple",
     "pregunta": "¿Qué es una base de datos?",
     "opciones": [
