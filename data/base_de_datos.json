@@ -1,0 +1,224 @@
+[
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Qué es una base de datos?",
+    "opciones": [
+      "Un software diseñado exclusivamente para editar textos.",
+      "Un conjunto organizado de datos relacionados para fácil consulta y administración.",
+      "Un espacio físico utilizado para almacenar documentos en papel.",
+      "Una red social para compartir archivos e imágenes."
+    ],
+    "respuesta": 1,
+    "explicacion": "Su objetivo principal es mantener la información ordenada y disponible para su uso."
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los siguientes conceptos de bases de datos con sus características.",
+    "pares": [
+      {
+        "termino": "Casos de uso",
+        "definicion": "Registrar clientes, controlar inventarios, gestionar expedientes y evitar duplicidad."
+      },
+      {
+        "termino": "Entornos digitales",
+        "definicion": "Manejo de grandes volúmenes de información en plataformas web y sistemas empresariales."
+      },
+      {
+        "termino": "Ventajas frente al papel",
+        "definicion": "Mayor rapidez de consulta, facilidad para compartir y generación eficiente de reportes."
+      }
+    ],
+    "explicacion": "Cada característica refleja el valor que aportan las bases de datos a la gestión de información."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "La finalidad de los repositorios de información es conservar los datos de forma aislada para que solo una persona pueda verlos.",
+    "respuesta": 1,
+    "explicacion": "Falso. Su finalidad es conservar la información accesible, segura y confiable para apoyar la toma de decisiones y permitir que varias personas accedan de manera segura."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Como futuro archivista, puedo garantizar el acceso a la información aplicando criterios de clasificación, descripción y ________.",
+    "respuesta": "conservación",
+    "alternativas": [
+      "conservacion",
+      "conservación de la información"
+    ],
+    "explicacion": "También es vital verificar la calidad de los datos y respetar las normas de acceso."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuáles son algunos de los riesgos a los que estamos expuestos si no damos un buen uso a la información en los sistemas?",
+    "opciones": [
+      "Pérdida de privacidad, acceso no autorizado y desinformación.",
+      "Aumento en la velocidad de procesamiento de los servidores.",
+      "Mejora en la clasificación automática de los expedientes físicos.",
+      "Reducción del espacio de almacenamiento en los discos duros."
+    ],
+    "respuesta": 0,
+    "explicacion": "El mal uso también puede generar errores en decisiones y deterioro de la confianza institucional."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Uno de los retos de los archivistas ante el avance de la tecnología es adaptarse sin perder el control ________.",
+    "respuesta": "documental",
+    "alternativas": [
+      "control documental"
+    ],
+    "explicacion": "Es fundamental no perder el control documental, la autenticidad, la organización y la conservación."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Una base de datos con información incompleta o incorrecta puede generar errores operativos y decisiones equivocadas.",
+    "respuesta": 0,
+    "explicacion": "Verdadero. De la exactitud y actualización de los datos depende que los resultados de la base sean confiables."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Qué problemas podrían presentarse si los datos se ingresan sin tener en cuenta los requerimientos funcionales del sistema?",
+    "opciones": [
+      "El sistema aumentará su seguridad automáticamente.",
+      "Aparecerán errores de compatibilidad, pérdida de datos y duplicidad.",
+      "Los reportes se generarán mucho más rápido y sin errores.",
+      "La base de datos se respaldará en la nube inmediatamente."
+    ],
+    "respuesta": 1,
+    "explicacion": "Omitir los requerimientos funcionales lleva a registros mal almacenados y fallas operativas."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El tipo de software o formulario utilizado para ingresar datos no afecta la precisión y seguridad de la información.",
+    "respuesta": 1,
+    "explicacion": "Falso. Influye directamente; un buen sistema con validaciones reduce errores, mientras que uno mal diseñado provoca registros incorrectos."
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona las deficiencias en la gestión de información con las consecuencias operativas para una empresa.",
+    "pares": [
+      {
+        "termino": "Pérdida de información",
+        "definicion": "Genera problemas legales o financieros dependiendo de la sensibilidad de los datos."
+      },
+      {
+        "termino": "Duplicidad de registros",
+        "definicion": "Ocasiona confusiones, errores en estadísticas y mayores costos de almacenamiento."
+      },
+      {
+        "termino": "Inconsistencia de datos",
+        "definicion": "Produce pérdida de confianza, retrasos y dificultad para la correcta toma de decisiones."
+      }
+    ],
+    "explicacion": "El mal manejo y almacenamiento deficiente traen consecuencias críticas a nivel administrativo y legal."
+  },
+{
+    "tipo": "multiple",
+    "pregunta": "¿Qué es una base de datos?",
+    "opciones": [
+      "Un software diseñado exclusivamente para editar textos.",
+      "Un conjunto organizado de datos relacionados para fácil consulta y administración.",
+      "Un espacio físico utilizado para almacenar documentos en papel.",
+      "Una red social para compartir archivos e imágenes."
+    ],
+    "respuesta": 1,
+    "explicacion": "Su objetivo principal es mantener la información ordenada y disponible para su uso."
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona los siguientes conceptos de bases de datos con sus características.",
+    "pares": [
+      {
+        "termino": "Casos de uso",
+        "definicion": "Registrar clientes, controlar inventarios, gestionar expedientes y evitar duplicidad."
+      },
+      {
+        "termino": "Entornos digitales",
+        "definicion": "Manejo de grandes volúmenes de información en plataformas web y sistemas empresariales."
+      },
+      {
+        "termino": "Ventajas frente al papel",
+        "definicion": "Mayor rapidez de consulta, facilidad para compartir y generación eficiente de reportes."
+      }
+    ],
+    "explicacion": "Cada característica refleja el valor que aportan las bases de datos a la gestión de información."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "La finalidad de los repositorios de información es conservar los datos de forma aislada para que solo una persona pueda verlos.",
+    "respuesta": 1,
+    "explicacion": "Falso. Su finalidad es conservar la información accesible, segura y confiable para apoyar la toma de decisiones y permitir que varias personas accedan de manera segura."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Como futuro archivista, puedo garantizar el acceso a la información aplicando criterios de clasificación, descripción y ________.",
+    "respuesta": "conservación",
+    "alternativas": [
+      "conservacion",
+      "conservación de la información"
+    ],
+    "explicacion": "También es vital verificar la calidad de los datos y respetar las normas de acceso."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Cuáles son algunos de los riesgos a los que estamos expuestos si no damos un buen uso a la información en los sistemas?",
+    "opciones": [
+      "Pérdida de privacidad, acceso no autorizado y desinformación.",
+      "Aumento en la velocidad de procesamiento de los servidores.",
+      "Mejora en la clasificación automática de los expedientes físicos.",
+      "Reducción del espacio de almacenamiento en los discos duros."
+    ],
+    "respuesta": 0,
+    "explicacion": "El mal uso también puede generar errores en decisiones y deterioro de la confianza institucional."
+  },
+  {
+    "tipo": "completar",
+    "pregunta": "Uno de los retos de los archivistas ante el avance de la tecnología es adaptarse sin perder el control ________.",
+    "respuesta": "documental",
+    "alternativas": [
+      "control documental"
+    ],
+    "explicacion": "Es fundamental no perder el control documental, la autenticidad, la organización y la conservación."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "Una base de datos con información incompleta o incorrecta puede generar errores operativos y decisiones equivocadas.",
+    "respuesta": 0,
+    "explicacion": "Verdadero. De la exactitud y actualización de los datos depende que los resultados de la base sean confiables."
+  },
+  {
+    "tipo": "multiple",
+    "pregunta": "¿Qué problemas podrían presentarse si los datos se ingresan sin tener en cuenta los requerimientos funcionales del sistema?",
+    "opciones": [
+      "El sistema aumentará su seguridad automáticamente.",
+      "Aparecerán errores de compatibilidad, pérdida de datos y duplicidad.",
+      "Los reportes se generarán mucho más rápido y sin errores.",
+      "La base de datos se respaldará en la nube inmediatamente."
+    ],
+    "respuesta": 1,
+    "explicacion": "Omitir los requerimientos funcionales lleva a registros mal almacenados y fallas operativas."
+  },
+  {
+    "tipo": "verdadero_falso",
+    "pregunta": "El tipo de software o formulario utilizado para ingresar datos no afecta la precisión y seguridad de la información.",
+    "respuesta": 1,
+    "explicacion": "Falso. Influye directamente; un buen sistema con validaciones reduce errores, mientras que uno mal diseñado provoca registros incorrectos."
+  },
+  {
+    "tipo": "arrastrar",
+    "pregunta": "Relaciona las deficiencias en la gestión de información con las consecuencias operativas para una empresa.",
+    "pares": [
+      {
+        "termino": "Pérdida de información",
+        "definicion": "Genera problemas legales o financieros dependiendo de la sensibilidad de los datos."
+      },
+      {
+        "termino": "Duplicidad de registros",
+        "definicion": "Ocasiona confusiones, errores en estadísticas y mayores costos de almacenamiento."
+      },
+      {
+        "termino": "Inconsistencia de datos",
+        "definicion": "Produce pérdida de confianza, retrasos y dificultad para la correcta toma de decisiones."
+      }
+    ],
+    "explicacion": "El mal manejo y almacenamiento deficiente traen consecuencias críticas a nivel administrativo y legal."
+  }
+]
