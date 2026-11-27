@@ -1,0 +1,318 @@
+{
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Yo juego fútbol todos los días' en inglés?",
+      "opciones": [
+        "I plays soccer every day.",
+        "I play soccer every day.",
+        "I playing soccer every day.",
+        "I does play soccer every day."
+      ],
+      "respuesta": 1,
+      "explicacion": "Con I utilizamos el verbo en su forma básica, sin agregar S. Por eso decimos I play."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la oración correcta para decir 'Ella estudia inglés'?",
+      "opciones": [
+        "She study English.",
+        "She studies English.",
+        "She studying English.",
+        "She do study English."
+      ],
+      "respuesta": 1,
+      "explicacion": "Con She, el verbo generalmente cambia y termina en S o ES. Study cambia a studies."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Te gusta la pizza?' en inglés?",
+      "opciones": [
+        "Does you like pizza?",
+        "Do you like pizza?",
+        "You do likes pizza?",
+        "Are you like pizza?"
+      ],
+      "respuesta": 1,
+      "explicacion": "Utilizamos DO para hacer preguntas con YOU."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma negativa de 'They play basketball'?",
+      "opciones": [
+        "They doesn't play basketball.",
+        "They don't plays basketball.",
+        "They don't play basketball.",
+        "They not play basketball."
+      ],
+      "respuesta": 2,
+      "explicacion": "Con They utilizamos DON'T para negar. Después de DON'T, el verbo permanece en su forma básica."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál oración significa 'Él ve televisión por la noche'?",
+      "opciones": [
+        "He watch TV at night.",
+        "He watches TV at night.",
+        "He watching TV at night.",
+        "He watchs TV at night."
+      ],
+      "respuesta": 1,
+      "explicacion": "Con He agregamos ES a watch, formando watches."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Ella tiene un perro?' en inglés?",
+      "opciones": [
+        "Do she have a dog?",
+        "Does she has a dog?",
+        "Does she have a dog?",
+        "She does have a dog?"
+      ],
+      "respuesta": 2,
+      "explicacion": "Utilizamos DOES con She. Después de DOES, el verbo vuelve a su forma básica: have."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma negativa correcta de 'He likes chocolate'?",
+      "opciones": [
+        "He don't like chocolate.",
+        "He doesn't likes chocolate.",
+        "He doesn't like chocolate.",
+        "He not likes chocolate."
+      ],
+      "respuesta": 2,
+      "explicacion": "Con He utilizamos DOESN'T. El verbo pierde la S y queda como like."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál oración está escrita correctamente en presente simple?",
+      "opciones": [
+        "They goes to school.",
+        "They go to school.",
+        "They going to school.",
+        "They does go to school."
+      ],
+      "respuesta": 1,
+      "explicacion": "Con They utilizamos el verbo en su forma básica. Por eso decimos They go."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la pregunta correcta para decir '¿Él trabaja en un hospital?'?",
+      "opciones": [
+        "Do he work in a hospital?",
+        "Does he works in a hospital?",
+        "Does he work in a hospital?",
+        "He does work in a hospital?"
+      ],
+      "respuesta": 2,
+      "explicacion": "Con He utilizamos DOES para preguntar. El verbo work no lleva S después de DOES."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Yo no tomo café' en inglés?",
+      "opciones": [
+        "I doesn't drink coffee.",
+        "I don't drink coffee.",
+        "I don't drinks coffee.",
+        "I not drink coffee."
+      ],
+      "respuesta": 1,
+      "explicacion": "Con I utilizamos DON'T para formar oraciones negativas. El verbo drink permanece igual."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "En presente simple, agregamos S al verbo cuando hablamos de He, She o It en una oración afirmativa.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: She plays, He eats e It works."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La pregunta 'Does she likes apples?' está escrita correctamente.",
+      "respuesta": 1,
+      "explicacion": "Falso. Después de DOES utilizamos el verbo sin S. La forma correcta es: Does she like apples?"
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "Utilizamos DO para hacer preguntas con I, You, We y They.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: Do you study English?"
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La expresión DOESN'T se utiliza con He, She e It para formar oraciones negativas.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: He doesn't play soccer."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La oración 'I doesn't like vegetables' es correcta.",
+      "respuesta": 1,
+      "explicacion": "Falso. Con I utilizamos DON'T. La oración correcta es: I don't like vegetables."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "En la oración afirmativa 'My mother cooks dinner', el verbo cooks lleva S porque hablamos de She.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. My mother equivale a She, por eso agregamos S al verbo cook."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "I ___ (play) video games every afternoon. (Yo juego videojuegos todas las tardes).",
+      "respuesta": "play",
+      "explicacion": "Con I utilizamos el verbo en su forma básica: play."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "My sister ___ (read) a book every night. (Mi hermana lee un libro todas las noches).",
+      "respuesta": "reads",
+      "explicacion": "My sister equivale a She, por eso agregamos S al verbo read."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ you speak English? (¿Tú hablas inglés?).",
+      "respuesta": "Do",
+      "alternativas": ["do"],
+      "explicacion": "Utilizamos DO para hacer preguntas con YOU."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ your father drive a car? (¿Tu padre conduce un automóvil?).",
+      "respuesta": "Does",
+      "alternativas": ["does"],
+      "explicacion": "Your father equivale a He, por eso utilizamos DOES para preguntar."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "We ___ (not/eat) meat. (Nosotros no comemos carne).",
+      "respuesta": "don't eat",
+      "alternativas": ["do not eat"],
+      "explicacion": "Con We utilizamos DON'T para negar y después colocamos el verbo eat."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "She ___ (not/like) onions. (A ella no le gustan las cebollas).",
+      "respuesta": "doesn't like",
+      "alternativas": ["does not like"],
+      "explicacion": "Con She utilizamos DOESN'T y el verbo queda en su forma básica: like."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "The birds ___ (sing) every morning. (Los pájaros cantan todas las mañanas).",
+      "respuesta": "sing",
+      "explicacion": "The birds equivale a They, por eso utilizamos el verbo en su forma básica."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ your brother play tennis? (¿Tu hermano juega tenis?).",
+      "respuesta": "Does",
+      "alternativas": ["does"],
+      "explicacion": "Your brother equivale a He. Por eso utilizamos DOES al comienzo de la pregunta."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "My friends ___ (not/watch) television in the morning. (Mis amigos no ven televisión por la mañana).",
+      "respuesta": "don't watch",
+      "alternativas": ["do not watch"],
+      "explicacion": "My friends equivale a They, por eso utilizamos DON'T para negar."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "He ___ (go) to school by bus. (Él va a la escuela en autobús).",
+      "respuesta": "goes",
+      "explicacion": "Con He, el verbo go cambia a goes."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada auxiliar con su uso correcto en presente simple.",
+      "pares": [
+        {
+          "termino": "DO",
+          "definicion": "Se utiliza para preguntar con I, You, We y They."
+        },
+        {
+          "termino": "DOES",
+          "definicion": "Se utiliza para preguntar con He, She e It."
+        },
+        {
+          "termino": "DON'T",
+          "definicion": "Se utiliza para negar con I, You, We y They."
+        },
+        {
+          "termino": "DOESN'T",
+          "definicion": "Se utiliza para negar con He, She e It."
+        }
+      ],
+      "explicacion": "DO y DOES sirven para hacer preguntas. DON'T y DOESN'T sirven para formar oraciones negativas."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada oración con el tipo de estructura al que pertenece.",
+      "pares": [
+        {
+          "termino": "She dances every day.",
+          "definicion": "Afirmativa: expresa una actividad habitual."
+        },
+        {
+          "termino": "Do you like music?",
+          "definicion": "Interrogativa: pregunta por un gusto."
+        },
+        {
+          "termino": "He doesn't play basketball.",
+          "definicion": "Negativa: expresa que alguien no realiza una actividad."
+        },
+        {
+          "termino": "Does she cook dinner?",
+          "definicion": "Interrogativa: pregunta por una actividad de ella."
+        }
+      ],
+      "explicacion": "Las oraciones afirmativas expresan acciones habituales, las interrogativas hacen preguntas y las negativas indican que una acción no se realiza."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada pronombre con el auxiliar que corresponde para hacer preguntas en presente simple.",
+      "pares": [
+        {
+          "termino": "I",
+          "definicion": "DO"
+        },
+        {
+          "termino": "She",
+          "definicion": "DOES"
+        },
+        {
+          "termino": "They",
+          "definicion": "DO"
+        },
+        {
+          "termino": "He",
+          "definicion": "DOES"
+        }
+      ],
+      "explicacion": "DO se utiliza con I, You, We y They. DOES se utiliza con He, She e It."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada oración con su traducción correcta.",
+      "pares": [
+        {
+          "termino": "I don't eat fish.",
+          "definicion": "Yo no como pescado."
+        },
+        {
+          "termino": "She studies English.",
+          "definicion": "Ella estudia inglés."
+        },
+        {
+          "termino": "Do they play soccer?",
+          "definicion": "¿Ellos juegan fútbol?"
+        },
+        {
+          "termino": "He doesn't drink milk.",
+          "definicion": "Él no toma leche."
+        }
+      ],
+      "explicacion": "Es importante reconocer el significado de las oraciones afirmativas, negativas e interrogativas en presente simple."
+    }
+  ]
+}
