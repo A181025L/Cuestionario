@@ -1,0 +1,319 @@
+{
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Yo jugaré fútbol mañana' en inglés?",
+      "opciones": [
+        "I will plays soccer tomorrow.",
+        "I will play soccer tomorrow.",
+        "I plays soccer tomorrow.",
+        "I won't play soccer tomorrow."
+      ],
+      "respuesta": 1,
+      "explicacion": "Para formar el futuro simple utilizamos WILL seguido del verbo en su forma básica: play."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la oración correcta para decir 'Ella estudiará inglés'?",
+      "opciones": [
+        "She will studies English.",
+        "She studies English.",
+        "She will study English.",
+        "She will studying English."
+      ],
+      "respuesta": 2,
+      "explicacion": "Después de WILL, el verbo siempre permanece en su forma básica. Por eso decimos will study."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Tú viajarás mañana?' en inglés?",
+      "opciones": [
+        "You will travel tomorrow?",
+        "Will you travel tomorrow?",
+        "Do you will travel tomorrow?",
+        "Will you travels tomorrow?"
+      ],
+      "respuesta": 1,
+      "explicacion": "Para hacer preguntas en futuro simple colocamos WILL al principio, seguido de la persona y el verbo."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma negativa de 'They will play basketball'?",
+      "opciones": [
+        "They doesn't will play basketball.",
+        "They will plays basketball.",
+        "They won't play basketball.",
+        "They don't will play basketball."
+      ],
+      "respuesta": 2,
+      "explicacion": "Para negar en futuro utilizamos WILL NOT o su forma corta WON'T. El verbo permanece en su forma básica."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál oración significa 'Él comerá una hamburguesa'?",
+      "opciones": [
+        "He will eat a hamburger.",
+        "He will eats a hamburger.",
+        "He won't eat a hamburger.",
+        "He eating a hamburger."
+      ],
+      "respuesta": 0,
+      "explicacion": "La estructura afirmativa es persona + WILL + verbo básico + complemento."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Nosotros no iremos al colegio mañana' en inglés?",
+      "opciones": [
+        "We don't go to school tomorrow.",
+        "We will goes to school tomorrow.",
+        "We won't go to school tomorrow.",
+        "We will go to school tomorrow."
+      ],
+      "respuesta": 2,
+      "explicacion": "WON'T expresa una negación en futuro. Después utilizamos el verbo go sin cambios."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la pregunta correcta para decir '¿Ella bailará en la fiesta?'?",
+      "opciones": [
+        "Does she will dance at the party?",
+        "Will she dance at the party?",
+        "Will she dances at the party?",
+        "She will dance at the party?"
+      ],
+      "respuesta": 1,
+      "explicacion": "Para preguntar utilizamos WILL al principio. No necesitamos DO ni DOES."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma negativa de 'I will buy a new toy'?",
+      "opciones": [
+        "I will not buy a new toy.",
+        "I doesn't buy a new toy.",
+        "I will not buys a new toy.",
+        "I don't will buy a new toy."
+      ],
+      "respuesta": 0,
+      "explicacion": "WILL NOT es la forma negativa de WILL. Después colocamos el verbo buy en su forma básica."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Ellos jugarán videojuegos esta noche?'?",
+      "opciones": [
+        "Do they play video games tonight?",
+        "They will play video games tonight?",
+        "Will they play video games tonight?",
+        "Will they plays video games tonight?"
+      ],
+      "respuesta": 2,
+      "explicacion": "Colocamos WILL al principio para realizar una pregunta sobre el futuro."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál de estas oraciones está escrita correctamente en futuro simple?",
+      "opciones": [
+        "She will goes to the park.",
+        "She will going to the park.",
+        "She will go to the park.",
+        "She goes will to the park."
+      ],
+      "respuesta": 2,
+      "explicacion": "La estructura correcta es sujeto + WILL + verbo en su forma básica. Por eso utilizamos will go."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "En futuro simple utilizamos WILL antes del verbo principal para formar oraciones afirmativas.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: I will study English (Yo estudiaré inglés)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La oración 'She will plays tennis' está escrita correctamente.",
+      "respuesta": 1,
+      "explicacion": "Falso. Después de WILL no agregamos S al verbo. La forma correcta es 'She will play tennis'."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "WON'T es la forma corta de WILL NOT.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Ambas expresiones significan no haré, no hará, no harán, etc."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "Para preguntar en futuro simple colocamos WILL al final de la oración.",
+      "respuesta": 1,
+      "explicacion": "Falso. WILL se coloca al principio de la pregunta. Ejemplo: Will you study?"
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "Podemos utilizar WILL con I, You, He, She, It, We y They.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. WILL funciona con todos los pronombres personales y no cambia."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La oración 'They won't travel tomorrow' expresa una acción futura negativa.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. WON'T indica que ellos no viajarán mañana."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "I ___ visit my grandmother tomorrow. (Yo visitaré a mi abuela mañana).",
+      "respuesta": "will",
+      "alternativas": [],
+      "explicacion": "Utilizamos WILL para formar una oración afirmativa en futuro simple."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "She will ___ (help) her mother. (Ella ayudará a su madre).",
+      "respuesta": "help",
+      "explicacion": "Después de WILL utilizamos el verbo en su forma básica: help."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ you travel next week? (¿Viajarás la próxima semana?).",
+      "respuesta": "Will",
+      "alternativas": ["will"],
+      "explicacion": "Para hacer preguntas en futuro simple colocamos WILL al principio."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "He ___ not play soccer tomorrow. (Él no jugará fútbol mañana).",
+      "respuesta": "will",
+      "alternativas": [],
+      "explicacion": "La expresión WILL NOT se utiliza para formar oraciones negativas en futuro."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "We ___ (not/watch) television tonight. (Nosotros no veremos televisión esta noche).",
+      "respuesta": "won't watch",
+      "alternativas": ["will not watch"],
+      "explicacion": "Utilizamos WON'T o WILL NOT seguido del verbo watch en su forma básica."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "My parents ___ cook dinner tomorrow. (Mis padres cocinarán la cena mañana).",
+      "respuesta": "will",
+      "explicacion": "La oración es afirmativa, por eso utilizamos WILL antes del verbo cook."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ your sister dance at the party? (¿Tu hermana bailará en la fiesta?).",
+      "respuesta": "Will",
+      "alternativas": ["will"],
+      "explicacion": "Utilizamos WILL al principio para preguntar sobre una acción futura."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "I will ___ (drink) orange juice tomorrow. (Yo beberé jugo de naranja mañana).",
+      "respuesta": "drink",
+      "explicacion": "Después de WILL utilizamos el verbo drink sin agregar terminaciones."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "The dog ___ (not/sleep) in my room tonight. (El perro no dormirá en mi habitación esta noche).",
+      "respuesta": "won't sleep",
+      "alternativas": ["will not sleep"],
+      "explicacion": "Para negar una acción futura utilizamos WON'T o WILL NOT antes del verbo."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ we see a movie tomorrow? (¿Veremos una película mañana?).",
+      "respuesta": "Will",
+      "alternativas": ["will"],
+      "explicacion": "Para hacer preguntas con We utilizamos WILL al principio de la oración."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada oración con el tipo de estructura al que pertenece.",
+      "pares": [
+        {
+          "termino": "I will study tomorrow.",
+          "definicion": "Afirmativa: expresa algo que haré."
+        },
+        {
+          "termino": "Will you play tomorrow?",
+          "definicion": "Interrogativa: pregunta sobre una acción futura."
+        },
+        {
+          "termino": "She won't dance tonight.",
+          "definicion": "Negativa: expresa algo que no hará."
+        },
+        {
+          "termino": "They will travel next year.",
+          "definicion": "Afirmativa: expresa una acción futura."
+        }
+      ],
+      "explicacion": "Las oraciones afirmativas expresan lo que sucederá, las interrogativas hacen preguntas y las negativas indican lo que no sucederá."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada expresión con su significado en español.",
+      "pares": [
+        {
+          "termino": "WILL",
+          "definicion": "Se utiliza para hablar del futuro."
+        },
+        {
+          "termino": "WILL NOT",
+          "definicion": "Significa no haré, no hará o no harán."
+        },
+        {
+          "termino": "WON'T",
+          "definicion": "Es la forma corta de WILL NOT."
+        },
+        {
+          "termino": "TOMORROW",
+          "definicion": "Significa mañana."
+        }
+      ],
+      "explicacion": "WILL forma el futuro simple, WILL NOT y WON'T expresan negación, y TOMORROW indica que algo sucederá mañana."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada pronombre con la forma correcta de utilizar WILL.",
+      "pares": [
+        {
+          "termino": "I",
+          "definicion": "I will play."
+        },
+        {
+          "termino": "She",
+          "definicion": "She will play."
+        },
+        {
+          "termino": "They",
+          "definicion": "They will play."
+        },
+        {
+          "termino": "He",
+          "definicion": "He will play."
+        }
+      ],
+      "explicacion": "WILL se utiliza de la misma manera con todos los pronombres. Nunca cambia ni se agrega S."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada expresión de tiempo con su traducción correcta.",
+      "pares": [
+        {
+          "termino": "Tomorrow",
+          "definicion": "Mañana."
+        },
+        {
+          "termino": "Tonight",
+          "definicion": "Esta noche."
+        },
+        {
+          "termino": "Next week",
+          "definicion": "La próxima semana."
+        },
+        {
+          "termino": "Next year",
+          "definicion": "El próximo año."
+        }
+      ],
+      "explicacion": "Estas expresiones indican cuándo sucederán las acciones futuras y ayudan a reconocer el contexto de una oración."
+    }
+  ]
+}
