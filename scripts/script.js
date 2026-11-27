@@ -32,7 +32,10 @@ const temas = {
   instrumento_evaluacion: "data/instrumento_evaluacion.json",
   base_de_datos: "data/base_de_datos.json",
   ley_1712: "data/ley_1712.json",
-  ley_1581: "data/ley_1581.json"
+  ley_1581: "data/ley_1581.json",
+  presente_simple: "data/simplepresent.json",
+  futuro_simple: "data/simplefuture.json",
+  there_is_there_are: "data/thereisare.json"
 };
 
 /**
@@ -78,6 +81,16 @@ const materias = {
         ley_1712: "Ley 1712 de 2014",
         ley_1581: "Ley 1581 de 2012"
       }
+  },
+  ingles: {
+     nombre: "Inglés",
+     icono: "🌎",
+     color: "#4B0082",
+     temas: {
+       presente_simple: "Presente SImple",
+       futuro_simple: "Futuro Simple",
+       there_is_there_are: "There is / There Are"
+     }
   }
   // ── Plantilla para nueva materia ────────────────────────────────────────
   // nueva_materia: {
