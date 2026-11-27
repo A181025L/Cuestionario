@@ -1,0 +1,320 @@
+{
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la traducción correcta de 'Hay un perro en la casa'?",
+      "opciones": [
+        "There are a dog in the house.",
+        "There is a dog in the house.",
+        "There isn't a dog in the house.",
+        "Are there a dog in the house?"
+      ],
+      "respuesta": 1,
+      "explicacion": "There is se utiliza cuando hablamos de una sola persona, animal u objeto. Como tenemos un perro, utilizamos There is."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Hay tres manzanas sobre la mesa' en inglés?",
+      "opciones": [
+        "There is three apples on the table.",
+        "There isn't three apples on the table.",
+        "There are three apples on the table.",
+        "Are there three apples on the table?"
+      ],
+      "respuesta": 2,
+      "explicacion": "There are se utiliza cuando hablamos de dos o más elementos. Como hay tres manzanas, utilizamos There are."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma negativa de 'There is a cat'?",
+      "opciones": [
+        "There are a cat.",
+        "There isn't a cat.",
+        "Is there a cat?",
+        "There aren't a cat."
+      ],
+      "respuesta": 1,
+      "explicacion": "Para formar una oración negativa con There is, agregamos not. Su forma corta es There isn't."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Hay dos libros?' en inglés?",
+      "opciones": [
+        "There are two books?",
+        "Is there two books?",
+        "Are there two books?",
+        "There is two books?"
+      ],
+      "respuesta": 2,
+      "explicacion": "Para hacer preguntas con There are, colocamos Are al principio: Are there two books?"
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál de las siguientes oraciones significa 'No hay tres pájaros en el árbol'?",
+      "opciones": [
+        "There are three birds in the tree.",
+        "There isn't three birds in the tree.",
+        "There aren't three birds in the tree.",
+        "Are there three birds in the tree?"
+      ],
+      "respuesta": 2,
+      "explicacion": "There aren't es la forma negativa de There are y se utiliza para hablar de varias cosas."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "There is se utiliza para hablar de una sola persona, animal u objeto.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. There is se utiliza cuando hablamos de un solo elemento."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La oración 'There are a pencil on the desk' está escrita correctamente.",
+      "respuesta": 1,
+      "explicacion": "Falso. Como hablamos de un solo lápiz, debemos decir 'There is a pencil on the desk'."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "Para formar una pregunta con There is, colocamos Is al principio de la oración.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: Is there a school near here? (¿Hay una escuela cerca de aquí?)."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ a ball in the garden. (Hay un balón en el jardín).",
+      "respuesta": "is",
+      "alternativas": [],
+      "explicacion": "Utilizamos is porque estamos hablando de un solo balón."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ not two dogs in the house. (No hay dos perros en la casa).",
+      "respuesta": "are",
+      "alternativas": [],
+      "explicacion": "Utilizamos are porque hablamos de dos perros. La oración completa es There are not two dogs in the house."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ there a computer in the classroom? (¿Hay un computador en el salón?).",
+      "respuesta": "Is",
+      "alternativas": ["is"],
+      "explicacion": "Para hacer preguntas sobre una sola cosa, utilizamos Is al principio."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada expresión en inglés con su significado en español.",
+      "pares": [
+        {
+          "termino": "There is",
+          "definicion": "Hay una sola cosa."
+        },
+        {
+          "termino": "There are",
+          "definicion": "Hay varias cosas."
+        },
+        {
+          "termino": "There isn't",
+          "definicion": "No hay una sola cosa."
+        },
+        {
+          "termino": "There aren't",
+          "definicion": "No hay varias cosas."
+        },
+        {
+          "termino": "Is there...?",
+          "definicion": "¿Hay una cosa?"
+        },
+        {
+          "termino": "Are there...?",
+          "definicion": "¿Hay varias cosas?"
+        }
+      ],
+      "explicacion": "There is y There are se utilizan para afirmar que algo existe. Sus formas negativas indican que algo no existe y sus formas interrogativas sirven para preguntar."
+    }
+    {
+  "preguntas": [
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'Hay una bicicleta en el parque' en inglés?",
+      "opciones": [
+        "There are a bicycle in the park.",
+        "There is a bicycle in the park.",
+        "There isn't bicycles in the park.",
+        "Are there a bicycle in the park?"
+      ],
+      "respuesta": 1,
+      "explicacion": "Utilizamos There is porque hablamos de una sola bicicleta."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál oración significa 'Hay cinco peces en el acuario'?",
+      "opciones": [
+        "There is five fish in the aquarium.",
+        "There aren't five fish in the aquarium.",
+        "There are five fish in the aquarium.",
+        "Is there five fish in the aquarium?"
+      ],
+      "respuesta": 2,
+      "explicacion": "There are se utiliza para hablar de varios elementos. En este caso, hay cinco peces."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la traducción de 'No hay una biblioteca en mi barrio'?",
+      "opciones": [
+        "There is a library in my neighborhood.",
+        "There aren't a library in my neighborhood.",
+        "Is there a library in my neighborhood?",
+        "There isn't a library in my neighborhood."
+      ],
+      "respuesta": 3,
+      "explicacion": "There isn't expresa que no existe o no hay una cosa. Se utiliza porque hablamos de una biblioteca."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se dice 'No hay zapatos debajo de la cama' en inglés?",
+      "opciones": [
+        "There isn't shoes under the bed.",
+        "There aren't shoes under the bed.",
+        "There are shoes under the bed.",
+        "Is there shoes under the bed?"
+      ],
+      "respuesta": 1,
+      "explicacion": "There aren't es la forma negativa de There are y se utiliza para hablar de varias cosas."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cuál es la forma correcta de preguntar '¿Hay un hospital cerca?'?",
+      "opciones": [
+        "Are there a hospital nearby?",
+        "There is a hospital nearby?",
+        "Is there a hospital nearby?",
+        "There are a hospital nearby?"
+      ],
+      "respuesta": 2,
+      "explicacion": "Para preguntar si existe una sola cosa, colocamos Is al principio de la oración."
+    },
+    {
+      "tipo": "multiple",
+      "pregunta": "¿Cómo se pregunta '¿Hay flores en el jardín?' en inglés?",
+      "opciones": [
+        "Is there flowers in the garden?",
+        "Are there flowers in the garden?",
+        "There are flowers in the garden?",
+        "There is flowers in the garden?"
+      ],
+      "respuesta": 1,
+      "explicacion": "Utilizamos Are there para preguntar por la existencia de varias cosas."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La oración 'There is two elephants in the zoo' está escrita correctamente.",
+      "respuesta": 1,
+      "explicacion": "Falso. Como hablamos de dos elefantes, debemos utilizar There are: 'There are two elephants in the zoo'."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "There aren't es la forma corta de There are not.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. There aren't y There are not significan lo mismo: no hay."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "La expresión 'Are there...?' se utiliza para preguntar si hay varias cosas.",
+      "respuesta": 0,
+      "explicacion": "Verdadero. Por ejemplo: Are there books in the classroom? (¿Hay libros en el salón?)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "pregunta": "There isn't significa que no hay varias cosas.",
+      "respuesta": 1,
+      "explicacion": "Falso. There isn't se utiliza principalmente con una sola cosa. Para varias cosas utilizamos There aren't."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ an umbrella next to the door. (Hay un paraguas junto a la puerta).",
+      "respuesta": "is",
+      "explicacion": "Utilizamos is porque estamos hablando de un solo paraguas."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ seven balloons in the room. (Hay siete globos en la habitación).",
+      "respuesta": "are",
+      "explicacion": "Utilizamos are porque estamos hablando de siete globos."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ a swimming pool in this house. (No hay una piscina en esta casa).",
+      "respuesta": "isn't",
+      "alternativas": ["is not"],
+      "explicacion": "Utilizamos isn't para expresar una negación cuando hablamos de una sola cosa."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "There ___ any birds in the cage. (No hay pájaros en la jaula).",
+      "respuesta": "aren't",
+      "alternativas": ["are not"],
+      "explicacion": "Utilizamos aren't porque estamos hablando de varios pájaros."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ there a television in the living room? (¿Hay un televisor en la sala?).",
+      "respuesta": "Is",
+      "alternativas": ["is"],
+      "explicacion": "Utilizamos Is al principio para hacer una pregunta sobre una sola cosa."
+    },
+    {
+      "tipo": "completar",
+      "pregunta": "___ there any toys under the bed? (¿Hay juguetes debajo de la cama?).",
+      "respuesta": "Are",
+      "alternativas": ["are"],
+      "explicacion": "Utilizamos Are porque estamos preguntando por varios juguetes."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada expresión con su uso correcto.",
+      "pares": [
+        {
+          "termino": "There is a lamp.",
+          "definicion": "Afirma que hay una lámpara."
+        },
+        {
+          "termino": "There are two lamps.",
+          "definicion": "Afirma que hay dos lámparas."
+        },
+        {
+          "termino": "There isn't a lamp.",
+          "definicion": "Niega que haya una lámpara."
+        },
+        {
+          "termino": "There aren't any lamps.",
+          "definicion": "Niega que haya varias lámparas."
+        }
+      ],
+      "explicacion": "There is y There are se utilizan para afirmaciones, mientras que There isn't y There aren't se utilizan para negaciones."
+    },
+    {
+      "tipo": "arrastrar",
+      "pregunta": "Relaciona cada pregunta en inglés con su traducción al español.",
+      "pares": [
+        {
+          "termino": "Is there a bathroom?",
+          "definicion": "¿Hay un baño?"
+        },
+        {
+          "termino": "Are there children in the park?",
+          "definicion": "¿Hay niños en el parque?"
+        },
+        {
+          "termino": "Is there a tree in the garden?",
+          "definicion": "¿Hay un árbol en el jardín?"
+        },
+        {
+          "termino": "Are there chairs in the kitchen?",
+          "definicion": "¿Hay sillas en la cocina?"
+        }
+      ],
+      "explicacion": "Las preguntas con Is there se utilizan para una sola cosa y las preguntas con Are there se utilizan para varias cosas."
+    }
+  ]
+}
+  ]
+}
